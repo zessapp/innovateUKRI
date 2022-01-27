@@ -1,0 +1,123 @@
+define
+
+fibre-per-100-g sub attribute, value string;
+
+flavor-profile sub attribute, value string;
+
+description sub attribute, value string;
+
+food-group sub attribute, value string;
+
+food-db-group sub attribute, value string;
+
+food-db-id sub attribute, value string;
+
+food-subgroup sub attribute, value string;
+
+kcals-per-100-g sub attribute, value string;
+
+name sub attribute, value string;
+
+nutritics-id sub attribute, value string;
+
+of-which-monounsaturated-per-100-g sub attribute, value string;
+
+of-which-polyunsaturated-per-100-g sub attribute, value string;
+
+of-which-saturates-per-100-g sub attribute, value string;
+
+of-which-sugars-g sub attribute, value string;
+
+omega-3-per-100-g sub attribute, value string;
+
+omega-6-per-100-g sub attribute, value string;
+
+protein-per-100-g sub attribute, value string;
+
+pubchem-id sub attribute, value string;
+
+salt-per-100-g sub attribute, value string;
+
+scientific-name sub attribute, value string;
+
+shared-compounds sub attribute, value long;
+
+synonyms sub attribute, value string;
+
+trans-per-100-g sub attribute, value string;
+
+of-which-sugars-per-100-g sub attribute, value string;
+
+category sub attribute, value string;
+
+common-name sub attribute, value string;
+
+entity-id sub attribute, value string;
+
+carbs-per-100-g sub attribute, value string;
+
+fat-per-100-g sub attribute, value string;
+
+## Relations
+
+comprises sub relation,
+    relates food-has-macro,
+    relates macro-has-food;
+
+is-a sub relation,
+    relates food-is-a-ingredient,
+    relates ingredient-is-a-food;
+
+shares-compounds sub relation,
+    owns shared-compounds,
+    relates main-food-shares-compounds-with,
+    relates food-with-similar-compounds;
+
+flavor-molecule sub relation,
+    relates food-has-flavor-molecule,
+    relates flavor-molecule-belongs-to-food;
+
+has-shared-compound sub relation,
+    relates molecule-for-shared-compound,
+    relates first-food-with-compound,
+    relates second-food-with-compound;
+
+food sub entity,
+    owns category,
+    owns entity-id,
+    owns description,
+    owns food-group,
+    owns food-db-group,
+    owns food-db-id,
+    owns food-subgroup,
+    owns name,
+    owns scientific-name,
+    owns synonyms,
+    plays is-a:food-is-a-ingredient,
+    plays comprises:food-has-macro,
+    plays shares-compounds:main-food-shares-compounds-with,
+    plays shares-compounds:food-with-similar-compounds,
+    plays flavor-molecule:food-has-flavor-molecule;
+
+molecule sub entity,
+    owns common-name,
+    owns flavor-profile,
+    owns pubchem-id,
+    plays flavor-molecule:flavor-molecule-belongs-to-food;
+
+macronutrients sub entity,
+    owns carbs-per-100-g,
+    owns fat-per-100-g,
+    owns fibre-per-100-g,
+    owns kcals-per-100-g,
+    owns nutritics-id,
+    owns protein-per-100-g,
+    owns salt-per-100-g,
+    owns of-which-monounsaturated-per-100-g,
+    owns of-which-polyunsaturated-per-100-g,
+    owns of-which-saturates-per-100-g,
+    owns omega-3-per-100-g,
+    owns omega-6-per-100-g,
+    owns trans-per-100-g,
+    owns of-which-sugars-per-100-g,
+    plays comprises:macro-has-food;

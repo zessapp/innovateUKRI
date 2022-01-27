@@ -1,0 +1,84 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+  <crowd-instructions link-text="View instructions" link-type="button">
+    <short-summary>
+      <p>This task simply requires you to separate any base ingredient(s) (if there's more than one, please separate them by commas), a description, and a process (if present).</p>
+      <p>Please read over the other instructions before performing tasks</p>
+    </short-summary>
+
+    <detailed-instructions>
+        
+        <p>If you were to annotate <strong>Minced fresh Parsley & sirloin steak</strong>, you'd have:</p>
+        <p>&nbsp;</p>
+        <p><strong>Base ingredient:</strong> Parsley, sirloin steak<br /><strong>Description:</strong> Fresh<br /><strong>Process:</strong> Minced</p>
+      
+      <p>Please add comments if no ingredients are present</p>
+      
+      <p>Please also remember to separate items by commas if they are separate, i.e. 'ground or blitzed mince pork and beef' would give: </p>
+      <p><strong>Base ingredient(s):</strong> pork, beef<br /><strong>Description:</strong><br /><strong>Process:</strong> ground, blitzed</p>
+      
+    </detailed-instructions>
+    
+    <positive-example>
+        <h2 style="color: #2e6c80;"><strong>Ingredient:</strong> <em><strong>Minced fresh Parsley & sirloin steak</strong></em></h2>
+        <p><strong>Base ingredient:</strong> Parsley, sirloin steak<br /><strong>Description:</strong> Fresh<br /><strong>Process:</strong> Minced</p>
+    </positive-example>
+
+    <negative-example>
+         <h2 style="color: #2e6c80;"><strong>Ingredient:</strong> <em><strong>Minced fresh Parsley & sirloin steak and fresh</strong></em></h2>
+         <p><strong>Base ingredient:</strong> Parsley, sirloin steak<br /><strong>Description:</strong> <br /><strong>Process:</strong> </p>
+        
+        
+        <p>Note the missing comma in the base ingredient, missing description, and no comment about the other missing ingredient (<em>'and fresh'</em>)</p>
+    </negative-example>
+    
+  </crowd-instructions>
+
+<h2 style="color: #2e6c80;">Please annotate for ingredient ${ingredient}&nbsp;<strong>&nbsp;</strong></h2>
+
+<!-- Textarea A -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ingredient"><h3 style="color: #2e6c80;">Base ingredient(s)</h3></label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="ingredientArea" name="ingredientArea"></textarea>
+  </div>
+</div>
+
+<!-- Textarea B -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="desc"><h3 style="color: #2e6c80;">Description(s)</h3></label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="descArea" name="descArea"></textarea>
+  </div>
+ </div>
+
+<!-- Textarea C -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="process"><h3 style="color: #2e6c80;">Process(es)</h3></label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="processArea" name="processArea"></textarea>
+  </div>
+</div>
+
+
+<!-- Textarea D -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="commentArea"><h3 style="color: #2e6c80;">Comments</h3></label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="commentArea" name="commentArea"></textarea>
+  </div>
+    <div>
+   <p class="help-block">If there are no ingredients, please note in the comments as nan. Please add any other important comments if needed. </p>
+   <p>Otherwise, leave this empty.</p>
+  </div>
+</div>
+
+
+</crowd-form>

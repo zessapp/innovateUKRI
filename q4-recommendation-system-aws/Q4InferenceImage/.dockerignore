@@ -1,0 +1,7 @@
+venv
+requirements.txt
+BERT_mdl
+.DS_Store
+.vscode/settings.json
+get-pip.py
+model_handler.py.backup

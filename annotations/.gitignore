@@ -1,0 +1,5 @@
+config/secrets.py
+.DS_Store
+*.json
+*.jsonl
+*__pycache__

@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-zesstypedb-dev-121529-authRole",
+      "UnauthRoleArn": "arn:aws:iam::869145970067:role/amplify-zesstypedb-dev-121529-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::869145970067:role/amplify-zesstypedb-dev-121529-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-zesstypedb-dev-121529-deployment",
+      "UnauthRoleName": "amplify-zesstypedb-dev-121529-unauthRole",
+      "StackName": "amplify-zesstypedb-dev-121529",
+      "StackId": "arn:aws:cloudformation:eu-west-1:869145970067:stack/amplify-zesstypedb-dev-121529/3dde1960-1616-11ec-99e2-02fd1be15745",
+      "AmplifyAppId": "d2fgt70xvqs1f5"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<!-- You must include this JavaScript file -->
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<!-- For the full list of available Crowd HTML Elements and their input/output documentation,
+      please refer to https://docs.aws.amazon.com/sagemaker/latest/dg/sms-ui-template-reference.html -->
+
+<!-- You must include crowd-form so that your task submits answers to MTurk -->
+<crowd-form answer-format="flatten-objects">
+
+  <crowd-instructions link-text="View instructions" link-type="button">
+    <short-summary>
+      <p>Please simply state whether you would like the meal shown to you or not. Ingredients are shown to provide additional context</p>
+    </short-summary>
+
+    <detailed-instructions>
+
+        <p>Press the <em>'Yes!'</em> button if you'd like the meal, and the <em>'No!'</em> button if you wouldn't.</p>
+        <p>Ingredients are included to give you further context of what's present in the meal.</p>
+
+    </detailed-instructions>
+
+  </crowd-instructions>
+
+<h2 style="color: #008ffb;">Meal: <span style="color: #2b2301;"><span style="color: #0085ff;"><em>${title}</em></span>&nbsp;<strong> &nbsp;</strong></h2>
+<h3 style="color: #00c5ff;">Ingredients: </h3> <p> <span style="color: #2b2301;"><span style="color: #303431;"><em>${ingredients}</em></span> &nbsp;</p>
+
+    <div>
+        <h2>Question</h2>
+    	<p>Do you like this dish?</p>
+	<crowd-radio-group>
+	    <crowd-radio-button name="option1" value="Option 1">Yes!</crowd-radio-button>
+	    <crowd-radio-button name="option2" value="Option 2">No!</crowd-radio-button>
+	</crowd-radio-group>
+
+    	<p>Why did you choose this answer?</p>
+	<crowd-text-area name="explanation" placeholder="What is it about this meal you don't like?"></crowd-text-area>
+    </div>
+
+
+</crowd-form>

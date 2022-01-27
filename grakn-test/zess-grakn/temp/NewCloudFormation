@@ -1,0 +1,930 @@
+Resources:
+  ApplicationVpc8AE6A859:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsHostnames: true
+      EnableDnsSupport: true
+      InstanceTenancy: default
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/Resource
+  ApplicationVpcPublicSubnet1Subnet7014005F:
+    Type: AWS::EC2::Subnet
+    Properties:
+      CidrBlock: 10.0.0.0/18
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      AvailabilityZone: eu-west-1a
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: aws-cdk:subnet-name
+          Value: Public
+        - Key: aws-cdk:subnet-type
+          Value: Public
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PublicSubnet1
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet1/Subnet
+  ApplicationVpcPublicSubnet1RouteTable6A647E6A:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PublicSubnet1
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet1/RouteTable
+  ApplicationVpcPublicSubnet1RouteTableAssociation802F127D:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId:
+        Ref: ApplicationVpcPublicSubnet1RouteTable6A647E6A
+      SubnetId:
+        Ref: ApplicationVpcPublicSubnet1Subnet7014005F
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet1/RouteTableAssociation
+  ApplicationVpcPublicSubnet1DefaultRoute56736F6C:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId:
+        Ref: ApplicationVpcPublicSubnet1RouteTable6A647E6A
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId:
+        Ref: ApplicationVpcIGWAE2F3715
+    DependsOn:
+      - ApplicationVpcVPCGWF6FDF6ED
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet1/DefaultRoute
+  ApplicationVpcPublicSubnet1EIP13A4D91E:
+    Type: AWS::EC2::EIP
+    Properties:
+      Domain: vpc
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PublicSubnet1
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet1/EIP
+  ApplicationVpcPublicSubnet1NATGateway945161E1:
+    Type: AWS::EC2::NatGateway
+    Properties:
+      AllocationId:
+        Fn::GetAtt:
+          - ApplicationVpcPublicSubnet1EIP13A4D91E
+          - AllocationId
+      SubnetId:
+        Ref: ApplicationVpcPublicSubnet1Subnet7014005F
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PublicSubnet1
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet1/NATGateway
+  ApplicationVpcPublicSubnet2SubnetE792D9E8:
+    Type: AWS::EC2::Subnet
+    Properties:
+      CidrBlock: 10.0.64.0/18
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      AvailabilityZone: eu-west-1b
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: aws-cdk:subnet-name
+          Value: Public
+        - Key: aws-cdk:subnet-type
+          Value: Public
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PublicSubnet2
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet2/Subnet
+  ApplicationVpcPublicSubnet2RouteTableA5B5B5A5:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PublicSubnet2
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet2/RouteTable
+  ApplicationVpcPublicSubnet2RouteTableAssociation396F9A40:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId:
+        Ref: ApplicationVpcPublicSubnet2RouteTableA5B5B5A5
+      SubnetId:
+        Ref: ApplicationVpcPublicSubnet2SubnetE792D9E8
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet2/RouteTableAssociation
+  ApplicationVpcPublicSubnet2DefaultRoute7C19233F:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId:
+        Ref: ApplicationVpcPublicSubnet2RouteTableA5B5B5A5
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId:
+        Ref: ApplicationVpcIGWAE2F3715
+    DependsOn:
+      - ApplicationVpcVPCGWF6FDF6ED
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet2/DefaultRoute
+  ApplicationVpcPublicSubnet2EIPC49DC683:
+    Type: AWS::EC2::EIP
+    Properties:
+      Domain: vpc
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PublicSubnet2
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet2/EIP
+  ApplicationVpcPublicSubnet2NATGatewayFE72F43F:
+    Type: AWS::EC2::NatGateway
+    Properties:
+      AllocationId:
+        Fn::GetAtt:
+          - ApplicationVpcPublicSubnet2EIPC49DC683
+          - AllocationId
+      SubnetId:
+        Ref: ApplicationVpcPublicSubnet2SubnetE792D9E8
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PublicSubnet2
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PublicSubnet2/NATGateway
+  ApplicationVpcPrivateSubnet1Subnet2EB6F2CA:
+    Type: AWS::EC2::Subnet
+    Properties:
+      CidrBlock: 10.0.128.0/18
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      AvailabilityZone: eu-west-1a
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: aws-cdk:subnet-name
+          Value: Private
+        - Key: aws-cdk:subnet-type
+          Value: Private
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PrivateSubnet1
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PrivateSubnet1/Subnet
+  ApplicationVpcPrivateSubnet1RouteTable77A0065C:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PrivateSubnet1
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PrivateSubnet1/RouteTable
+  ApplicationVpcPrivateSubnet1RouteTableAssociationAAD57E37:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId:
+        Ref: ApplicationVpcPrivateSubnet1RouteTable77A0065C
+      SubnetId:
+        Ref: ApplicationVpcPrivateSubnet1Subnet2EB6F2CA
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PrivateSubnet1/RouteTableAssociation
+  ApplicationVpcPrivateSubnet1DefaultRoute12A237D9:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId:
+        Ref: ApplicationVpcPrivateSubnet1RouteTable77A0065C
+      DestinationCidrBlock: 0.0.0.0/0
+      NatGatewayId:
+        Ref: ApplicationVpcPublicSubnet1NATGateway945161E1
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PrivateSubnet1/DefaultRoute
+  ApplicationVpcPrivateSubnet2SubnetD832FF78:
+    Type: AWS::EC2::Subnet
+    Properties:
+      CidrBlock: 10.0.192.0/18
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      AvailabilityZone: eu-west-1b
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: aws-cdk:subnet-name
+          Value: Private
+        - Key: aws-cdk:subnet-type
+          Value: Private
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PrivateSubnet2
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PrivateSubnet2/Subnet
+  ApplicationVpcPrivateSubnet2RouteTableAFAC3CEF:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc/PrivateSubnet2
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PrivateSubnet2/RouteTable
+  ApplicationVpcPrivateSubnet2RouteTableAssociation192E55E3:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId:
+        Ref: ApplicationVpcPrivateSubnet2RouteTableAFAC3CEF
+      SubnetId:
+        Ref: ApplicationVpcPrivateSubnet2SubnetD832FF78
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PrivateSubnet2/RouteTableAssociation
+  ApplicationVpcPrivateSubnet2DefaultRouteA08F9FF8:
+    Type: AWS::EC2::Route
+    Properties:
+      RouteTableId:
+        Ref: ApplicationVpcPrivateSubnet2RouteTableAFAC3CEF
+      DestinationCidrBlock: 0.0.0.0/0
+      NatGatewayId:
+        Ref: ApplicationVpcPublicSubnet2NATGatewayFE72F43F
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/PrivateSubnet2/DefaultRoute
+  ApplicationVpcIGWAE2F3715:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/ApplicationVpc
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/IGW
+  ApplicationVpcVPCGWF6FDF6ED:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+      InternetGatewayId:
+        Ref: ApplicationVpcIGWAE2F3715
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationVpc/VPCGW
+  ClusterEB0386A7:
+    Type: AWS::ECS::Cluster
+    Properties:
+      ClusterName: GraknCluster
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/Resource
+  ClusterDefaultAutoScalingGroupCapacityInstanceSecurityGroup1280FF15:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/InstanceSecurityGroup
+      SecurityGroupEgress:
+        - CidrIp: 0.0.0.0/0
+          Description: Allow all outbound traffic by default
+          IpProtocol: "-1"
+      SecurityGroupIngress:
+        - CidrIp: 0.0.0.0/0
+          Description: Allow SSH from anyone and anything
+          FromPort: 0
+          IpProtocol: tcp
+          ToPort: 65535
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/InstanceSecurityGroup/Resource
+  ClusterDefaultAutoScalingGroupCapacityInstanceRoleDDFBFB36:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service: ec2.amazonaws.com
+        Version: "2012-10-17"
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/InstanceRole/Resource
+  ClusterDefaultAutoScalingGroupCapacityInstanceRoleDefaultPolicy3AE7CD94:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Statement:
+          - Action:
+              - ecs:DeregisterContainerInstance
+              - ecs:RegisterContainerInstance
+              - ecs:Submit*
+            Effect: Allow
+            Resource:
+              Fn::GetAtt:
+                - ClusterEB0386A7
+                - Arn
+          - Action:
+              - ecs:Poll
+              - ecs:StartTelemetrySession
+            Condition:
+              ArnEquals:
+                ecs:cluster:
+                  Fn::GetAtt:
+                    - ClusterEB0386A7
+                    - Arn
+            Effect: Allow
+            Resource: "*"
+          - Action:
+              - ecs:DiscoverPollEndpoint
+              - ecr:GetAuthorizationToken
+              - logs:CreateLogStream
+              - logs:PutLogEvents
+            Effect: Allow
+            Resource: "*"
+        Version: "2012-10-17"
+      PolicyName: ClusterDefaultAutoScalingGroupCapacityInstanceRoleDefaultPolicy3AE7CD94
+      Roles:
+        - Ref: ClusterDefaultAutoScalingGroupCapacityInstanceRoleDDFBFB36
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/InstanceRole/DefaultPolicy/Resource
+  ClusterDefaultAutoScalingGroupCapacityInstanceProfile3A782F9C:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Roles:
+        - Ref: ClusterDefaultAutoScalingGroupCapacityInstanceRoleDDFBFB36
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/InstanceProfile
+  ClusterDefaultAutoScalingGroupCapacityLaunchConfigAC17E6B2:
+    Type: AWS::AutoScaling::LaunchConfiguration
+    Properties:
+      ImageId:
+        Ref: SsmParameterValueawsserviceecsoptimizedamiamazonlinux2recommendedimageidC96584B6F00A464EAD1953AFF4B05118Parameter
+      InstanceType: t2.small
+      AssociatePublicIpAddress: true
+      IamInstanceProfile:
+        Ref: ClusterDefaultAutoScalingGroupCapacityInstanceProfile3A782F9C
+      KeyName: Grakn-key
+      SecurityGroups:
+        - Fn::GetAtt:
+            - ClusterDefaultAutoScalingGroupCapacityInstanceSecurityGroup1280FF15
+            - GroupId
+      UserData:
+        Fn::Base64:
+          Fn::Join:
+            - ""
+            - - >-
+                #!/bin/bash
+
+                echo ECS_CLUSTER=
+              - Ref: ClusterEB0386A7
+              - >-2
+                 >> /etc/ecs/ecs.config
+                sudo iptables --insert FORWARD 1 --in-interface docker+ --destination 169.254.169.254/32 --jump DROP
+
+                sudo service iptables save
+
+                echo ECS_AWSVPC_BLOCK_IMDS=true >> /etc/ecs/ecs.config
+    DependsOn:
+      - ClusterDefaultAutoScalingGroupCapacityInstanceRoleDefaultPolicy3AE7CD94
+      - ClusterDefaultAutoScalingGroupCapacityInstanceRoleDDFBFB36
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/LaunchConfig
+  ClusterDefaultAutoScalingGroupCapacityASGA16CBFC4:
+    Type: AWS::AutoScaling::AutoScalingGroup
+    Properties:
+      MaxSize: "1"
+      MinSize: "1"
+      LaunchConfigurationName:
+        Ref: ClusterDefaultAutoScalingGroupCapacityLaunchConfigAC17E6B2
+      Tags:
+        - Key: Name
+          PropagateAtLaunch: true
+          Value: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity
+      VPCZoneIdentifier:
+        - Ref: ApplicationVpcPublicSubnet1Subnet7014005F
+        - Ref: ApplicationVpcPublicSubnet2SubnetE792D9E8
+    UpdatePolicy:
+      AutoScalingReplacingUpdate:
+        WillReplace: true
+      AutoScalingScheduledAction:
+        IgnoreUnmodifiedGroupSizeProperties: true
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/ASG
+  ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionServiceRoleF852A559:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+        Version: "2012-10-17"
+      ManagedPolicyArns:
+        - Fn::Join:
+            - ""
+            - - "arn:"
+              - Ref: AWS::Partition
+              - :iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/DrainECSHook/Function/ServiceRole/Resource
+  ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionServiceRoleDefaultPolicy7671EAB6:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Statement:
+          - Action:
+              - ec2:DescribeInstances
+              - ec2:DescribeInstanceAttribute
+              - ec2:DescribeInstanceStatus
+              - ec2:DescribeHosts
+            Effect: Allow
+            Resource: "*"
+          - Action: autoscaling:CompleteLifecycleAction
+            Effect: Allow
+            Resource:
+              Fn::Join:
+                - ""
+                - - "arn:"
+                  - Ref: AWS::Partition
+                  - :autoscaling:eu-west-1:869145970067:autoScalingGroup:*:autoScalingGroupName/
+                  - Ref: ClusterDefaultAutoScalingGroupCapacityASGA16CBFC4
+          - Action:
+              - ecs:DescribeContainerInstances
+              - ecs:DescribeTasks
+            Condition:
+              ArnEquals:
+                ecs:cluster:
+                  Fn::GetAtt:
+                    - ClusterEB0386A7
+                    - Arn
+            Effect: Allow
+            Resource: "*"
+          - Action:
+              - ecs:ListContainerInstances
+              - ecs:SubmitContainerStateChange
+              - ecs:SubmitTaskStateChange
+            Effect: Allow
+            Resource:
+              Fn::GetAtt:
+                - ClusterEB0386A7
+                - Arn
+          - Action:
+              - ecs:UpdateContainerInstancesState
+              - ecs:ListTasks
+            Condition:
+              ArnEquals:
+                ecs:cluster:
+                  Fn::GetAtt:
+                    - ClusterEB0386A7
+                    - Arn
+            Effect: Allow
+            Resource: "*"
+        Version: "2012-10-17"
+      PolicyName: ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionServiceRoleDefaultPolicy7671EAB6
+      Roles:
+        - Ref: ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionServiceRoleF852A559
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/DrainECSHook/Function/ServiceRole/DefaultPolicy/Resource
+  ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunction0FED543D:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        ZipFile: >
+          import boto3, json, os, time
+
+
+          ecs = boto3.client('ecs')
+
+          autoscaling = boto3.client('autoscaling')
+
+
+
+          def lambda_handler(event, context):
+            print(json.dumps(event))
+            cluster = os.environ['CLUSTER']
+            snsTopicArn = event['Records'][0]['Sns']['TopicArn']
+            lifecycle_event = json.loads(event['Records'][0]['Sns']['Message'])
+            instance_id = lifecycle_event.get('EC2InstanceId')
+            if not instance_id:
+              print('Got event without EC2InstanceId: %s', json.dumps(event))
+              return
+
+            instance_arn = container_instance_arn(cluster, instance_id)
+            print('Instance %s has container instance ARN %s' % (lifecycle_event['EC2InstanceId'], instance_arn))
+
+            if not instance_arn:
+              return
+
+            while has_tasks(cluster, instance_arn):
+              time.sleep(10)
+
+            try:
+              print('Terminating instance %s' % instance_id)
+              autoscaling.complete_lifecycle_action(
+                  LifecycleActionResult='CONTINUE',
+                  **pick(lifecycle_event, 'LifecycleHookName', 'LifecycleActionToken', 'AutoScalingGroupName'))
+            except Exception as e:
+              # Lifecycle action may have already completed.
+              print(str(e))
+
+
+          def container_instance_arn(cluster, instance_id):
+            """Turn an instance ID into a container instance ARN."""
+            arns = ecs.list_container_instances(cluster=cluster, filter='ec2InstanceId==' + instance_id)['containerInstanceArns']
+            if not arns:
+              return None
+            return arns[0]
+
+
+          def has_tasks(cluster, instance_arn):
+            """Return True if the instance is running tasks for the given cluster."""
+            instances = ecs.describe_container_instances(cluster=cluster, containerInstances=[instance_arn])['containerInstances']
+            if not instances:
+              return False
+            instance = instances[0]
+
+            if instance['status'] == 'ACTIVE':
+              # Start draining, then try again later
+              set_container_instance_to_draining(cluster, instance_arn)
+              return True
+
+            tasks = instance['runningTasksCount'] + instance['pendingTasksCount']
+            print('Instance %s has %s tasks' % (instance_arn, tasks))
+
+            return tasks > 0
+
+
+          def set_container_instance_to_draining(cluster, instance_arn):
+            ecs.update_container_instances_state(
+                cluster=cluster,
+                containerInstances=[instance_arn], status='DRAINING')
+
+
+          def pick(dct, *keys):
+            """Pick a subset of a dict."""
+            return {k: v for k, v in dct.items() if k in keys}
+      Role:
+        Fn::GetAtt:
+          - ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionServiceRoleF852A559
+          - Arn
+      Environment:
+        Variables:
+          CLUSTER:
+            Ref: ClusterEB0386A7
+      Handler: index.lambda_handler
+      Runtime: python3.6
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity
+      Timeout: 310
+    DependsOn:
+      - ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionServiceRoleDefaultPolicy7671EAB6
+      - ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionServiceRoleF852A559
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/DrainECSHook/Function/Resource
+  ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionAllowInvokeZessGraknStackClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookTopicC2622B2C2F733A75:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName:
+        Fn::GetAtt:
+          - ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunction0FED543D
+          - Arn
+      Principal: sns.amazonaws.com
+      SourceArn:
+        Ref: ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookTopic3C09C53E
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/DrainECSHook/Function/AllowInvoke:ZessGraknStackClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookTopicC2622B2C
+  ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunctionTopicC6667F16:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Protocol: lambda
+      TopicArn:
+        Ref: ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookTopic3C09C53E
+      Endpoint:
+        Fn::GetAtt:
+          - ClusterDefaultAutoScalingGroupCapacityDrainECSHookFunction0FED543D
+          - Arn
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/DrainECSHook/Function/Topic/Resource
+  ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookRole3F8332FE:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service: autoscaling.amazonaws.com
+        Version: "2012-10-17"
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/LifecycleHookDrainHook/Role/Resource
+  ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookRoleDefaultPolicyD2150D5F:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Statement:
+          - Action: sns:Publish
+            Effect: Allow
+            Resource:
+              Ref: ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookTopic3C09C53E
+        Version: "2012-10-17"
+      PolicyName: ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookRoleDefaultPolicyD2150D5F
+      Roles:
+        - Ref: ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookRole3F8332FE
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/LifecycleHookDrainHook/Role/DefaultPolicy/Resource
+  ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookTopic3C09C53E:
+    Type: AWS::SNS::Topic
+    Properties:
+      Tags:
+        - Key: Name
+          Value: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/LifecycleHookDrainHook/Topic/Resource
+  ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHook142CD9D6:
+    Type: AWS::AutoScaling::LifecycleHook
+    Properties:
+      AutoScalingGroupName:
+        Ref: ClusterDefaultAutoScalingGroupCapacityASGA16CBFC4
+      LifecycleTransition: autoscaling:EC2_INSTANCE_TERMINATING
+      DefaultResult: CONTINUE
+      HeartbeatTimeout: 300
+      NotificationTargetARN:
+        Ref: ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookTopic3C09C53E
+      RoleARN:
+        Fn::GetAtt:
+          - ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookRole3F8332FE
+          - Arn
+    DependsOn:
+      - ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookRoleDefaultPolicyD2150D5F
+      - ClusterDefaultAutoScalingGroupCapacityLifecycleHookDrainHookRole3F8332FE
+    Metadata:
+      aws:cdk:path: ZessGraknStack/Cluster/DefaultAutoScalingGroupCapacity/LifecycleHookDrainHook/Resource
+  GraknTaskDefinitionTaskRole63DE8200:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+        Version: "2012-10-17"
+    Metadata:
+      aws:cdk:path: ZessGraknStack/GraknTaskDefinition/TaskRole/Resource
+  GraknTaskDefinition1E10989E:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      ContainerDefinitions:
+        - Essential: true
+          Image:
+            Fn::Join:
+              - ""
+              - - 869145970067.dkr.ecr.eu-west-1.
+                - Ref: AWS::URLSuffix
+                - /aws-cdk/assets:16073da3350bb37a05b5625443bfcfb4d1669fde676e81ddc7490d4286fc0a4c
+          LogConfiguration:
+            LogDriver: awslogs
+            Options:
+              awslogs-group:
+                Ref: GraknTaskDefinitionGraknContainerLogGroup29C4D9DA
+              awslogs-stream-prefix: ZessGraknStack
+              awslogs-region: eu-west-1
+          Memory: 512
+          Name: GraknContainer
+          PortMappings:
+            - ContainerPort: 48555
+              HostPort: 48555
+              Protocol: tcp
+      Cpu: "256"
+      ExecutionRoleArn:
+        Fn::GetAtt:
+          - GraknTaskDefinitionExecutionRoleFB72C3A8
+          - Arn
+      Family: GraknTaskDefinitionFamily
+      Memory: "512"
+      NetworkMode: awsvpc
+      RequiresCompatibilities:
+        - FARGATE
+      TaskRoleArn:
+        Fn::GetAtt:
+          - GraknTaskDefinitionTaskRole63DE8200
+          - Arn
+    Metadata:
+      aws:cdk:path: ZessGraknStack/GraknTaskDefinition/Resource
+  GraknTaskDefinitionGraknContainerLogGroup29C4D9DA:
+    Type: AWS::Logs::LogGroup
+    UpdateReplacePolicy: Retain
+    DeletionPolicy: Retain
+    Metadata:
+      aws:cdk:path: ZessGraknStack/GraknTaskDefinition/GraknContainer/LogGroup/Resource
+  GraknTaskDefinitionExecutionRoleFB72C3A8:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service: ecs-tasks.amazonaws.com
+        Version: "2012-10-17"
+    Metadata:
+      aws:cdk:path: ZessGraknStack/GraknTaskDefinition/ExecutionRole/Resource
+  GraknTaskDefinitionExecutionRoleDefaultPolicy732C0CDA:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyDocument:
+        Statement:
+          - Action:
+              - ecr:BatchCheckLayerAvailability
+              - ecr:GetDownloadUrlForLayer
+              - ecr:BatchGetImage
+            Effect: Allow
+            Resource:
+              Fn::Join:
+                - ""
+                - - "arn:"
+                  - Ref: AWS::Partition
+                  - :ecr:eu-west-1:869145970067:repository/aws-cdk/assets
+          - Action: ecr:GetAuthorizationToken
+            Effect: Allow
+            Resource: "*"
+          - Action:
+              - logs:CreateLogStream
+              - logs:PutLogEvents
+            Effect: Allow
+            Resource:
+              Fn::GetAtt:
+                - GraknTaskDefinitionGraknContainerLogGroup29C4D9DA
+                - Arn
+        Version: "2012-10-17"
+      PolicyName: GraknTaskDefinitionExecutionRoleDefaultPolicy732C0CDA
+      Roles:
+        - Ref: GraknTaskDefinitionExecutionRoleFB72C3A8
+    Metadata:
+      aws:cdk:path: ZessGraknStack/GraknTaskDefinition/ExecutionRole/DefaultPolicy/Resource
+  ApplicationLoadBalancedFargateServiceLB4D83985F:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      LoadBalancerAttributes:
+        - Key: deletion_protection.enabled
+          Value: "false"
+      Scheme: internet-facing
+      SecurityGroups:
+        - Fn::GetAtt:
+            - ApplicationLoadBalancedFargateServiceLBSecurityGroupDAA6EC3E
+            - GroupId
+      Subnets:
+        - Ref: ApplicationVpcPublicSubnet1Subnet7014005F
+        - Ref: ApplicationVpcPublicSubnet2SubnetE792D9E8
+      Type: application
+    DependsOn:
+      - ApplicationVpcPublicSubnet1DefaultRoute56736F6C
+      - ApplicationVpcPublicSubnet2DefaultRoute7C19233F
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationLoadBalancedFargateService/LB/Resource
+  ApplicationLoadBalancedFargateServiceLBSecurityGroupDAA6EC3E:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Automatically created Security Group for ELB ZessGraknStackApplicationLoadBalancedFargateServiceLBC0C8CFF5
+      SecurityGroupIngress:
+        - CidrIp: 0.0.0.0/0
+          Description: Allow from anyone on port 80
+          FromPort: 80
+          IpProtocol: tcp
+          ToPort: 80
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationLoadBalancedFargateService/LB/SecurityGroup/Resource
+  ApplicationLoadBalancedFargateServiceLBSecurityGrouptoZessGraknStackApplicationLoadBalancedFargateServiceSecurityGroup50BE8AAC4855584B53946:
+    Type: AWS::EC2::SecurityGroupEgress
+    Properties:
+      GroupId:
+        Fn::GetAtt:
+          - ApplicationLoadBalancedFargateServiceLBSecurityGroupDAA6EC3E
+          - GroupId
+      IpProtocol: tcp
+      Description: Load balancer to target
+      DestinationSecurityGroupId:
+        Fn::GetAtt:
+          - ApplicationLoadBalancedFargateServiceSecurityGroup7BB5384D
+          - GroupId
+      FromPort: 48555
+      ToPort: 48555
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationLoadBalancedFargateService/LB/SecurityGroup/to ZessGraknStackApplicationLoadBalancedFargateServiceSecurityGroup50BE8AAC:48555
+  ApplicationLoadBalancedFargateServiceLBPublicListener74E7A53B:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      DefaultActions:
+        - TargetGroupArn:
+            Ref: ApplicationLoadBalancedFargateServiceLBPublicListenerECSGroupDDFA96BE
+          Type: forward
+      LoadBalancerArn:
+        Ref: ApplicationLoadBalancedFargateServiceLB4D83985F
+      Port: 80
+      Protocol: HTTP
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationLoadBalancedFargateService/LB/PublicListener/Resource
+  ApplicationLoadBalancedFargateServiceLBPublicListenerECSGroupDDFA96BE:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      Port: 80
+      Protocol: HTTP
+      TargetType: ip
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationLoadBalancedFargateService/LB/PublicListener/ECSGroup/Resource
+  ApplicationLoadBalancedFargateServiceDA5FB500:
+    Type: AWS::ECS::Service
+    Properties:
+      Cluster:
+        Ref: ClusterEB0386A7
+      DeploymentConfiguration:
+        MaximumPercent: 200
+        MinimumHealthyPercent: 50
+      DesiredCount: 1
+      EnableECSManagedTags: false
+      HealthCheckGracePeriodSeconds: 60
+      LaunchType: FARGATE
+      LoadBalancers:
+        - ContainerName: GraknContainer
+          ContainerPort: 48555
+          TargetGroupArn:
+            Ref: ApplicationLoadBalancedFargateServiceLBPublicListenerECSGroupDDFA96BE
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: ENABLED
+          SecurityGroups:
+            - Fn::GetAtt:
+                - ApplicationLoadBalancedFargateServiceSecurityGroup7BB5384D
+                - GroupId
+          Subnets:
+            - Ref: ApplicationVpcPublicSubnet1Subnet7014005F
+            - Ref: ApplicationVpcPublicSubnet2SubnetE792D9E8
+      ServiceName: ZessGraknServiceFS
+      TaskDefinition:
+        Ref: GraknTaskDefinition1E10989E
+    DependsOn:
+      - ApplicationLoadBalancedFargateServiceLBPublicListenerECSGroupDDFA96BE
+      - ApplicationLoadBalancedFargateServiceLBPublicListener74E7A53B
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationLoadBalancedFargateService/Service/Service
+  ApplicationLoadBalancedFargateServiceSecurityGroup7BB5384D:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: ZessGraknStack/ApplicationLoadBalancedFargateService/Service/SecurityGroup
+      SecurityGroupEgress:
+        - CidrIp: 0.0.0.0/0
+          Description: Allow all outbound traffic by default
+          IpProtocol: "-1"
+      VpcId:
+        Ref: ApplicationVpc8AE6A859
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationLoadBalancedFargateService/Service/SecurityGroup/Resource
+  ApplicationLoadBalancedFargateServiceSecurityGroupfromZessGraknStackApplicationLoadBalancedFargateServiceLBSecurityGroupF21EEE9B4855585ECE3A3:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      Description: Load balancer to target
+      FromPort: 48555
+      GroupId:
+        Fn::GetAtt:
+          - ApplicationLoadBalancedFargateServiceSecurityGroup7BB5384D
+          - GroupId
+      SourceSecurityGroupId:
+        Fn::GetAtt:
+          - ApplicationLoadBalancedFargateServiceLBSecurityGroupDAA6EC3E
+          - GroupId
+      ToPort: 48555
+    Metadata:
+      aws:cdk:path: ZessGraknStack/ApplicationLoadBalancedFargateService/Service/SecurityGroup/from ZessGraknStackApplicationLoadBalancedFargateServiceLBSecurityGroupF21EEE9B:48555
+  CDKMetadata:
+    Type: AWS::CDK::Metadata
+    Properties:
+      Modules: aws-cdk=1.86.0,@aws-cdk/assets=1.86.0,@aws-cdk/aws-applicationautoscaling=1.86.0,@aws-cdk/aws-autoscaling=1.86.0,@aws-cdk/aws-autoscaling-common=1.86.0,@aws-cdk/aws-autoscaling-hooktargets=1.86.0,@aws-cdk/aws-certificatemanager=1.86.0,@aws-cdk/aws-cloudwatch=1.86.0,@aws-cdk/aws-codeguruprofiler=1.86.0,@aws-cdk/aws-ec2=1.86.0,@aws-cdk/aws-ecr=1.86.0,@aws-cdk/aws-ecr-assets=1.86.0,@aws-cdk/aws-ecs=1.86.0,@aws-cdk/aws-ecs-patterns=1.86.0,@aws-cdk/aws-elasticloadbalancingv2=1.86.0,@aws-cdk/aws-events=1.86.0,@aws-cdk/aws-events-targets=1.86.0,@aws-cdk/aws-iam=1.86.0,@aws-cdk/aws-kms=1.86.0,@aws-cdk/aws-lambda=1.86.0,@aws-cdk/aws-logs=1.86.0,@aws-cdk/aws-route53=1.86.0,@aws-cdk/aws-route53-targets=1.86.0,@aws-cdk/aws-s3=1.86.0,@aws-cdk/aws-s3-assets=1.86.0,@aws-cdk/aws-servicediscovery=1.86.0,@aws-cdk/aws-sns=1.86.0,@aws-cdk/aws-sns-subscriptions=1.86.0,@aws-cdk/aws-sqs=1.86.0,@aws-cdk/aws-ssm=1.86.0,@aws-cdk/cloud-assembly-schema=1.86.0,@aws-cdk/core=1.86.0,@aws-cdk/custom-resources=1.86.0,@aws-cdk/cx-api=1.86.0,@aws-cdk/region-info=1.86.0,jsii-runtime=node.js/v12.18.4
+    Metadata:
+      aws:cdk:path: ZessGraknStack/CDKMetadata/Default
+Parameters:
+  SsmParameterValueawsserviceecsoptimizedamiamazonlinux2recommendedimageidC96584B6F00A464EAD1953AFF4B05118Parameter:
+    Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
+    Default: /aws/service/ecs/optimized-ami/amazon-linux-2/recommended/image_id
+Outputs:
+  ApplicationLoadBalancedFargateServiceLoadBalancerDNSFD8346DD:
+    Value:
+      Fn::GetAtt:
+        - ApplicationLoadBalancedFargateServiceLB4D83985F
+        - DNSName
+  ApplicationLoadBalancedFargateServiceServiceURLA97C57B1:
+    Value:
+      Fn::Join:
+        - ""
+        - - http://
+          - Fn::GetAtt:
+              - ApplicationLoadBalancedFargateServiceLB4D83985F
+              - DNSName

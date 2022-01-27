@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "venv/bin/python",
+    "code-runner.executorMap": {
+        "python3": "/usr/bin/python3",
+        "python": "/usr/bin/python3"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black"
+}

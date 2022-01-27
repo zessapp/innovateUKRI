@@ -1,0 +1,13 @@
+type Annotator @model
+    @auth(
+        rules: [
+            { allow: private, operations: [read] },
+            { allow: groups, groups: ["admin"] },
+        ]
+    ) {
+    id: ID!
+    username: String!
+    name: String!
+    email: String!
+    projects: [AnnotationProject] @connection(keyName: "byAnnotator", fields: ["id"])
+}

@@ -1,0 +1,24 @@
+type AnnotationProject 
+    @model
+    @key(name: "byAnnotator", fields: ["annotator_id"])
+    @auth(
+        rules: [
+            { allow: owner, ownerField: "assignee", operations: [read, update] },
+            { allow: groups, groups: ["admin"] },
+        ]
+    ) {
+    id: ID!
+    title: String!
+    description: String!
+    tasks_completed: Int!
+    total_tasks: Int!
+    task_type: AnnotationTaskType!
+    ner_tasks: [NerAnnotationTask]  @connection(keyName: "byProject", fields: ["id"])
+    classification_tasks: [ClassificationAnnotationTask]  @connection(keyName: "byProject", fields: ["id"])
+    allergy_tasks: [AllergyAnnotationTask]  @connection(keyName: "byProject", fields: ["id"])
+    data_sources: [ProjectDataSource] @connection(keyName: "byProject", fields: ["id"])
+    assignee: String!
+    annotator: Annotator! @connection(fields: ["annotator_id"])
+    annotator_id: ID!
+
+} 

@@ -1,0 +1,208 @@
+define
+name sub attribute, value string;
+restaurant sub attribute, value string;
+tf-idf-score sub attribute, value double;
+dishtype sub attribute, value string;
+allergen sub attribute, value string;
+servings sub attribute, value string;
+
+synonyms sub attribute, value string;
+
+# Food traits
+is-starchy sub attribute, value string;
+is-red-or-processed-meat sub attribute, value string;
+is-fermented sub attribute, value string;
+is-veg-or-fruit sub attribute, value string;
+
+
+id sub attribute, value string;
+
+# Macros
+carbs-per-100-g sub attribute, value string;
+fat-per-100-g sub attribute, value string;
+protein-per-100-g sub attribute, value string;
+fibre-per-100-g sub attribute, value string;
+kcals-per-100-g sub attribute, value string;
+alcohol-per-100-g sub attribute, value string;
+mufa-per-100-g sub attribute, value string;
+pufa-per-100-g sub attribute, value string;
+saturates-per-100-g sub attribute, value string;
+omega-3-per-100-g sub attribute, value string;
+omega-6-per-100-g sub attribute, value string;
+trans-per-100-g sub attribute, value string;
+sugar-per-100-g sub attribute, value string;
+
+# Misc
+glycemic-index sub attribute, value string;
+
+
+# Micros
+salt-per-100-g sub attribute, value string;
+sodium-per-100-g sub attribute, value string;
+potassium-per-100-g sub attribute, value string;
+methionine-per-100-g sub attribute, value string;
+polyphenol-per-100-g sub attribute, value string;
+
+# Stanols can become more granular later
+plant-stanol-per-100-g sub attribute, value string;
+
+category sub attribute, value string;
+menu-type sub attribute, value string;
+
+zinc sub attribute, value string;
+magnesium sub attribute, value string;
+copper sub attribute, value string;
+iron sub attribute, value string;
+iodine sub attribute, value string;
+vitamin-b1 sub attribute, value string;
+vitamin-b2 sub attribute, value string;
+vitamin-b3 sub attribute, value string;
+vitamin-b4 sub attribute, value string;
+vitamin-b5 sub attribute, value string;
+vitamin-b6 sub attribute, value string;
+vitamin-b7 sub attribute, value string;
+vitamin-b9 sub attribute, value string;
+vitamin-b12 sub attribute, value string;
+choline sub attribute, value string;
+vitamin-a sub attribute, value string;
+vitamin-c sub attribute, value string;
+vitamin-d sub attribute, value string;
+vitamin-e sub attribute, value string;
+vitamin-k sub attribute, value string;
+beta-carotene sub attribute, value string;
+
+is-religious sub attribute, value boolean;
+is-vegeterian sub attribute, value boolean;
+is-vegan sub attribute, value boolean;
+is-pescatarian sub attribute, value boolean;
+is-lacto-ovo-vegetarian sub attribute, value boolean;
+is-lacto-vegetarian sub attribute, value boolean;
+is-ovo-vegetarian sub attribute, value boolean;
+is-raw-vegan sub attribute, value boolean;
+is-paleo sub attribute, value boolean;
+is-pollotarian sub attribute, value boolean;
+is-carnivorous sub attribute, value boolean;
+is-low-calorie sub attribute, value boolean;
+is-low-fat sub attribute, value boolean;
+is-ultra-low-fat sub attribute, value boolean;
+is-low-sugar sub attribute, value boolean;
+is-low-carb sub attribute, value boolean;
+is-high-protein sub attribute, value boolean;
+is-high-fat sub attribute, value boolean;
+is-low-protein sub attribute, value boolean;
+is-keto sub attribute, value boolean;
+is-dukan sub attribute, value boolean;
+is-zone sub attribute, value boolean;
+is-high-fibre sub attribute, value boolean;
+is-low-fibre sub attribute, value boolean;
+is-dash-friendly sub attribute, value boolean;
+is-kangatarian sub attribute, value boolean;
+is-kosher sub attribute, value boolean;
+is-halal sub attribute, value boolean;
+is-ramadan sub attribute, value boolean;
+is-psmf sub attribute, value boolean;
+is-mediterranean sub attribute, value boolean;
+is-low-calorie sub attribute, value boolean;
+is-low-fodmap sub attribute, value boolean;
+is-high-fodmap sub attribute, value boolean;
+is-dairy-free sub attribute, value boolean;
+is-gluten-free sub attribute, value boolean;
+
+
+#weight & density
+weight-g sub attribute, value double;
+#weight-tps sub attribute, value double;
+#weight-tbps sub attribute, value double;
+#weight-cup sub attribute, value double;
+#weight-oz sub attribute, value double;
+#weight-fl-oz sub attribute, value double;
+#weight-l sub attribute, value double;
+#weight-ml sub attribute, value double;
+#weight-misc sub attribute, value double;
+#weight-pt sub attribute, value double;
+#weight-gill sub attribute, value double;
+#weight-lb sub attribute, value double;
+#weight-mg sub attribute, value double;
+#weight-kg sub attribute, value double;
+density sub attribute, value double;
+
+# Entities - macro & micros
+
+
+menu-item sub entity,
+    owns name,
+    owns restaurant,
+    owns dishtype,
+    owns servings,
+    owns category,
+    owns menu-type,
+    plays contains:ingredient-belongs-to-menu-item,
+    plays typeof:cuisine-contains;
+
+
+ingredient sub entity,
+    owns name,
+    owns synonyms,
+    owns density,
+    owns allergen,
+    owns is-red-or-processed-meat,
+    owns is-starchy,
+    owns is-veg-or-fruit,
+    owns is-fermented,
+    owns carbs-per-100-g,
+    owns fat-per-100-g,
+    owns fibre-per-100-g,
+    owns kcals-per-100-g,
+    owns protein-per-100-g,
+    owns alcohol-per-100-g,
+    owns pufa-per-100-g,
+    owns mufa-per-100-g,
+    owns saturates-per-100-g,
+    owns omega-3-per-100-g,
+    owns omega-6-per-100-g,
+    owns trans-per-100-g,
+    owns sugar-per-100-g,
+    owns glycemic-index,
+    owns salt-per-100-g,
+    owns sodium-per-100-g,
+    owns potassium-per-100-g,
+    owns methionine-per-100-g,
+    owns polyphenol-per-100-g,
+    owns plant-stanol-per-100-g,
+    owns zinc,
+    owns magnesium,
+    owns copper,
+    owns iron,
+    owns iodine,
+    owns vitamin-b1,
+    owns vitamin-b2,
+    owns vitamin-b3,
+    owns vitamin-b4,
+    owns vitamin-b5,
+    owns vitamin-b6,
+    owns vitamin-b7,
+    owns vitamin-b9,
+    owns vitamin-b12,
+    owns choline,
+    owns vitamin-a,
+    owns vitamin-c,
+    owns vitamin-d,
+    owns vitamin-e,
+    owns vitamin-k,
+    owns beta-carotene,
+    plays contains:menu-item-has-ingredient;
+
+cuisine sub entity,
+    owns name,
+    plays typeof:belongs-to-cuisine;
+
+#Relations
+contains sub relation,
+    owns tf-idf-score,
+    owns weight-g,
+    relates menu-item-has-ingredient,
+    relates ingredient-belongs-to-menu-item;
+
+typeof sub relation,
+    relates cuisine-contains,
+    relates belongs-to-cuisine;

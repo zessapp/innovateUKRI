@@ -1,0 +1,905 @@
+define
+
+fibre-per-100-g sub attribute, value string;
+
+flavor-profile sub attribute, value string;
+
+description sub attribute, value string;
+
+food-group sub attribute, value string;
+
+recipe-name sub attribute, value string;
+
+category-name sub attribute, value string;
+
+is-whole-food sub attribute, value boolean;
+
+
+breadcrumb sub attribute, value string;
+
+uii sub attribute, value string;
+
+inchi sub attribute, value string;
+
+category-id sub attribute, value string;
+
+food-db-id sub attribute, value string;
+
+food-subgroup sub attribute, value string;
+
+kcals-per-100-g sub attribute, value string;
+
+name sub attribute, value string;
+
+id sub attribute, value string;
+
+of-which-monounsaturated-per-100-g sub attribute, value string;
+
+of-which-polyunsaturated-per-100-g sub attribute, value string;
+
+of-which-saturates-per-100-g sub attribute, value string;
+
+omega-3-per-100-g sub attribute, value string;
+
+omega-6-per-100-g sub attribute, value string;
+
+protein-per-100-g sub attribute, value string;
+
+pubchem-id sub attribute, value string;
+
+salt-per-100-g sub attribute, value string;
+
+scientific-name sub attribute, value string;
+
+shared-compounds sub attribute, value long;
+
+synonyms sub attribute, value string;
+
+trans-per-100-g sub attribute, value string;
+
+of-which-sugars-per-100-g sub attribute, value string;
+
+
+zinc sub attribute, value string;
+
+magnesium sub attribute, value string;
+
+copper sub attribute, value string;
+
+iron sub attribute, value string;
+
+iodine sub attribute, value string;
+
+vitamin-b1 sub attribute, value string;
+
+vitamin-b2 sub attribute, value string;
+
+vitamin-b3 sub attribute, value string;
+
+vitamin-b4 sub attribute, value string;
+
+vitamin-b5 sub attribute, value string;
+
+vitamin-b6 sub attribute, value string;
+
+vitamin-b7 sub attribute, value string;
+
+vitamin-b9 sub attribute, value string;
+
+vitamin-b12 sub attribute, value string;
+
+choline sub attribute, value string;
+
+vitamin-a sub attribute, value string;
+
+vitamin-c sub attribute, value string;
+
+vitamin-d sub attribute, value string;
+
+vitamin-e sub attribute, value string;
+
+vitamin-k sub attribute, value string;
+
+beta-carotene sub attribute, value string;
+
+
+# No longer a category
+
+
+food-type-name sub attribute, value string;
+
+common-name sub attribute, value string;
+
+entity-id sub attribute, value string;
+
+carbs-per-100-g sub attribute, value string;
+
+fat-per-100-g sub attribute, value string;
+
+
+is-religious sub attribute, value boolean;
+is-vegeterian sub attribute, value boolean;
+is-vegan sub attribute, value boolean;
+is-pescatarian sub attribute, value boolean;
+is-lacto-ovo-vegetarian sub attribute, value boolean;
+is-lacto-vegetarian sub attribute, value boolean;
+is-ovo-vegetarian sub attribute, value boolean;
+is-raw-vegan sub attribute, value boolean;
+is-paleo sub attribute, value boolean;
+is-pollotarian sub attribute, value boolean;
+is-carnivorous sub attribute, value boolean;
+is-low-calorie sub attribute, value boolean;
+is-low-fat sub attribute, value boolean;
+is-ultra-low-fat sub attribute, value boolean;
+is-low-sugar sub attribute, value boolean;
+is-low-carb sub attribute, value boolean;
+is-high-protein sub attribute, value boolean;
+is-high-fat sub attribute, value boolean;
+is-low-protein sub attribute, value boolean;
+is-keto sub attribute, value boolean;
+is-dukan sub attribute, value boolean;
+is-zone sub attribute, value boolean;
+is-high-fibre sub attribute, value boolean;
+is-low-fibre sub attribute, value boolean;
+is-dash-friendly sub attribute, value boolean;
+is-kangatarian sub attribute, value boolean;
+is-kosher sub attribute, value boolean;
+is-halal sub attribute, value boolean;
+is-ramadan sub attribute, value boolean;
+is-psmf sub attribute, value boolean;
+is-mediterranean sub attribute, value boolean;
+is-low-calorie sub attribute, value boolean;
+is-low-fodmap sub attribute, value boolean;
+is-high-fodmap sub attribute, value boolean;
+is-dairy-free sub attribute, value boolean;
+is-gluten-free sub attribute, value boolean;
+
+# User atts
+user-allergies sub attribute, value string;
+user-intolerances sub attribute, value string;
+user-preferences sub attribute, value string;
+user-flavor-data sub attribute, value string;
+user-recipe-data sub attribute, value string;
+user-name sub attribute, value string;
+user-id sub attribute, value long;
+
+
+preference-type sub attribute, value string;
+
+intolerance-type sub attribute, value string;
+allergy-name sub attribute, value string;
+
+
+menu-item-id sub attribute, value string;
+meal-id sub attribute, value string;
+recipe-id sub attribute, value string;
+display-name sub attribute, value string;
+
+
+
+recipe-id sub attribute, value string;
+instructions sub attribute, value string;
+
+
+# Scientific atts
+
+algorithm sub attribute,
+    value string;
+
+blast sub attribute,
+    value boolean;
+
+alignment-length sub attribute,
+    value string;
+
+allele sub attribute,
+    value string;
+
+allergen-group sub attribute,
+    value string;
+
+allergen-id sub attribute,
+    value string;
+
+    who-iuis-id sub attribute,
+        value string;
+
+bit-score sub attribute,
+    value string;
+
+chromosome sub attribute,
+    value string;
+
+    chromosome-id sub attribute,
+        value string;
+
+    chromosome-position sub attribute,
+        value string;
+
+    chromosome-region sub attribute,
+        value string;
+
+confidence sub attribute,
+    value string;
+
+disease-id sub attribute,
+    value string;
+
+    efo-id sub attribute,
+        value string;
+
+    hp-id sub attribute,
+        value string;
+
+    mesh-id sub attribute,
+        value string;
+
+disease-name sub attribute,
+    value string;
+
+epitope sub attribute,
+    value string,
+    owns antibody-used,
+    owns assay-type-used,
+    owns pubmed-id;
+
+    epitope-nature sub attribute,
+        value string;
+
+    epitope-sequence sub attribute,
+        value string;
+
+        sequence-position sub attribute,
+            value string;
+
+    epitope-type sub attribute,
+        value string;
+
+expected-value sub attribute,
+    value string;
+
+
+gene-id sub attribute,
+    value string;
+
+    ensembl-id sub attribute,
+        value string;
+
+    hgnc-id sub attribute,
+        value string;
+
+interaction-id sub attribute,
+    value string;
+
+    ebi-interaction-id sub attribute,
+        value string;
+
+intergenic sub attribute,
+    value boolean;
+
+methods sub attribute,
+    value string;
+
+    antibody-used sub attribute,
+        value string;
+
+    assay-type-used sub attribute,
+        value string;
+
+    interaction-detection sub attribute,
+        value string;
+
+    replication-sample-size sub attribute,
+        value string;
+
+    starting-sample-size sub attribute,
+        value string;
+
+number-of-gap-openings sub attribute,
+    value string;
+
+number-of-mismatches sub attribute,
+    value string;
+
+numer-of-gap-openings sub attribute,
+    value string;
+
+percent-identical-matches sub attribute,
+    value string;
+
+protein-id sub attribute,
+    value string;
+
+ncbi-aid sub attribute,
+    value string;
+
+ncbi-gi sub attribute,
+    value string;
+
+ncbi-id sub attribute,
+    value string;
+
+uniprot-id sub attribute,
+    value string;
+
+publication-extract sub attribute,
+    value string;
+
+publication-id sub attribute,
+    value string;
+
+    pubmed-id sub attribute,
+        value string;
+
+query-alignment-end sub attribute,
+    value string;
+
+query-alignment-start sub attribute,
+    value string;
+
+results sub attribute, value string;
+
+    confidence-interval sub attribute,
+        value string;
+
+    odds-ratio-or-beta sub attribute,
+        value string;
+
+    p-value sub attribute,
+        value string;
+
+    risk-allele-frequency sub attribute,
+        value string;
+
+sequence sub attribute,
+    value string,
+    owns sequence-length;
+
+sequence-length sub attribute,
+    value string;
+
+snp-context sub attribute,
+    value string;
+
+snp-id sub attribute,  value string;
+
+    rs-id sub attribute,
+        value string;
+
+species-tax-id sub attribute,
+    value string;
+
+subject-alignment-end sub attribute, value string;
+
+subject-alignment-start sub attribute, value string;
+
+source sub attribute, value string;
+
+## Relations
+
+contains sub relation,
+    relates contained-in,
+    relates contains-food;
+
+comprises sub relation,
+    relates food-has-macro,
+    relates food-has-micro,
+    relates macro-has-food,
+    relates micro-has-food;
+
+
+# Self identifier rel node but also type identifier
+is-a sub relation,
+    relates has-food,
+    relates has-type,
+    relates food-is-a-ingredient,
+    relates ingredient-is-a-food;
+
+has-category sub relation,
+    relates food-has-category,
+    relates category-of-food;
+
+has-allergy sub relation,
+    relates isa-allergy,
+    relates food-has-allergy,
+    relates user-has-allergy;
+
+has-intolerance sub relation,
+    relates isa-intolerance,
+    relates food-has-intolerance;
+
+shares-compounds sub relation,
+    owns shared-compounds,
+    relates main-food-shares-compounds-with,
+    relates food-with-similar-compounds;
+
+flavor-molecule sub relation,
+    relates food-has-flavor-molecule,
+    relates flavor-molecule-belongs-to-food;
+
+has-traits sub relation,
+  relates prepared-food-has-traits,
+  relates raw-food-has-traits,
+  relates traits-owned-by,
+  relates user-has-traits;
+
+owns-recipe sub relation,
+  relates user-owns-recipes,
+  relates recipe-owned-by;
+
+
+has-flavors sub relation,
+  relates has-flavor-profile,
+  relates user-has-flavor-profile,
+  relates flavor-has-food,
+  relates flavor-liked-by-user;
+
+
+menu-contains sub relation,
+  relates menu-for-menu-item,
+  relates menu-item-for-food,
+  relates menu-item-for-menu;
+
+
+
+meal-contains sub relation,
+  relates meal-contains-food,
+  relates food-in-meal;
+
+recipe-for-food sub relation,
+  relates recipe-for-prepared-food,
+  relates prepared-food-made-with-recipe;
+
+used-in sub relation,
+    relates ingredient-used-in,
+    relates recipe-uses-ingredient;
+
+# Scientific relations
+
+allergen-food-association sub relation,
+    owns publication-extract,
+    relates allergen-isin-food,
+    relates food-contains-allergen;
+
+food-disease-association sub relation,
+    relates disease-associated-with-food,
+    relates food-associated-with-disease;
+
+gene-snp-relationship sub relation,
+    relates gene-related-to-snp,
+    relates snp-related-to-gene;
+
+has-similar-sequence sub relation,
+    owns algorithm,
+    owns blast,
+    owns alignment-length,
+    owns bit-score,
+    owns expected-value,
+    owns starting-sample-size,
+    owns number-of-gap-openings,
+    owns number-of-mismatches,
+    owns numer-of-gap-openings,
+    owns percent-identical-matches,
+    owns query-alignment-end,
+    owns query-alignment-start,
+    owns subject-alignment-end,
+    owns subject-alignment-start,
+    relates protein-query,
+    relates protein-subject;
+
+interaction sub relation,
+    owns confidence,
+    owns interaction-id,
+    owns ebi-interaction-id,
+    owns interaction-detection,
+    owns publication-id,
+    owns pubmed-id,
+    plays studied-in:interaction-studied-in,
+    relates protein-source,
+    relates protein-target;
+
+snp-disease-association sub relation,
+    owns replication-sample-size,
+    owns starting-sample-size,
+    owns publication-extract,
+    owns odds-ratio-or-beta,
+    owns p-value,
+    owns risk-allele-frequency,
+    relates disease-associated-with-snp,
+    relates snp-associated-with-disease;
+
+studied-in sub relation,
+    relates allergen-found-in-publication,
+    relates disease-found-in-publication,
+    relates gene-found-in-publication,
+    relates interaction-studied-in,
+    relates publication-studied-in,
+    relates snp-found-in-publication,
+    relates studied-in-publication;
+
+
+
+# Pre populate the food types as standard and append as necessary
+food-type sub entity,
+    owns source,
+    owns food-type-name,
+    plays is-a:has-food;
+
+preference sub entity,
+  owns is-religious,
+  owns is-vegeterian,
+  owns is-vegan,
+  owns is-pescatarian,
+  owns is-lacto-ovo-vegetarian,
+  owns is-lacto-vegetarian,
+  owns is-ovo-vegetarian,
+  owns is-raw-vegan,
+  owns is-paleo,
+  owns id,
+  owns is-pollotarian,
+  owns is-carnivorous,
+  owns is-low-calorie,
+  owns is-low-fat,
+  owns is-ultra-low-fat,
+  owns is-low-sugar,
+  owns is-low-carb,
+  owns is-high-protein,
+  owns is-high-fat,
+  owns is-low-protein,
+  owns is-keto,
+  owns is-dukan,
+  owns is-zone,
+  owns is-high-fibre,
+  owns is-low-fibre,
+  owns is-dash-friendly,
+  owns is-kangatarian,
+  owns preference-type,
+  owns source,
+  owns is-kosher,
+  owns is-halal,
+  owns is-ramadan,
+  owns is-psmf,
+  owns is-mediterranean,
+  owns is-low-calorie,
+  owns is-low-fodmap,
+  owns is-high-fodmap,
+  owns is-dairy-free,
+  owns is-gluten-free,
+  plays has-traits:traits-owned-by;
+
+food-allergy sub entity,
+    owns allergy-name,
+    owns source,
+    plays has-allergy:isa-allergy;
+
+food-intolerance sub entity,
+    owns intolerance-type,
+    owns source,
+    plays has-intolerance:isa-intolerance;
+
+
+recipe sub entity,
+    owns recipe-name,
+    owns recipe-id @key,
+    owns instructions,
+    owns display-name,
+    owns source,
+    plays owns-recipe:recipe-owned-by,
+    plays used-in:recipe-uses-ingredient,
+    plays recipe-for-food:recipe-for-prepared-food;
+
+prepared-food sub entity,
+    owns is-whole-food,
+    owns food-type-name,
+    owns food-type-name,
+    owns entity-id,
+    owns id,
+    owns description,
+    owns food-group,
+    owns food-subgroup,
+    owns name,
+    owns scientific-name,
+    owns synonyms,
+    owns species-tax-id,
+    owns source,
+    plays food-disease-association:food-associated-with-disease,
+    plays allergen-food-association:food-contains-allergen,
+    plays used-in:ingredient-used-in,
+    plays recipe-for-food:prepared-food-made-with-recipe,
+    plays meal-contains:food-in-meal,
+    plays has-intolerance:food-has-intolerance,
+    plays has-allergy:food-has-allergy,
+    plays has-traits:prepared-food-has-traits,
+    plays is-a:food-is-a-ingredient,
+    plays comprises:food-has-macro,
+    plays comprises:food-has-micro,
+    plays contains:contained-in,
+    plays contains:contains-food,
+    plays is-a:has-type,
+    plays shares-compounds:main-food-shares-compounds-with,
+    plays shares-compounds:food-with-similar-compounds,
+    plays flavor-molecule:food-has-flavor-molecule,
+    plays has-category:food-has-category,
+    plays has-flavors:has-flavor-profile;
+
+raw-food sub entity,
+    owns is-whole-food,
+    owns food-type-name,
+    owns entity-id,
+    owns id,
+    owns description,
+    owns food-group,
+    owns food-subgroup,
+    owns name,
+    owns scientific-name,
+    owns synonyms,
+    owns source,
+    owns species-tax-id,
+    plays food-disease-association:food-associated-with-disease,
+    plays allergen-food-association:food-contains-allergen,
+    plays used-in:ingredient-used-in,
+    plays meal-contains:food-in-meal,
+    plays has-intolerance:food-has-intolerance,
+    plays has-allergy:food-has-allergy,
+    plays has-traits:raw-food-has-traits,
+    plays is-a:food-is-a-ingredient,
+    plays comprises:food-has-macro,
+    plays comprises:food-has-micro,
+    plays contains:contained-in,
+    plays contains:contains-food,
+    plays is-a:has-type,
+    plays shares-compounds:main-food-shares-compounds-with,
+    plays shares-compounds:food-with-similar-compounds,
+    plays flavor-molecule:food-has-flavor-molecule,
+    plays has-category:food-has-category,
+    plays has-flavors:has-flavor-profile;
+
+user sub entity,
+    owns user-intolerances,
+    owns user-preferences,
+    owns user-flavor-data,
+    owns user-recipe-data,
+    owns user-allergies,
+    owns user-name,
+    owns user-id,
+    plays owns-recipe:user-owns-recipes,
+    plays has-traits:user-has-traits,
+    plays has-flavors:flavor-liked-by-user,
+    plays has-allergy:user-has-allergy;
+
+
+molecule sub entity,
+    owns common-name,
+    owns flavor-profile,
+    owns pubchem-id,
+    owns source,
+    plays flavor-molecule:flavor-molecule-belongs-to-food;
+
+macronutrients sub entity,
+    owns carbs-per-100-g,
+    owns fat-per-100-g,
+    owns fibre-per-100-g,
+    owns kcals-per-100-g,
+    owns id,
+    owns protein-per-100-g,
+    owns salt-per-100-g,
+    owns of-which-monounsaturated-per-100-g,
+    owns of-which-polyunsaturated-per-100-g,
+    owns of-which-saturates-per-100-g,
+    owns omega-3-per-100-g,
+    owns omega-6-per-100-g,
+    owns trans-per-100-g,
+    owns of-which-sugars-per-100-g,
+    owns source,
+    plays comprises:macro-has-food;
+
+micronutrients sub entity,
+    owns zinc,
+    owns magnesium,
+    owns copper,
+    owns iron,
+    owns iodine,
+    owns vitamin-b1,
+    owns vitamin-b2,
+    owns vitamin-b3,
+    owns vitamin-b4,
+    owns vitamin-b5,
+    owns vitamin-b6,
+    owns vitamin-b7,
+    owns vitamin-b9,
+    owns vitamin-b12,
+    owns choline,
+    owns vitamin-a,
+    owns vitamin-c,
+    owns vitamin-d,
+    owns vitamin-e,
+    owns vitamin-k,
+    owns beta-carotene,
+    owns id,
+    owns source,
+    plays comprises:micro-has-food;
+
+menu sub entity,
+  owns menu-item-id @key,
+  owns display-name,
+  owns source,
+  plays menu-contains:menu-item-for-menu;
+
+menu-item sub entity,
+  owns menu-item-id @key,
+  owns display-name,
+  owns source,
+  plays menu-contains:menu-item-for-menu;
+
+meal sub entity,
+  owns meal-id @key,
+  owns display-name,
+  owns source,
+  plays meal-contains:meal-contains-food;
+
+# Science
+disease sub entity,
+    owns disease-id @key,
+    owns efo-id,
+    owns hp-id,
+    owns mesh-id,
+    owns disease-name,
+    owns source,
+    plays food-disease-association:disease-associated-with-food,
+    plays snp-disease-association:disease-associated-with-snp,
+    plays studied-in:disease-found-in-publication;
+
+downstream-gene sub entity,
+    owns gene-id,
+    owns ensembl-id,
+    owns source,
+    plays gene-snp-relationship:gene-related-to-snp;
+
+
+gene sub entity,
+    owns chromosome,
+    owns chromosome-id,
+    owns chromosome-position,
+    owns chromosome-region,
+    owns gene-id,
+    owns hgnc-id,
+    owns source,
+    plays studied-in:gene-found-in-publication,
+    plays gene-snp-relationship:gene-related-to-snp;
+
+
+
+protein-allergen sub entity,
+    owns allergen-group,
+    owns allergen-id,
+    owns who-iuis-id,
+    owns scientific-name,
+    owns pubchem-id,
+    owns uii,
+    owns inchi,
+    owns species-tax-id,
+    owns uniprot-id,
+    owns ncbi-aid,
+    owns ncbi-gi,
+    owns ncbi-id,
+    owns sequence,
+    owns sequence-length,
+    owns allergy-name,
+    owns epitope,
+    owns epitope-nature,
+    owns epitope-sequence,
+    owns sequence-position,
+    owns epitope-type,
+    owns protein-id,
+    owns source,
+    plays studied-in:allergen-found-in-publication,
+    plays allergen-food-association:allergen-isin-food,
+    plays has-similar-sequence:protein-query,
+    plays interaction:protein-source,
+    plays has-similar-sequence:protein-subject,
+    plays interaction:protein-target;
+
+# Further appendation needed
+glyco-allergen sub entity,
+  owns allergen-group,
+  owns allergen-id,
+  owns who-iuis-id,
+  owns scientific-name,
+  owns pubchem-id,
+  owns uii,
+  owns inchi,
+  owns species-tax-id,
+  owns uniprot-id,
+  owns ncbi-aid,
+  owns ncbi-gi,
+  owns ncbi-id,
+  owns sequence,
+  owns sequence-length,
+  owns allergy-name,
+  owns source,
+  plays studied-in:allergen-found-in-publication,
+  plays allergen-food-association:allergen-isin-food;
+
+other-allergen sub entity,
+    owns allergen-group,
+    owns allergen-id,
+    owns who-iuis-id,
+    owns scientific-name,
+    owns pubchem-id,
+    owns uii,
+    owns inchi,
+    owns species-tax-id,
+    owns uniprot-id,
+    owns ncbi-aid,
+    owns ncbi-gi,
+    owns ncbi-id,
+    owns sequence,
+    owns sequence-length,
+    owns allergy-name,
+    owns source,
+    plays studied-in:allergen-found-in-publication,
+    plays allergen-food-association:allergen-isin-food;
+
+
+category sub entity,
+    owns category-name,
+    owns id,
+    owns category-id,
+    owns breadcrumb,
+    owns source,
+    plays has-category:category-of-food;
+
+top-category sub entity,
+    owns category-name,
+    owns id,
+    owns category-id,
+    owns breadcrumb,
+    owns source,
+    plays has-category:category-of-food;
+
+base-category sub entity,
+    owns category-name,
+    owns id,
+    owns category-id,
+    owns breadcrumb,
+    owns source,
+    plays has-category:category-of-food;
+
+
+publication sub entity,
+    owns confidence,
+    owns interaction-id,
+    owns ebi-interaction-id,
+    owns methods,
+    owns antibody-used,
+    owns assay-type-used,
+    owns interaction-detection,
+    owns replication-sample-size,
+    owns starting-sample-size,
+    owns publication-extract,
+    owns publication-id,
+    owns pubmed-id,
+    owns results,
+    owns confidence-interval,
+    owns odds-ratio-or-beta,
+    owns p-value,
+    owns risk-allele-frequency,
+    owns source,
+    plays studied-in:studied-in-publication;
+
+snp sub entity,
+    owns allele,
+    owns intergenic,
+    owns snp-context,
+    owns snp-id,
+    owns rs-id,
+    owns source,
+    plays snp-disease-association:snp-associated-with-disease,
+    plays studied-in:snp-found-in-publication,
+    plays gene-snp-relationship:snp-related-to-gene;
+
+upstream-gene sub entity,
+    owns gene-id,
+    owns ensembl-id,
+    owns source,
+    plays gene-snp-relationship:gene-related-to-snp;

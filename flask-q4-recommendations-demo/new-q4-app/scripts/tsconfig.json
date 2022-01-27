@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "module": "commonjs",
+        "lib": ["es2018", "esnext.asynciterable"],
+        "declaration": false,
+        "allowJs": true,
+        "strict": false,
+        "noEmit": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "resolveJsonModule": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": false,
+        "inlineSourceMap": true,
+        "esModuleInterop": true,
+        "inlineSources": true,
+        "strictPropertyInitialization": false,
+        "typeRoots": [
+            "../../../../node_modules/@types",
+            "../../../../types",
+            "./node_modules/@types",
+            "./types"
+        ],
+        "types": ["jest", "node"]
+    },
+    "exclude": [
+        "node_modules",
+        "*.test.ts",
+        "*.test.js",
+        "test",
+        "lib",
+        "src/useCases",
+        "./src/infra/layers/**/*.js",
+        "./src/infra/layers/**/*.ts"
+    ],
+    "include": [
+        "./index.ts",
+        "./src/**/*.ts",
+        "./src/**/*.js",
+        "./src/**/*.graphql",
+        "./types"
+    ]
+}

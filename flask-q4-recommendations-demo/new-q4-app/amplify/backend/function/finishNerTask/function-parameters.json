@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "storage": {
+      "AnnotationProject:@model(appsync)": [
+        "update"
+      ],
+      "NerAnnotationTask:@model(appsync)": [
+        "read",
+        "update"
+      ]
+    }
+  },
+  "lambdaLayers": [
+    {
+      "type": "ProjectLayer",
+      "resourceName": "dataannotationannotationAppLayer1",
+      "env": "dev",
+      "version": "Always choose latest version",
+      "isLatestVersionSelected": true
+    }
+  ]
+}

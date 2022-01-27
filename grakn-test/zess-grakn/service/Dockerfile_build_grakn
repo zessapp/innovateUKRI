@@ -1,0 +1,31 @@
+FROM node:12
+
+WORKDIR /app
+COPY package.json package-lock.json index.js ./
+
+RUN npm install
+
+EXPOSE 8080
+
+CMD [ "node", "index.js" ]
+
+FROM openjdk:8-jdk
+
+
+ENV VERSION=2.3.3
+ENV DOCKER_GRAKN_HOME=/typedb
+
+ADD https://github.com/vaticle/typedb/releases/download/${VERSION}/typedb-all-linux-${VERSION}.tar.gz /
+RUN mkdir ${DOCKER_GRAKN_HOME}
+RUN tar -C /${DOCKER_GRAKN_HOME} --strip-components 2 -xf /typedb-all-linux-${VERSION}.tar.gz
+
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN chmod 755 /docker-entrypoint.sh
+
+# Grakn Server, Thrift client API, Grakn gRPC
+EXPOSE 1729 22
+
+ENTRYPOINT ["/bin/bash", "/docker-entrypoint.sh"]
+
+
+

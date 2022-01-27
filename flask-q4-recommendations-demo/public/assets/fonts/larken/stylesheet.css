@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-LightItalic.woff2") format("woff2"),
+        url("Larken-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-Thin.woff2") format("woff2"),
+        url("Larken-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-Italic.woff2") format("woff2"),
+        url("Larken-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-Bold.woff2") format("woff2"),
+        url("Larken-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-Light.woff2") format("woff2"),
+        url("Larken-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-BoldItalic.woff2") format("woff2"),
+        url("Larken-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-ThinItalic.woff2") format("woff2"),
+        url("Larken-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-Regular.woff2") format("woff2"),
+        url("Larken-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-MediumItalic.woff2") format("woff2"),
+        url("Larken-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Larken";
+    src: url("Larken-Medium.woff2") format("woff2"),
+        url("Larken-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}

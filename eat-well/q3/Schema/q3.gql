@@ -1,0 +1,32 @@
+define
+name sub attribute, value string;
+restaurant sub attribute, value string;
+tf-idf-score sub attribute, value double;
+dishtype sub attribute, value string;
+allergen sub attribute, value string;
+
+menu-item sub entity,
+    owns name,
+    owns restaurant,
+    owns dishtype,
+    plays contains:ingredient-belongs-to-menu-item,
+    plays typeof:cuisine-contains;
+
+ingredient sub entity,
+    owns name,
+    owns allergen,
+    plays contains:menu-item-has-ingredient;
+
+cuisine sub entity,
+    owns name,
+    plays typeof:belongs-to-cuisine;
+
+#Relations
+contains sub relation,
+    owns tf-idf-score,
+    relates menu-item-has-ingredient,
+    relates ingredient-belongs-to-menu-item;
+
+typeof sub relation,
+    relates cuisine-contains,
+    relates belongs-to-cuisine;

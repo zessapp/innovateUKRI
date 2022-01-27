@@ -1,0 +1,42 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dataannotation-dev-155434-authRole",
+      "UnauthRoleArn": "arn:aws:iam::869145970067:role/amplify-dataannotation-dev-155434-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::869145970067:role/amplify-dataannotation-dev-155434-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-dataannotation-dev-155434-deployment",
+      "UnauthRoleName": "amplify-dataannotation-dev-155434-unauthRole",
+      "StackName": "amplify-dataannotation-dev-155434",
+      "StackId": "arn:aws:cloudformation:eu-west-1:869145970067:stack/amplify-dataannotation-dev-155434/ae03bb40-c932-11eb-97d6-02a3cc0e38db",
+      "AmplifyAppId": "d3nu2zc3614fi3"
+    },
+    "categories": {
+      "auth": {
+        "dataannotatione355c60e": {
+          "userPoolId": "eu-west-1_SU7lVfBDy",
+          "userPoolName": "zessDataAnnotatorUserPool",
+          "webClientId": "2gqpujdqc7qfnio6tako6l3cb1",
+          "nativeClientId": "31f1nd9gi0uipv5pcnkmpubc65",
+          "identityPoolId": "eu-west-1:4b8d9e09-54bf-4e09-9aee-9ff32ce8be26",
+          "identityPoolName": "zessDataAnnotationIdentityPool",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::869145970067:role/ZessBackendStack-zessdata-zessCognitoDataAnnotatio-QQNV8D5ALDIS",
+          "authRoleName": "ZessBackendStack-zessdata-zessCognitoDataAnnotatio-QQNV8D5ALDIS",
+          "unauthRoleArn": "arn:aws:iam::869145970067:role/ZessBackendStack-zessdata-zessCognitoDataAnnotatio-92RZQ5O5ZZX6",
+          "unauthRoleName": "ZessBackendStack-zessdata-zessCognitoDataAnnotatio-92RZQ5O5ZZX6"
+        }
+      },
+      "function": {
+        "finishNerTask": {
+          "deploymentBucketName": "amplify-dataannotation-dev-155434-deployment",
+          "s3Key": "amplify-builds/finishNerTask-46713248472f524b372f-build.zip"
+        },
+        "dataannotationannotationAppLayer1": {
+          "deploymentBucketName": "amplify-dataannotation-dev-155434-deployment",
+          "s3Key": "amplify-builds/dataannotationannotationAppLayer1-LambdaLayerVersion6cdd8a00-build.zip"
+        }
+      }
+    }
+  }
+}

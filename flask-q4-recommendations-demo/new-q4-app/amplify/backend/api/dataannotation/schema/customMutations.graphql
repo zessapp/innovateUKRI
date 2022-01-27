@@ -1,0 +1,35 @@
+input FinishTaskInput{
+    task_id: ID!
+    project_id: ID!
+    type: AnnotationTaskStatus!
+    sample: NerAnnotationSampleInput!
+}
+
+input NerAnnotationSampleInput {
+    text: String!
+    annotations: [NerAnnotationInput]
+}
+
+input NerAnnotationInput {
+    text: String!
+    tag: AnnotationTagInput
+    start: Int!
+    end: Int!
+}
+
+input AnnotationTagInput { 
+    id: String!
+    name: String!
+    description: String!
+}
+
+# type FinishTaskResponse {
+#     task_id: ID!
+#     project_id: ID!
+#     type: AnnotationTaskStatus!
+# }
+
+type Mutation {
+  finishNERTask(task: FinishTaskInput): NerAnnotationTask
+  finishClassificationTask(task: FinishTaskInput): NerAnnotationTask
+}

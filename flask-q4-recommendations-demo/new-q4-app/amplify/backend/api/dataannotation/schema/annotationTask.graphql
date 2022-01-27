@@ -1,0 +1,133 @@
+enum AnnotationTaskStatus {
+    TODO
+    FAILED
+    DONE
+}
+
+enum AnnotationTaskType {
+    NER,
+    CLASSIFICATION,
+    ALLERGIES
+}
+
+union AnnotationTasks = NerAnnotationTask | ClassificationAnnotationTask
+
+type AnnotationTaskInstruction {
+    text: String!
+    full_instructions_url: AWSURL
+}
+
+interface AnnotationTask {
+    id: ID!
+    project_id: ID!
+    instruction: AnnotationTaskInstruction!
+    status: AnnotationTaskStatus!
+    type: AnnotationTaskType!
+    metadata: String
+    annotator_id: ID!
+    issue: AnnotationTaskIssue
+}
+
+type AnnotationTag { 
+    id: String!
+    name: String!
+    description: String!
+}
+
+type AnnotationTagWithEvidence @model {
+    id: ID!
+    tag: AnnotationTag
+    evidence:[Evidence] @connection(keyName: "byAnnotation", fields: ["id"])
+}
+ 
+type NerAnnotation {
+    text: String!
+    tag: AnnotationTag
+    start: Int!
+    end: Int!
+}
+
+type NerAnnotationSample {
+    text: String!
+    annotations: [NerAnnotation]
+}
+
+type NerAnnotationTask implements AnnotationTask
+    @model
+    @key(name: "byProject", fields: ["project_id"])
+    @auth(
+        rules: [
+            { allow: owner, ownerField: "annotator_id", operations: [read, update] },
+            { allow: groups, groups: ["admin"] },
+        ]
+    ) {
+    id: ID!
+    project_id: ID!
+    instruction: AnnotationTaskInstruction!
+    status: AnnotationTaskStatus!
+    type: AnnotationTaskType!
+    metadata: String
+    annotator_id: ID!
+    tags: [AnnotationTag!]!
+    sample: NerAnnotationSample!
+    issue: AnnotationTaskIssue @connection
+    
+}
+
+type ClassificationAnnotation {
+    text: String!
+    tag: AnnotationTag
+}
+
+type ClassificationAnnotationSample {
+    text: String!
+    annotations: [ClassificationAnnotation]!
+}
+
+type ClassificationAnnotationTask implements AnnotationTask
+    @model
+    @key(name: "byProject", fields: ["project_id"])
+    @auth(
+        rules: [
+            { allow: owner, ownerField: "annotator_id", operations: [read, update] },
+            { allow: groups, groups: ["admin"] },
+        ]
+    ) {
+    id: ID!
+    project_id: ID!
+    instruction: AnnotationTaskInstruction!
+    status: AnnotationTaskStatus!
+    type: AnnotationTaskType!
+    metadata: String
+    annotator_id: ID!
+    tags: [AnnotationTag!]!
+    sample: ClassificationAnnotationSample
+    issue: AnnotationTaskIssue
+
+}
+
+type AllergyAnnotationSample {
+    text: String!
+    annotations: [AnnotationTagWithEvidence]
+} 
+
+type AllergyAnnotationTask implements AnnotationTask
+    @model
+    @key(name: "byProject", fields: ["project_id"])
+    @auth(
+        rules: [
+            { allow: owner, ownerField: "annotator_id", operations: [read, update] },
+            { allow: groups, groups: ["admin"] },
+        ]
+    ) {
+    id: ID!
+    project_id: ID!
+    instruction: AnnotationTaskInstruction!
+    status: AnnotationTaskStatus!
+    type: AnnotationTaskType!
+    metadata: String
+    annotator_id: ID!
+    tags: [AnnotationTag!]!
+    sample: AllergyAnnotationSample!
+    issue: AnnotationTaskIssue @connection    
+}

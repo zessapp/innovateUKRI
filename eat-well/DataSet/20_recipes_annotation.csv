@@ -1,0 +1,512 @@
+﻿Field 1,Recipe,Ingredient,Category,menu-type,Allergen,Synonyms,Weight (g),Num of servings,Fruit/Veg,Red/Processed Meat,Not food/drink,No Data Available,Energy (Kj),Energy (Kcal),Carbohydrate (g),Of which sugars (g),Fibre (g),Protein (g),Total fat (g),Of which saturates (g),Monounsaturated fat (g),Polyunsaturated fat (g),Omega 3 (g),Omega 6 (g),Trans-fats (g),Salt (g),Alcohol (g),Calcium (mg),Chloride (mg),Phosphorus (mg),Sodium (mg),Potassium (mg),Magnesium (mg),Iron (mg),Selenium (ug),Iodine (ug),Vitamin A (ug),Vitamin D (ug),Vitamin E (mg),Vitamin K1,Thiamin (B1) (mg),Riboflavin (B2) (mg),Niacin (B3) (mg),Pantothenic acid (B5) (mg),Pyridoxine (B6) (mg),Biotin (B7) (ug),Folates (B9) (ug),Vitamin B12 (ug),Vitamin C (mg),Nutritics ID,Comments,Recipe Text
+0,Roasted Fingerling Potatoes with Fresh Herbs and Garlic,fingerling potato,Vegan,"Lunch/Dinner
+",,,"558
+",2.0,,,,,280.0,66.0,14.0,1.1,1.8,1.8,0.0,0.04,0.02,0.02,,,0.00,0.07,0.0,11.0,99.0,44.0,26.00,377.0,18.0,0.61,0.00,0.00,0.0,0.0,0.11,0.00,0.13,0.01,1.10,0.51,0.13,0.3,21.0,0.0,7.0,64901.0,,"{'recipe_id': 21491, 'title': 'Roasted Fingerling Potatoes with Fresh Herbs and Garlic', 'ingredients': ['2 pints fingerling potatoes', '2 sprigs fresh rosemary', '2 to 3 sprigs fresh sage', '3 sprigs fresh thyme', '6 cloves garlic, left unpeeled', '3 tablespoons extra-virgin olive oil, plus for sheet pan', 'Salt and pepper'], 'score': 1}"
+1,Roasted Fingerling Potatoes with Fresh Herbs and Garlic,sage,Vegan,"Lunch/Dinner
+",,"herb, clary sage, Salvia officinalis, common sage, ramona","3
+",2.0,checked,,,,501.0,119.0,16.0,0.0,0.0,3.9,4.6,2.60,0.70,0.70,,,,0.00,0.0,600.0,,33.0,4.00,390.0,160.0,,,,215.0,0.0,,0.00,0.11,,,,,,,0.0,0.0,65078.0,Fresh,
+2,Roasted Fingerling Potatoes with Fresh Herbs and Garlic,rosemary,Vegan,"Lunch/Dinner
+",Not a priority allergen,"herb, Rosmarinus officinalis","2
+",2.0,checked,,,,515.0,124.0,14.0,0.0,12.0,1.4,4.4,2.20,0.88,0.68,,,0.00,0.00,0.0,370.0,,20.0,15.00,280.0,64.0,8.50,1.00,,91.0,0.0,,0.00,0.10,0.13,,,,,89.0,0.0,18.0,65071.0,Fresh,
+3,Roasted Fingerling Potatoes with Fresh Herbs and Garlic,thyme,Vegan,"Lunch/Dinner
+",Not a priority allergen,"herb, Thymus vulgaris, wild thyme, common thyme, herbaceous plant, Thymus serpyllum, creeping thyme, genus Thymus, Thymus",3,2.0,checked,,,,499.0,120.0,15.0,0.6,12.0,3.0,2.5,1.20,0.20,0.50,,,0.00,0.00,0.0,630.0,,67.0,18.00,270.0,73.0,,2.00,0.00,125.0,0.0,,0.00,0.16,0.13,2.60,,,,91.0,0.0,17.0,65385.0,Fresh,
+4,Roasted Fingerling Potatoes with Fresh Herbs and Garlic,extra virgin olive oil,Vegan,"Lunch/Dinner
+",,,40,2.0,,,,,3780.0,900.0,0.0,0.0,,0.0,100.0,13.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2356700.0,,
+5,Roasted Fingerling Potatoes with Fresh Herbs and Garlic,garlic clove,Vegan,"Lunch/Dinner
+",Not a priority allergen,,18,2.0,,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+6,Roasted Fingerling Potatoes with Fresh Herbs and Garlic,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,2.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+,Salami Salad,shredded parmesan cheese,Dairy-vegetarian,"Lunch/Dinner
+",Not a priority allergen,,"56.7
+",2.0,,,,,1757.3,420.0,14.0,0.1,0.0,28.0,28.0,15.00,7.10,1.40,,,0.90,,,600.0,,,1804.00,180.0,,,,,,,,,,,,,,,,,,,,
+,Salami Salad,salami,Meat,"Lunch/Dinner
+",Not a priority allergen,sausage,"56.7
+
+",2.0,,checked,,,1817.0,439.0,0.5,0.5,0.5,21.0,39.0,14.60,17.70,4.40,0.37,4.10,0.15,3.80,0.0,11.0,2780.0,170.0,1530.00,320.0,18.0,1.30,7.00,15.00,0.0,0.0,0.23,1.10,0.60,0.23,8.40,,,,3.0,2.0,,65094.0,,
+7,Salami Salad,fennel bulb,Vegan,"Lunch/Dinner
+",Not a priority allergen,,"87
+",2.0,checked,,,,82.0,20.0,1.8,1.7,3.5,0.9,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.03,0.0,24.0,27.0,26.0,11.00,440.0,8.0,0.30,,,23.0,0.0,,,0.06,0.01,,,0.06,,42.0,0.0,5.0,63780.0,,"{'recipe_id': 18032, 'title': 'Salami Salad', 'ingredients': ['4 cups baby arugula', '1 fennel bulb, quartered, cored and thinly sliced', '1 cup grape tomatoes, halved', 'Kosher salt and freshly ground pepper', '3 tablespoons extra-virgin olive oil', 'Juice of 1 lemon', '2 ounces salami, thinly sliced', 'Shredded Parmesan cheese, for topping'], 'score': 1.0}"
+8,Salami Salad,baby arugula,Vegan,"Lunch/Dinner
+",Not a priority allergen,rocket,80,2.0,checked,,,,89.0,21.0,0.0,0.0,1.7,3.6,0.5,0.07,0.00,0.21,0.07,,0.00,0.08,0.0,216.0,93.0,44.0,30.00,326.0,28.0,1.30,2.00,5.00,190.0,0.0,0.22,109.00,0.19,0.18,1.60,0.29,0.08,1.3,88.0,0.0,20.0,65065.0,,
+9,Salami Salad,grape tomato,Vegan,"Lunch/Dinner
+",,,140,2.0,checked,,,,125.0,30.0,3.6,3.6,1.3,1.1,0.5,0.10,0.10,0.20,,,0.00,0.00,0.0,10.0,95.0,31.0,4.00,274.0,12.0,0.34,0.00,2.00,80.0,0.0,0.89,0.00,0.05,0.02,0.50,0.19,0.06,1.8,24.0,0.0,15.0,65402.0,,
+10,Salami Salad,extra virgin olive oil,Vegan,"Lunch/Dinner
+",,,37.8,2.0,,,,,3780.0,900.0,0.0,0.0,,0.0,100.0,13.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2356700.0,,
+11,Salami Salad,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,2.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+12,Coconut-Curry Wheat Berries and Rice,salted ,Vegan,Breakfast/Lunch,Not Ingredient,,,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{'recipe_id': 6144, 'title': 'Coconut-Curry Wheat Berries and Rice', 'ingredients': ['1/2 cup wheat berries', '1 tablespoon vegetable oil', '1 small onion, finely chopped', '1 teaspoon mild curry powder', 'Pinch cayenne pepper', '1/2 cup basmati rice, rinsed', 'Kosher salt', '1/2 cup lite (reduced-fat) coconut milk', '2 tablespoons raisins or currants', '1/2 cup loosely packed fresh cilantro leaves', 'Juice of 1/2 lemon', '2 tablespoons salted and roasted cashews, chopped'], 'score': 1}"
+13,Coconut-Curry Wheat Berries and Rice,wheat berries,Vegan,Breakfast/Lunch,Cereals containing gluten,"cracked wheat, Triticum aestivum, wheat germ, common wheat, food grain, bulgur wheat, bulghur, grain, cereal, wheat, bulgur",164,4.0,,,,,431.0,103.0,21.3,0.1,3.8,4.9,0.6,0.10,,,,,,,0.0,,,,1.50,,,,,,,,,,,,,,,,,,,,,
+14,Coconut-Curry Wheat Berries and Rice,curry powder,Vegan,Breakfast/Lunch,Not a priority allergen,"flavouring, flavorer, flavourer, seasoner, flavoring, seasoning",1.9,4.0,,,,,1189.0,286.0,26.0,0.0,23.0,9.5,11.0,,,,,,0.00,1.10,0.0,640.0,470.0,270.0,450.00,1830.0,280.0,58.00,,,17.0,0.0,,0.00,0.25,0.28,,,,,56.0,0.0,1.0,63574.0,,
+15,Coconut-Curry Wheat Berries and Rice,basmati rice,Vegan,Breakfast/Lunch,Not a priority allergen,,90,4.0,,,,,1466.0,345.0,76.0,0.0,1.1,8.5,0.5,0.14,0.14,0.16,0.00,0.15,0.00,0.00,0.0,10.0,65.0,101.0,1.00,77.0,21.0,1.70,16.00,0.00,0.0,0.0,0.07,,0.13,0.00,3.30,,,,12.0,0.0,0.0,65033.0,"White, boiled",
+16,Coconut-Curry Wheat Berries and Rice,raisins,Vegan,Breakfast/Lunch,,"dried fruit, seedless raisin, sultana, seeded raisin, currant",36,4.0,checked,,,,1278.0,302.0,69.0,69.0,6.1,2.1,0.5,0.00,,,,,,0.15,0.0,46.0,9.0,76.0,60.00,1020.0,35.0,3.80,8.00,,2.0,0.0,,3.70,0.12,0.05,0.80,,,,10.0,0.0,1.0,64981.0,,
+17,Coconut-Curry Wheat Berries and Rice,pepper,Vegan,Breakfast/Lunch,Not a priority allergen,"throw, attack, assail, pelt","1.4
+",4.0,,,,,126.0,30.0,4.8,4.5,2.0,1.0,0.5,0.00,,0.17,0.00,0.00,0.00,0.00,0.0,8.0,19.3,22.3,4.00,167.0,13.3,0.37,,0.70,238.0,0.0,0.80,2.70,0.01,0.02,0.87,,,,8.7,0.0,130.0,5320.0,"Bell pepper, capsicum
+",
+18,Coconut-Curry Wheat Berries and Rice,cilantro leaves,Vegan,Breakfast/Lunch,Not a priority allergen,,30,4.0,checked,,,,97.0,23.0,1.2,0.9,2.8,2.1,0.5,0.00,,,,,0.00,0.12,0.0,67.0,,48.0,46.00,521.0,26.0,1.80,,,675.0,0.0,2.50,310.00,0.07,0.12,1.50,0.57,0.15,,62.0,0.0,27.0,63505.0,,
+19,Coconut-Curry Wheat Berries and Rice,lemon,Vegan,Breakfast/Lunch,Not a priority allergen,"lemon tree, citrus, Citrus limon, lemon rind, lemon peel, citrous fruit, citrus fruit",20,4.0,checked,,,,91.0,21.0,1.6,1.6,0.0,0.5,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,7.0,3.0,8.0,1.00,130.0,7.0,0.10,1.00,,2.0,0.0,,,0.03,0.01,0.10,,,,13.0,0.0,36.0,64187.0,Lemon juice,
+20,Coconut-Curry Wheat Berries and Rice,vegetable oil,Vegan,Breakfast/Lunch,Not a priority allergen,"cooking oil, marge, sweet oil, peanut oil, copra oil, olive oil, madia oil, cottonseed oil, groundnut oil, oil, margarin, coconut oil, sesame oil, corn oil, soybean oil, oleomargarine, soyabean oil, drying oil, margarine, sunflower oil, salad oil, walnut oil, canola oil, sunflower",12.6,4.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,64451.0,,
+21,Coconut-Curry Wheat Berries and Rice,onion,Vegan,Breakfast/Lunch,Not a priority allergen,"bulb, Allium cepa, onion plant",60,4.0,checked,,,,173.0,41.0,7.9,6.1,2.2,1.0,0.0,0.00,,0.07,,,0.00,0.00,0.0,30.0,54.0,23.0,3.00,138.0,8.0,0.30,,2.00,2.0,0.0,0.29,0.00,0.11,0.02,0.60,,,,11.0,0.0,3.0,64477.0,"White onion, raw
+",
+22,Coconut-Curry Wheat Berries and Rice,salt,Vegan,Breakfast/Lunch,,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,4.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+23,Raspberry Vanilla Tartlets,lowfat ,Vegan,Dessert,Not Ingredient,,,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{'recipe_id': 2175, 'title': 'Raspberry Vanilla Tartlets', 'ingredients': ['1/4 cup sugar', '2 tablespoons cornstarch', '1/8 teaspoon fine salt', '1 1/2 cups lowfat (1-percent) milk', '1 large egg', '4 tablespoons reduced-fat sour cream', '2 teaspoons vanilla extract', '24 mini phyllo tartlet shells, at room temperature or heated', '24 whole medium raspberries or 12 large raspberries, halved'], 'score': 0.8888888888888888}"
+24,Raspberry Vanilla Tartlets,raspberry,Vegan,Dessert,,"wineberry, bakeapple, Rubus odoratus, Rubus chamaemorus, baked",96,12.0,checked,,,,192.0,46.0,4.6,4.6,6.7,1.4,0.5,0.10,0.10,0.10,,,0.00,0.00,0.0,25.0,22.0,31.0,3.00,170.0,19.0,0.70,,,1.0,0.0,0.48,,0.03,0.05,0.80,,,,33.0,0.0,32.0,64986.0,,
+25,Raspberry Vanilla Tartlets,sour cream,Vegetarian,Dessert,Milk,,168,12.0,,,,,1030.0,250.0,3.8,3.3,0.0,2.4,25.0,15.00,8.00,0.75,,,,0.03,0.0,141.0,,75.0,10.00,93.0,25.0,0.13,3.70,,150.0,0.3,0.16,0.70,0.03,0.12,0.06,,0.08,,20.0,1.7,0.0,5414.0,,
+26,Raspberry Vanilla Tartlets,cornstarch ,Vegan,Dessert,,,26,12.0,,,,,1550.0,365.0,90.0,0.0,0.9,0.5,0.0,0.01,0.02,0.03,0.00,0.00,0.00,0.02,0.0,2.0,,13.0,9.00,3.0,3.0,0.47,2.80,,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,6823.0,,
+27,Raspberry Vanilla Tartlets,vanilla extract,Vegan,Dessert,,"flavouring, flavorer, vanilla, flavourer, seasoner, vanilla bean, flavoring, seasoning",10,12.0,,,,,994.0,240.0,2.3,2.3,0.0,0.0,0.0,,,,,,,0.00,32.9,0.0,,22.0,4.00,98.0,5.0,0.13,,,0.0,0.0,,,0.01,0.07,0.32,,,,0.0,0.0,0.0,5673.0,,
+28,Raspberry Vanilla Tartlets,egg,Ovo-vegetarian,Dessert,Eggs,"chalaza, vitellus, egg cell, nit, ovum, roe, spawn, silkworm seed, yolk",65,12.0,,,,,555.0,133.0,1.2,0.0,0.0,13.0,8.7,2.90,,,,,,0.36,0.0,,218.0,,144.00,,,,,,,3.2,,,,,,,,,0.0,,,63754.0,"Chicken egg, whole, raw",
+29,Raspberry Vanilla Tartlets,brown sugar,Vegan,Dessert,Not a priority allergen,"demerara sugar, sugar, demerara, refined sugar",53,12.0,,,,,1646.0,387.0,97.0,96.0,0.0,0.0,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,56.0,,4.0,31.00,140.0,17.0,1.70,0.00,0.00,0.0,0.0,0.00,0.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,65310.0,,
+30,Raspberry Vanilla Tartlets,salt,Vegan,Dessert,,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",0.6,12.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+31,Fool-i-ya-baise Seafood Stew,baguette,Vegan,"Lunch/Dinner
+",Cereals containing gluten,"baguet, French bread",300,8.0,,,,,1135.0,268.0,51.0,2.7,3.3,10.0,1.9,0.30,0.28,0.68,,,0.01,1.00,0.0,121.0,630.0,100.0,400.00,152.0,22.0,1.40,5.00,10.00,0.0,0.0,,0.00,0.21,0.06,3.90,,,,29.0,0.0,0.0,63067.0,,"{'recipe_id': 4120, 'title': 'Fool-i-ya-baise Seafood Stew', 'ingredients': ['3 tablespoons extra-virgin olive oil, 3 turns of the pan', '1 teaspoon fennel seed, 1/3 palm', '6 cloves garlic, chopped', '1 leek, sliced lengthwise, then across, 1/2-inch slices, then washed and drained', '1 medium onion, chopped', '2 ribs celery, split lengthwise, then chopped', '1 bay leaf', 'Salt and pepper', '1 small bundle fresh thyme, sprigs, 4 to 6, left whole', '2 pieces orange peel, 3 or 4-inch strips, made with vegetable peeler', '1/2 cup chopped flat leaf parsley, 3 handfuls', '1 cup dry white wine', '4 cups chicken stock, good quality, from soup aisle', '1 can (15 ounces) chunky style crushed tomatoes or diced tomatoes', '3 pounds fish, cut into 2-inch pieces, such as red snapper and tilapia', '12 sea scallops, halved', '2 baguettes, ask for them to be sliced at the bakery counter', '4 cloves garlic, cracked away from skin', '2 roasted red bell peppers, jarred is fine but pat them dry', '2 small red chile pepper, seeded, or 1 teaspoon crushed red pepper flakes', '6 (1/2-inch) slices baguette, crust trimmed', '1/2 teaspoons salt', '1/4 cup stock from above stew, taken as it cooks', '1 cup olive oil'], 'score': 0.8333333333333334}"
+32,Fool-i-ya-baise Seafood Stew,stock,Meat,"Lunch/Dinner
+","Notes,Celery (Allergen)","authorized stock, control stock, treasury shares, authorized shares, watered stock, reacquired stock, share, capital stock, hot issue, quarter stock, hot stock, capital, float, working capital, common shares, treasury stock, growth stock, preferred stock, common stock, ordinary shares, no",62.5,8.0,,,,,28.0,7.0,0.0,0.0,0.0,0.6,0.5,,,,,,,1.40,0.0,4.0,,7.0,579.00,14.0,2.0,0.17,,,112.0,0.0,1.40,0.00,0.03,0.09,0.70,,,,3.0,0.0,0.0,65297.0,Chicken stock cube made up with water,
+33,Fool-i-ya-baise Seafood Stew,sea scallops,Seafood,"Lunch/Dinner
+",Molluscs,"Pecten magellanicus, scollop, giant scallop, escallop, scallop",100,8.0,,,,,504.0,119.0,3.4,0.0,0.0,23.0,1.4,0.40,0.10,0.40,0.25,0.10,,0.45,0.0,29.0,410.0,240.0,180.00,240.0,38.0,1.10,51.00,20.00,0.0,0.0,,0.00,0.08,0.05,5.90,0.16,,2.0,18.0,9.0,0.0,65178.0,,
+34,Fool-i-ya-baise Seafood Stew,orange peel,Vegan,"Lunch/Dinner
+",Not a priority allergen,candied citrus peel,10,8.0,,,,,394.0,94.0,14.0,,11.0,1.5,0.0,0.02,0.04,0.04,,,,0.00,0.0,161.0,,21.0,3.00,212.0,22.0,0.80,1.00,,21.0,,0.25,,0.12,0.09,0.90,0.49,0.18,,30.0,0.0,136.0,8627.0,,
+35,Fool-i-ya-baise Seafood Stew,chile,Vegan,"Lunch/Dinner
+",,,20,8.0,checked,,,,129.0,31.0,4.2,4.2,1.9,1.8,0.5,0.00,0.00,0.20,0.00,0.00,0.00,0.03,0.0,16.0,0.0,39.0,12.00,440.0,21.0,1.00,,,685.0,0.0,,0.00,0.12,0.15,2.50,0.06,0.28,,23.0,0.0,225.0,64641.0,,
+36,Fool-i-ya-baise Seafood Stew,leek,Vegan,"Lunch/Dinner
+",Not a priority allergen,"Allium porrum, alliaceous plant, scallion",89,8.0,checked,,,,93.0,22.0,2.9,2.2,2.2,1.6,0.5,0.10,0.00,0.30,,,0.00,0.00,0.0,24.0,0.0,44.0,0.00,260.0,3.0,1.10,1.00,,29.0,0.0,0.92,10.10,0.29,0.05,0.60,,,,56.0,0.0,17.0,64183.0,,
+37,Fool-i-ya-baise Seafood Stew,celery,Vegan,"Lunch/Dinner
+",,"pascal celery, veg, celery stick, Apium graveolens dulce, cultivated celery, veggie, vegetable, Paschal celery",120,8.0,checked,,,,55.0,13.0,2.4,0.9,1.1,0.5,0.0,0.00,0.00,0.10,,,0.00,0.15,0.0,41.0,130.0,21.0,60.00,320.0,5.0,0.40,3.00,,8.0,0.0,0.20,4.90,0.06,0.01,0.40,,,,16.0,0.0,8.0,63239.0,,
+38,Fool-i-ya-baise Seafood Stew,fennel seed,Vegan,"Lunch/Dinner
+",Not a priority allergen,,2,8.0,,,,,1339.0,324.0,12.0,4.0,40.0,16.0,15.0,0.50,9.90,1.70,,1.70,,0.22,0.0,1200.0,,510.0,88.00,1660.0,390.0,12.30,,,13.0,0.0,,0.00,0.41,0.35,,,,,0.0,0.0,0.0,63778.0,,
+39,Fool-i-ya-baise Seafood Stew,dry white wine,Vegan,"Lunch/Dinner
+",Sulphur,,250,8.0,,,,,311.0,75.0,0.6,0.6,0.0,0.0,0.0,0.00,0.00,0.00,,,0.00,0.00,10.3,9.0,10.0,6.0,4.00,61.0,8.0,0.50,0.00,,0.0,0.0,,0.00,0.00,0.01,0.10,,,,0.0,0.0,0.0,65536.0,,
+40,Fool-i-ya-baise Seafood Stew,red bell pepper,Vegan,"Lunch/Dinner
+",Not a priority allergen,,320,8.0,checked,,,,112.0,27.0,4.3,4.2,2.2,0.8,0.0,0.05,0.00,0.10,,,0.00,0.00,0.0,7.0,48.0,23.0,1.00,216.0,11.0,0.39,0.00,3.00,97.0,0.0,0.95,1.60,0.07,0.06,0.60,,,,75.0,0.0,126.0,64633.0,,
+41,Fool-i-ya-baise Seafood Stew,flat leaf parsley,Vegan,"Lunch/Dinner
+",,,30,8.0,checked,,,,184.0,44.0,2.7,2.3,5.0,2.9,1.3,,,,,,0.00,0.08,0.0,200.0,160.0,64.0,33.00,760.0,23.0,7.70,1.00,,673.0,0.0,1.70,548.00,0.23,0.06,1.50,0.30,0.09,0.4,170.0,0.0,190.0,64528.0,,
+42,Fool-i-ya-baise Seafood Stew,bay leaf,Vegan,"Lunch/Dinner
+",Not a priority allergen,"bay, herb, true laurel, bay tree, Laurus nobilis, bay laurel",0.7,8.0,,,,,1267.0,301.0,49.0,0.0,0.0,7.6,8.4,2.30,1.60,2.30,,,,0.06,0.0,830.0,,110.0,23.00,530.0,120.0,43.00,,,620.0,0.0,,0.00,0.01,0.42,3.90,,,,0.0,0.0,0.0,62780.0,,
+43,Fool-i-ya-baise Seafood Stew,thyme,Vegan,"Lunch/Dinner
+",Not a priority allergen,"herb, Thymus vulgaris, wild thyme, common thyme, herbaceous plant, Thymus serpyllum, creeping thyme, genus Thymus, Thymus",20,8.0,checked,,,,499.0,120.0,15.0,0.6,12.0,3.0,2.5,1.20,0.20,0.50,,,0.00,0.00,0.0,630.0,,67.0,18.00,270.0,73.0,,2.00,0.00,125.0,0.0,,0.00,0.16,0.13,2.60,,,,91.0,0.0,17.0,65385.0,Fresh,
+44,Fool-i-ya-baise Seafood Stew,chicken stock,Meat,"Lunch/Dinner
+",Celery (Allergen),"chicken broth, stock, broth",1000,8.0,,,,,28.0,7.0,0.0,0.0,0.0,0.6,0.5,0.00,,,,,0.00,1.40,0.0,4.0,,7.0,579.00,14.0,2.0,0.17,,,112.0,0.0,1.40,0.00,0.03,0.09,0.70,,,,3.0,0.0,0.0,65297.0,Stock cube and water,
+45,Fool-i-ya-baise Seafood Stew,tomato,Vegan,"Lunch/Dinner
+",,"cherry tomato, beefsteak tomato, solanaceous vegetable, Lycopersicon esculentum, tomato plant, love apple",425,8.0,checked,,,,88.0,21.0,3.0,3.0,1.0,0.5,0.0,0.03,0.03,0.05,,,0.00,0.00,0.0,8.0,84.0,22.0,2.00,223.0,8.0,0.24,0.00,2.00,58.0,0.0,0.52,6.00,0.04,0.01,0.70,,,,23.0,0.0,22.0,65406.0,,
+46,Fool-i-ya-baise Seafood Stew,onion,Vegan,"Lunch/Dinner
+",Not a priority allergen,"bulb, Allium cepa, onion plant",150,8.0,checked,,,,173.0,41.0,7.9,6.1,2.2,1.0,0.0,0.00,,0.07,,,0.00,0.00,0.0,30.0,54.0,23.0,3.00,138.0,8.0,0.30,,2.00,2.0,0.0,0.29,0.00,0.11,0.02,0.60,,,,11.0,0.0,3.0,64477.0,"White onion, raw
+",
+47,Fool-i-ya-baise Seafood Stew,oil,Vegan,"Lunch/Dinner
+",Notes,"volatile oil, hydnocarpus oil, rapeseed oil, lipoid, heating oil, camphor oil, tung oil, stand oil, hyssop oil, crude oil, lemongrass, chaulmoogra oil, flaxseed oil, lemon grass, babacu oil, mineral oil, cohune fat, Chinese wood oil, crude, fixed oil, lipid, rape oil, petroleum, linseed oil, rock oil, grease, sweet almond oil, lubricating oil, hedeoma oil, fossil oil, neroli oil, almond oil, expressed almond oil, croton oil, fusel oil, lipide, babassu oil, shale oil, essential oil, cohune",232,8.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,64451.0,Vegetable oil,
+48,Fool-i-ya-baise Seafood Stew,extra virgin olive oil,Vegan,"Lunch/Dinner
+",,,37.8,8.0,,,,,3780.0,900.0,0.0,0.0,,0.0,100.0,13.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2356700.0,,
+49,Fool-i-ya-baise Seafood Stew,garlic clove,Vegan,"Lunch/Dinner
+",Not a priority allergen,,18,8.0,,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+50,Fool-i-ya-baise Seafood Stew,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",2.5,8.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+51,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,hamburger roll,Dairy-vegetarian,"Lunch/Dinner
+","Cereals containing gluten,Sesame",,270,6.0,,,,,1125.0,266.0,45.0,2.2,1.5,10.0,5.0,1.10,1.30,1.10,,,,1.40,0.0,130.0,890.0,150.0,550.00,110.0,31.0,2.30,9.00,19.00,,,0.00,,0.23,0.10,3.40,0.30,0.06,1.0,48.0,0.0,0.0,65608.0,,"{'recipe_id': 22043, 'title': 'Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise', 'ingredients': ['3/4 pound ground sirloin', '3/4 pound ground chuck', '1/2 pound raw chorizo, casings removed and crumbled', '1 tablespoon adobo seasoning', '1 large onion, grated', '1/2 cup dry bread crumbs', '2 tablespoons olive oil', '2 large yellow onions, finely sliced', 'Kosher salt and freshly ground pepper', '1/2 cup bottled and sliced jalapeno chiles, drained', '1/2 cup dark brown sugar', '2 medium jarred roasted red bell peppers, drained', '3/4 cup mayonnaise', '6 slices Oaxaca cheese or mozzarella', '6 hamburger rolls'], 'score': 0.8333333333333334}"
+52,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,adobo seasoning,Vegan,"Lunch/Dinner
+",,,28,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+53,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,raw chorizo,Meat,"Lunch/Dinner
+",,,227,6.0,,,,,1645.0,397.0,2.2,1.1,1.0,24.0,32.0,12.00,14.50,4.90,,,,3.50,0.0,,,,1400.00,240.0,,,,,,0.0,,0.00,,,,,,,3.0,,,63421.0,,
+54,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,ground chuck,Vegan,"Lunch/Dinner
+",Not a priority allergen,,340.5,6.0,,checked,,,830.0,199.0,2.4,0.5,1.0,23.0,11.0,4.70,,,,,,0.74,0.0,,448.0,,296.00,,,,,,,,,,,,,,,,,,,3047296.0,,
+55,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,oaxaca cheese,Dairy-vegetarian,"Lunch/Dinner
+",Milk,,168,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,chili,Vegan,"Lunch/Dinner
+",,,46,6.0,,,,,129.0,31.0,4.2,4.2,1.9,1.8,0.5,0.00,0.00,0.20,,,,0.03,0.0,16.0,,39.0,12.00,440.0,21.0,1.00,,,685.0,0.0,,0.00,0.12,0.15,2.50,0.06,0.28,,23.0,0.0,225.0,64641.0,,
+57,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,sirloin,Meat,"Lunch/Dinner
+",,"sirloin tip, beef loin, pin bone, wedge bone, cut, flat bone, cut of meat, sirloin steak",340.5,6.0,,checked,,,888.0,213.0,0.0,0.0,0.0,25.0,13.0,5.60,5.40,0.40,,,0.40,0.15,0.0,7.0,54.0,200.0,60.00,340.0,22.0,1.30,9.00,13.00,0.0,0.4,0.03,0.00,0.07,0.16,11.20,,,,15.0,2.0,0.0,62908.0,"Beef, sirloin steak, grilled",
+58,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,yellow onion,Vegan,"Lunch/Dinner
+",Not a priority allergen,,240,6.0,checked,,,,173.0,41.0,7.9,6.1,2.2,1.0,0.0,0.00,0.00,0.07,,,0.00,0.00,0.0,30.0,54.0,23.0,3.00,138.0,8.0,0.30,0.00,2.00,2.0,0.0,0.29,0.00,0.11,0.02,0.60,,,,11.0,0.0,3.0,64477.0,,
+59,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,bell pepper,Vegan,"Lunch/Dinner
+",,"capsicum pepper plant, pimento, pepper, genus Capsicum, Capsicum annuum grossum, capsicum, sweet pepper plant, Capsicum, pimiento, sweet pepper, paprika",320,6.0,checked,,,,126.0,30.0,4.8,4.5,2.0,1.0,0.5,0.07,0.00,0.17,0.00,0.00,0.00,0.00,0.0,8.0,19.3,22.3,4.00,167.0,13.3,0.37,0.00,0.70,238.0,0.0,0.80,2.70,0.01,0.02,0.87,,,,8.7,0.0,130.0,5320.0,,
+60,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,bread crumbs,Vegan,"Lunch/Dinner
+",Cereals containing gluten,,60,6.0,,,,,1504.0,355.0,72.0,4.8,2.6,11.0,2.1,,,,,,,1.00,0.0,110.0,700.0,130.0,400.00,190.0,28.0,2.10,,,,0.0,,0.00,0.54,0.08,3.90,,,,19.0,0.0,0.0,65611.0,,
+61,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,mayonnaise,Ovo-vegetarian,"Lunch/Dinner
+","Eggs,Milk,Mustard","salad dressing, mayo, dressing, sauce verte, green mayonnaise",179,6.0,,,,,2825.0,687.0,2.3,2.3,0.0,1.1,75.0,5.70,46.00,19.90,5.80,14.10,0.04,0.33,0.0,2.0,330.0,5.0,131.00,4.0,0.0,0.16,0.00,7.00,78.0,0.0,22.10,0.00,0.00,0.10,0.10,,,,9.0,0.3,0.0,64282.0,,
+62,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,onion,Vegan,"Lunch/Dinner
+",Not a priority allergen,"bulb, Allium cepa, onion plant",480,6.0,checked,,,,173.0,41.0,7.9,6.1,2.2,1.0,0.0,0.00,,0.07,,,0.00,0.00,0.0,30.0,54.0,23.0,3.00,138.0,8.0,0.30,,2.00,2.0,0.0,0.29,0.00,0.11,0.02,0.60,,,,11.0,0.0,3.0,64477.0,"White onion, raw
+",
+63,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,oil,Vegan,"Lunch/Dinner
+",Notes,"volatile oil, hydnocarpus oil, rapeseed oil, lipoid, heating oil, camphor oil, tung oil, stand oil, hyssop oil, crude oil, lemongrass, chaulmoogra oil, flaxseed oil, lemon grass, babacu oil, mineral oil, cohune fat, Chinese wood oil, crude, fixed oil, lipid, rape oil, petroleum, linseed oil, rock oil, grease, sweet almond oil, lubricating oil, hedeoma oil, fossil oil, neroli oil, almond oil, expressed almond oil, croton oil, fusel oil, lipide, babassu oil, shale oil, essential oil, cohune",25.2,6.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,64451.0,Vegetable oil,
+64,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,brown sugar,Vegan,"Lunch/Dinner
+",Not a priority allergen,"demerara sugar, sugar, demerara, refined sugar",75,6.0,,,,,1646.0,387.0,97.0,96.0,0.0,0.0,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,56.0,,4.0,31.00,140.0,17.0,1.70,0.00,0.00,0.0,0.0,0.00,0.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,65310.0,,
+65,Latin Burgers with Caramelized Onion and Jalapeno Relish and Red Pepper Mayonnaise,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,6.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+66,Honey Vanilla Fromage Blanc,vanilla seedsd,Vegan,Dessert,,,0.1,20.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,168266.0,,"{'recipe_id': 12245, 'title': 'Honey Vanilla Fromage Blanc', 'ingredients': ['32 ounces fromage blanc', '1/4 cup heavy cream', '1/2 cup good honey', '4 teaspoons pure vanilla extract', '1/2 teaspoon freshly grated lemon zest', 'Vanilla seeds scraped from 1 vanilla bean', 'Ripe stone fruit such as peaches, nectarines, plums', 'Berries such as raspberries and strawberries', 'Citrus fruit such as oranges, cut in segments', 'Raspberry Sauce'], 'score': 1}"
+67,Honey Vanilla Fromage Blanc,stone fruit,Vegan,Dessert,Not a priority allergen,,"50
+",20.0,checked,,,,1172.0,276.0,68.0,68.0,1.0,0.5,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.12,0.0,10.0,4.0,6.0,46.00,67.0,3.0,0.20,0.00,7.00,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,,64017.0,,
+68,Honey Vanilla Fromage Blanc,berries,Vegan,Dessert,,"cowberry, teaberry, strawberry, boysenberry, surinam cherry, hackberry, loganberry, shadberry, saskatoon, dewberry, persimmon, edible fruit, huckleberry, checkerberry, lingonberry, wintergreen, mulberry, whortleberry, boxberry, spiceberry, raspberry, lowbush cranberry, European blueberry, serviceberry, sugarberry, West Indian cherry, currant, acerola, mountain cranberry, bilberry, cranberry, blackberry, juneberry, blueberry, barbados cherry","50
+",20.0,checked,,,,148.0,35.0,6.2,6.2,2.6,0.9,0.0,0.03,0.08,0.08,0.00,0.00,0.00,0.00,0.0,25.0,16.8,26.8,4.50,145.0,15.8,0.75,0.00,2.30,5.0,0.0,0.76,0.00,0.03,0.04,0.63,,,,23.3,0.0,25.5,8203.0,"Frozen
+",
+69,Honey Vanilla Fromage Blanc,pure vanilla extract,Vegan,Dessert,Not a priority allergen,,20,20.0,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,,,,0.00,0.0,6.0,,4.0,2.00,2.0,1.0,0.03,0.50,,0.0,0.0,0.00,0.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,5675.0,,
+70,Honey Vanilla Fromage Blanc,lemon zest,Vegan,Dessert,,"lemon peel, lemon rind",1,20.0,,,,,121.0,30.0,0.0,0.0,11.0,1.5,0.5,0.10,0.00,0.10,,,0.00,0.02,0.0,130.0,,12.0,6.00,160.0,15.0,0.80,,,5.0,0.0,0.25,0.00,0.06,0.08,0.60,,,,11.0,0.0,130.0,64189.0,,
+71,Honey Vanilla Fromage Blanc,heavy cream,Dairy-vegetarian,Dessert,Milk,cream,58,20.0,,,,,2041.0,496.0,1.6,1.6,0.0,1.6,54.0,33.40,13.80,1.90,0.48,1.30,1.80,0.06,0.0,49.0,36.0,52.0,22.00,65.0,5.0,0.06,3.00,35.00,860.0,0.3,1.60,6.40,0.02,0.19,0.30,,,,7.0,0.6,1.0,63544.0,"Fresh double cream
+",
+72,Honey Vanilla Fromage Blanc,honey,Vegan,Dessert,Not a priority allergen,"mead, sweetener, sweetening, oenomel",170,20.0,,,,,1305.0,307.0,76.0,76.0,0.0,0.5,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,5.0,18.0,17.0,11.00,,2.0,0.40,1.00,0.00,0.0,0.0,0.00,,0.00,0.05,0.20,,,,,0.0,0.0,3981.0,,
+73,Herb Coeur a La Creme,dill,Vegan,Snack,Not a priority allergen,"herb, Anethum graveolens, dill weed",7.6,6.0,checked,,,,128.0,31.0,0.9,0.8,2.5,3.7,0.8,0.00,,,,,,0.00,0.0,340.0,,85.0,26.00,750.0,44.0,3.20,2.00,,1015.0,0.0,1.70,0.00,0.18,0.58,,,,,36.0,0.0,86.0,63699.0,Fresh dill,"{'recipe_id': 7546, 'title': 'Herb Coeur a La Creme', 'ingredients': ['12 ounces cream cheese, at room temperature', '1 cup heavy cream', 'Grated zest of 1 lemon', '1 tablespoon freshly squeezed lemon juice', '3 tablespoons minced scallions, white and green parts (2 scallions)', '2 tablespoons minced fresh dill', '1 tablespoon minced fresh chives', 'Kosher salt and freshly ground black pepper', 'Crackers, for serving'], 'score': 0.8888888888888888}"
+74,Herb Coeur a La Creme,cream cheese,Dairy-vegetarian,Snack,Milk,"cheese, mascarpone, double cream",340,6.0,,,,,634.0,153.0,3.3,3.3,0.0,9.6,11.0,7.40,2.80,0.34,,,0.48,0.68,0.0,99.0,460.0,129.0,270.00,120.0,10.0,,4.00,11.00,163.0,0.1,0.08,0.00,0.04,0.34,3.60,,,,30.0,0.4,,63294.0,"Medium fat
+",
+75,Herb Coeur a La Creme,zest,Vegan,Snack,Not a priority allergen,,8,6.0,,,,,121.0,30.0,0.0,0.0,11.0,1.5,0.5,0.10,0.00,0.10,,,0.00,0.00,0.0,130.0,,12.0,6.00,160.0,15.0,0.80,,,5.0,0.0,0.25,0.00,0.06,0.08,0.60,,,,11.0,0.0,130.0,64189.0,Lemon peel,
+76,Herb Coeur a La Creme,chive,Vegan,Snack,,,3,6.0,,,,,135.0,32.0,1.9,1.9,2.5,3.3,0.7,0.15,0.10,0.27,,,0.00,0.00,0.0,92.0,,58.0,3.00,296.0,42.0,1.60,0.00,,435.0,0.0,0.21,0.00,0.08,0.12,1.40,0.33,0.14,,105.0,0.0,58.0,63406.0,,
+77,Herb Coeur a La Creme,scallion,Vegan,Snack,Not a priority allergen,"Allium porrum, alliaceous plant, leek",45,6.0,checked,,,,124.0,30.0,3.0,2.8,2.5,2.0,0.5,0.10,0.10,0.20,,,0.00,0.02,0.0,39.0,31.0,29.0,7.00,260.0,12.0,1.90,,,105.0,0.0,,207.00,0.05,0.03,1.00,,,,54.0,0.0,26.0,65276.0,,
+78,Herb Coeur a La Creme,lemon juice,Vegan,Snack,Not a priority allergen,juice,15,6.0,checked,,,,91.0,21.0,1.6,1.6,0.0,0.5,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,7.0,3.0,8.0,1.00,130.0,7.0,0.10,1.00,,2.0,0.0,,,0.03,0.01,0.10,,,,13.0,0.0,36.0,64187.0,Fresh,
+79,Herb Coeur a La Creme,heavy cream,Dairy-vegetarian,Snack,Milk,cream,232,6.0,,,,,2041.0,496.0,1.6,1.6,0.0,1.6,54.0,33.40,13.80,1.90,0.48,1.30,1.80,0.06,0.0,49.0,36.0,52.0,22.00,65.0,5.0,0.06,3.00,35.00,860.0,0.3,1.60,6.40,0.02,0.19,0.30,,,,7.0,0.6,1.0,63544.0,"Fresh double cream
+",
+80,Herb Coeur a La Creme,salt,Vegan,Snack,,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,6.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+81,Coconut-Apricot Macaroons,sweetened coconut,Vegan,Dessert,,desiccated coconut,227,4.0,,,,,2684.0,652.0,6.7,6.1,21.0,6.6,62.0,53.00,3.50,1.50,,,0.00,0.07,0.0,23.0,200.0,160.0,28.00,660.0,90.0,3.60,12.00,3.00,0.0,0.0,1.30,,0.03,0.05,2.00,0.50,0.09,,9.0,0.0,0.0,63449.0,,"{'recipe_id': 5979, 'title': 'Coconut-Apricot Macaroons', 'ingredients': ['1/2 cup dried apricots or cherries, finely chopped', '2 teaspoons pure vanilla extract', 'Pinch fine salt', '2 large egg whites, lightly beaten', 'Finely grated zest of 1/2 orange', '3 cups finely shredded sweetened coconut (about 8 ounces)', '1 1/2 cups semisweet chocolate chips, melted, optional'], 'score': 0.9285714285714286}"
+82,Coconut-Apricot Macaroons,dried apricot,Vegan,Dessert,,,95,4.0,,,,,1068.0,254.0,49.0,43.0,22.0,4.8,0.7,0.00,,,,,,0.14,0.0,92.0,35.0,120.0,56.00,1880.0,65.0,4.10,7.00,,105.0,0.0,,0.00,0.00,0.20,3.60,0.70,0.17,,14.0,0.0,0.0,62696.0,,
+83,Coconut-Apricot Macaroons,chocolate chip,Dairy-vegetarian,Dessert,Milk,,255,4.0,,,,,2195.0,526.0,54.0,54.0,0.8,7.7,31.0,18.30,9.90,1.20,0.09,1.00,0.38,0.21,0.0,220.0,190.0,220.0,85.00,390.0,50.0,1.40,4.00,30.00,26.8,0.0,0.45,0.00,0.07,0.49,2.70,0.70,0.04,4.0,11.0,1.0,0.0,31577.0,,
+84,Coconut-Apricot Macaroons,egg white,Ovo-vegetarian,Dessert,Eggs,"ovalbumin, fixings, albumen, egg, eggs, ingredient, white",64,4.0,,,,,184.0,43.0,0.0,0.0,0.0,11.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.46,0.0,6.0,159.0,12.0,185.00,149.0,12.0,0.01,8.00,4.00,0.0,0.0,0.00,0.00,0.02,0.42,2.80,,,,10.0,0.3,0.0,63748.0,"Chicken, raw",
+85,Coconut-Apricot Macaroons,pure vanilla extract,Vegan,Dessert,Not a priority allergen,,10,4.0,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,,,,0.00,0.0,6.0,,4.0,2.00,2.0,1.0,0.03,0.50,,0.0,0.0,0.00,0.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,5675.0,,
+86,Coconut-Apricot Macaroons,salt,Vegan,Dessert,,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",0.5,4.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+87,Greek Lamb Meatball Sliders with Tzatziki,hawaiian bun,Dairy-vegetarian,"Lunch/Dinner
+","Cereals containing gluten,Milk,Eggs",portugese sweet bread ,600,2.0,,,,,1363.0,324.0,49.0,11.0,2.6,9.4,9.5,4.70,2.20,2.60,0.10,0.68,0.72,1.30,0.0,106.0,337.0,154.0,509.00,152.0,26.9,2.20,,26.20,82.0,0.1,0.50,,0.20,0.19,4.00,0.69,0.10,9.4,,0.6,0.0,7204.0,,"{'recipe_id': 4002, 'title': 'Greek Lamb Meatball Sliders with Tzatziki', 'ingredients': ['1/4 cup panko breadcrumbs', '1/4 cup milk', '1 pound ground lamb', '1 teaspoon ground coriander', '1 teaspoon ground cumin', '1 tablespoon minced garlic', '1 teaspoon dried oregano', '1 tablespoon fresh mint, chopped', 'Kosher salt and freshly ground black pepper', '1/4 cup crumbled feta cheese', 'Canola oil, for greasing pan', '1/2 English cucumber, peeled', '1 cup plain Greek yogurt', '1 tablespoon lemon zest', '1 tablespoon extra-virgin olive oil', '1 teaspoon chopped fresh dill', '1 clove garlic, finely minced', 'Kosher salt and freshly ground black pepper', '8 soft Hawaiian buns', '2 Roma tomatoes, sliced 1/4-inch thick', '8 bamboo skewers'], 'score': 0.8095238095238095}"
+88,Greek Lamb Meatball Sliders with Tzatziki,plain greek yogurt,Dairy-vegetarian,"Lunch/Dinner
+",Milk,,285,2.0,,,,,490.0,117.0,3.8,3.8,0.0,9.8,7.0,4.50,0.50,0.12,,,,0.18,0.0,142.0,,135.0,70.00,141.0,11.0,0.07,9.70,77.00,1.0,0.1,0.01,0.20,0.02,0.28,0.21,0.33,0.06,,7.0,0.8,0.0,12349.0,,
+89,Greek Lamb Meatball Sliders with Tzatziki,ground lamb,Meat,"Lunch/Dinner
+",Not a priority allergen,lamb mince,453.6,2.0,,checked,,,817.0,196.0,0.0,0.0,0.0,19.0,13.0,6.20,5.30,0.60,,,1.10,0.17,0.0,17.0,68.0,190.0,69.00,310.0,21.0,1.60,2.00,6.00,5.0,0.8,0.18,,0.12,0.18,8.50,0.90,0.20,2.0,2.0,2.0,0.0,64123.0,,
+90,Greek Lamb Meatball Sliders with Tzatziki,garlic,Vegan,"Lunch/Dinner
+",Not a priority allergen,"alliaceous plant, ail, Allium sativum",3,2.0,,,,,446.0,106.0,15.0,1.6,4.4,7.9,0.6,0.10,0.30,,,,0.00,0.00,0.0,19.0,73.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,,,5.0,0.0,17.0,63866.0,,
+91,Greek Lamb Meatball Sliders with Tzatziki,english cucumber,Vegan,"Lunch/Dinner
+",Not a priority allergen,,300,2.0,checked,,,,66.0,16.0,1.3,1.2,0.7,1.0,0.6,,,,,,0.00,0.00,0.0,21.0,67.0,23.0,4.00,156.0,10.0,0.30,0.00,3.00,12.0,0.0,0.04,20.90,0.03,0.02,0.30,0.32,0.01,0.8,14.0,0.0,2.0,63565.0,,
+92,Greek Lamb Meatball Sliders with Tzatziki,panko breadcrumbs,Vegan,"Lunch/Dinner
+",Cereals containing gluten,,30,2.0,,,,,1121.0,266.0,47.0,0.6,1.3,7.5,5.5,2.20,,,,,,0.53,0.0,,321.0,,212.00,,,,,,,,,,,,,,,,,,,2650961.0,,
+93,Greek Lamb Meatball Sliders with Tzatziki,dill,Vegan,"Lunch/Dinner
+",Not a priority allergen,"herb, Anethum graveolens, dill weed",2,2.0,checked,,,,128.0,31.0,0.9,0.8,2.5,3.7,0.8,0.00,,,,,,0.00,0.0,340.0,,85.0,26.00,750.0,44.0,3.20,2.00,,1015.0,0.0,1.70,0.00,0.18,0.58,,,,,36.0,0.0,86.0,63699.0,Fresh dill,
+94,Greek Lamb Meatball Sliders with Tzatziki,feta cheese,Dairy-vegetarian,"Lunch/Dinner
+",Milk,,113,2.0,,,,,1032.0,249.0,1.4,1.4,0.0,15.0,20.0,13.70,4.10,0.60,,,1.40,2.50,0.0,360.0,1630.0,280.0,1000.00,95.0,20.0,0.20,5.00,,226.0,0.5,0.37,0.00,0.04,0.21,3.70,,,,23.0,1.1,0.0,63272.0,,
+95,Greek Lamb Meatball Sliders with Tzatziki,coriander,Vegan,"Lunch/Dinner
+",,"herb, coriander plant, Coriandrum sativum, Chinese parsley, cilantro",2,2.0,checked,,,,97.0,23.0,1.2,0.9,2.8,2.1,0.5,0.00,,,,,0.00,0.00,0.0,67.0,,48.0,46.00,521.0,26.0,1.80,,,675.0,0.0,2.50,310.00,0.07,0.12,1.50,,,,62.0,0.0,27.0,63505.0,Fresh,
+96,Greek Lamb Meatball Sliders with Tzatziki,lemon zest,Vegan,"Lunch/Dinner
+",,"lemon peel, lemon rind",5,2.0,,,,,121.0,30.0,0.0,0.0,11.0,1.5,0.5,0.10,0.00,0.10,,,0.00,0.02,0.0,130.0,,12.0,6.00,160.0,15.0,0.80,,,5.0,0.0,0.25,0.00,0.06,0.08,0.60,,,,11.0,0.0,130.0,64189.0,,
+97,Greek Lamb Meatball Sliders with Tzatziki,mint,Vegan,"Lunch/Dinner
+",Not a priority allergen,"stack, torrent, slew, great deal, mountain, flock, pile, deal, lot, batch, raft, spate, flood, mickle, deluge, muckle, mass, heap, inundation, good deal, mess, passel, peck, hatful, large indefinite amount, large indefinite quantity, haymow, tidy sum, pot, plenty, sight, quite a little, wad",3.8,2.0,checked,,,,172.0,41.0,4.8,0.0,0.0,3.8,0.7,,,,,,0.00,0.04,0.0,210.0,34.0,75.0,15.00,260.0,,9.50,,,123.0,0.0,5.00,,0.12,0.33,,,,,110.0,0.0,31.0,64352.0,,
+98,Greek Lamb Meatball Sliders with Tzatziki,milk,Dairy-vegetarian,"Lunch/Dinner
+",Milk,"buttermilk, drink, low",61,2.0,,,,,197.0,47.0,4.5,4.5,0.0,3.4,1.7,1.10,0.40,0.00,0.01,0.05,0.07,0.00,0.0,120.0,87.0,94.0,43.00,156.0,11.0,0.02,1.00,30.00,20.0,0.0,0.04,,0.03,0.24,0.70,,,,9.0,0.9,2.0,64326.0,Semi-skimmed milk,
+99,Greek Lamb Meatball Sliders with Tzatziki,oregano,Vegan,"Lunch/Dinner
+",Not a priority allergen,"herb, Origanum vulgare, pot marjoram, marjoram, wild marjoram, winter sweet",2,2.0,,,,,1067.0,257.0,24.0,4.1,43.0,9.0,4.3,1.60,0.72,1.40,,,0.00,0.00,0.0,1597.0,,148.0,25.00,1260.0,270.0,36.80,5.00,,170.0,0.0,,0.00,0.18,0.53,,,,,237.0,0.0,2.0,64485.0,"Dried, ground",
+100,Greek Lamb Meatball Sliders with Tzatziki,cumin,Vegan,"Lunch/Dinner
+",Not a priority allergen,"cumin seed, Cuminum cyminum, kummel, edible seed",2,2.0,,,,,1691.0,406.0,28.0,5.6,11.0,18.0,22.0,1.50,14.00,3.30,,,0.00,0.42,0.0,931.0,,499.0,168.00,1790.0,366.0,66.00,5.20,,127.0,0.0,3.30,5.40,0.63,0.33,,,,,10.0,0.0,8.0,63566.0,"Seeds, whole or ground",
+101,Greek Lamb Meatball Sliders with Tzatziki,canola oil,Vegan,"Lunch/Dinner
+",Not a priority allergen,"oleic acid, vegetable oil, canola, oil",10,2.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,64451.0,,
+102,Greek Lamb Meatball Sliders with Tzatziki,tomato,Vegan,"Lunch/Dinner
+",,"cherry tomato, beefsteak tomato, solanaceous vegetable, Lycopersicon esculentum, tomato plant, love apple",260,2.0,checked,,,,88.0,21.0,3.0,3.0,1.0,0.5,0.0,0.03,0.03,0.05,,,0.00,0.00,0.0,8.0,84.0,22.0,2.00,223.0,8.0,0.24,0.00,2.00,58.0,0.0,0.52,6.00,0.04,0.01,0.70,,,,23.0,0.0,22.0,65406.0,,
+103,Greek Lamb Meatball Sliders with Tzatziki,extra virgin olive oil,Vegan,"Lunch/Dinner
+",,,12.6,2.0,,,,,3780.0,900.0,0.0,0.0,,0.0,100.0,13.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2356700.0,,
+104,Greek Lamb Meatball Sliders with Tzatziki,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,2.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+105,Roasted Beet and Lentil Dip,medium red beets,Vegan,"Lunch/Dinner
+",,"beetroot
+",340,6.0,checked,,,,216.0,51.0,9.1,8.4,2.3,2.3,0.0,0.00,0.00,0.10,0.00,0.00,0.00,0.23,0.0,29.0,80.0,87.0,90.00,510.0,16.0,0.80,0.00,,5.0,0.0,0.00,,0.01,0.01,0.40,0.10,0.04,0.0,110.0,0.0,5.0,62935.0,,"{'recipe_id': 21054, 'title': 'Roasted Beet and Lentil Dip', 'ingredients': ['3 tablespoons extra-virgin olive oil', '2 to 3 tablespoons red wine vinegar', '4 sprigs fresh thyme', '3 cloves garlic, crushed with the back of a knife', 'Kosher salt and freshly ground black pepper', '2 medium red beets (about 12 ounces total), peeled and cut into 1-inch chunks', '1/2 cup walnuts', 'One 15-ounce can organic low-sodium brown or black lentils, drained and rinsed well', 'Serving suggestions: Dippers such as baked pita chips and sliced cucumbers, bell peppers and/or carrots'], 'score': 0.8333333333333334}"
+106,Roasted Beet and Lentil Dip,can organic low ,Vegan,"Lunch/Dinner
+",Not Ingredient,,,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+108,Roasted Beet and Lentil Dip,walnut,Vegan,"Lunch/Dinner
+",Treenuts,"black walnut, English walnut, walnut tree, edible nut",50,6.0,,,,,2929.0,710.0,3.1,2.5,5.9,17.0,69.0,7.50,10.70,47.00,7.50,39.30,0.00,0.00,0.0,94.0,24.0,380.0,7.00,450.0,160.0,2.90,3.00,9.00,0.0,0.0,3.90,,0.40,0.14,4.00,,,,66.0,0.0,0.0,65499.0,,
+109,Roasted Beet and Lentil Dip,red wine vinegar,Vegan,"Lunch/Dinner
+",,,22.8,6.0,,,,,17.0,4.0,0.5,0.0,0.0,0.5,0.0,0.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2355611.0,,
+110,Roasted Beet and Lentil Dip,thyme,Vegan,"Lunch/Dinner
+",Not a priority allergen,"herb, Thymus vulgaris, wild thyme, common thyme, herbaceous plant, Thymus serpyllum, creeping thyme, genus Thymus, Thymus",4,6.0,checked,,,,499.0,120.0,15.0,0.6,12.0,3.0,2.5,1.20,0.20,0.50,,,0.00,0.00,0.0,630.0,,67.0,18.00,270.0,73.0,,2.00,0.00,125.0,0.0,,0.00,0.16,0.13,2.60,,,,91.0,0.0,17.0,65385.0,Fresh,
+111,Roasted Beet and Lentil Dip,extra virgin olive oil,Vegan,"Lunch/Dinner
+",,,37.8,6.0,,,,,3780.0,900.0,0.0,0.0,,0.0,100.0,13.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2356700.0,,
+112,Roasted Beet and Lentil Dip,garlic clove,Vegan,"Lunch/Dinner
+",Not a priority allergen,,9,6.0,,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+113,Roasted Beet and Lentil Dip,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,6.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+,Grilled Fish Tacos with Vera Cruz Salsa,extra virgin spanish olive oil,Vegan,"Lunch/Dinner
+",Notes,,,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Grilled Fish Tacos with Vera Cruz Salsa,barely chopped fresh cilantro,Vegan,"Lunch/Dinner
+",,,4,6.0,,,,,96.2,23.0,3.7,0.9,2.8,2.1,0.5,0.01,0.28,0.04,,,0.00,,,67.0,,,46.00,521.0,,,,,337.0,,,,,,,,,,,,27.0,,,
+,Grilled Fish Tacos with Vera Cruz Salsa,napa,Vegan,"Lunch/Dinner
+",Not Ingredient,,,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Grilled Fish Tacos with Vera Cruz Salsa,manzanilla olives,Vegan,"Lunch/Dinner
+",Not a priority allergen,,"180
+",6.0,,,,,697.5,166.7,3.4,0.0,0.0,0.8,16.7,2.12,13.22,1.36,,,,,,,,,1666.70,,,,,,,,,,,,,,,,,,,,,
+114,Grilled Fish Tacos with Vera Cruz Salsa,halibut,Seafood,"Lunch/Dinner
+",Fish,"holibut, flatfish",680,6.0,,,,,512.0,121.0,0.0,0.0,0.0,25.0,2.2,0.40,0.70,0.50,,,0.00,0.18,0.0,34.0,71.0,240.0,71.00,490.0,29.0,0.60,,47.00,,0.0,1.00,0.00,0.07,0.07,10.80,,,,11.0,1.0,0.0,63949.0,"Flesh only, grilled","{'recipe_id': 16311, 'title': 'Grilled Fish Tacos with Vera Cruz Salsa', 'ingredients': ['1 1/2 pound piece halibut', '2 tablespoons ancho chile powder', 'Kosher salt and freshly ground black pepper', '2 to 3 tablespoons olive oil', 'Juice of 1/2 lime', '1/2 head Napa or white cabbage, shredded', '1/2 cup barely chopped fresh cilantro', 'Kosher salt and freshly ground black pepper', '8 to 12 white or yellow corn tortillas, warmed on the grill', 'Vera Cruz Salsa, for serving, recipe follows', '3 large plum tomatoes, cored and halved', '2 jalapenos, stems removed', 'Canola oil, for grilling', 'Kosher salt and freshly ground black pepper', '1 small red onion, finely diced', '1 cup manzanilla olives, pitted and halved', '1 tablespoon capers, drained', '1/4 cup extra-virgin Spanish olive oil', '3 tablespoons red wine vinegar', '1/4 cup chopped fresh cilantro', '1 teaspoon dried Mexican oregano', 'Juice of 1/2 lime'], 'score': 1.0}"
+,Grilled Fish Tacos with Vera Cruz Salsa,dried mexican oregano,Vegan,"Lunch/Dinner
+",,,"1
+",6.0,,,,,,306.0,64.4,4.1,42.8,11.0,10.3,2.66,0.67,5.23,,,,,,1576.0,,,15.00,1669.0,,44.00,,,345.0,,,,,,,,,,,,50.0,,,
+,Grilled Fish Tacos with Vera Cruz Salsa,salsa,Vegan,"Lunch/Dinner
+",Not a priority allergen,condiment,"14.3
+",6.0,,,,,397.0,94.0,21.0,9.8,1.5,1.3,0.0,0.00,0.00,0.00,,,0.00,4.10,0.0,19.0,,33.0,,1647.0,312.0,17.00,1.40,0.80,,15.0,0.00,1.20,0.03,0.05,0.91,,,,8.0,0.0,6.8,5415.0,"Retail
+",
+115,Grilled Fish Tacos with Vera Cruz Salsa,ancho chile powder,Vegan,"Lunch/Dinner
+",Not a priority allergen,,16,6.0,,,,,1175.7,281.0,51.4,,21.6,11.9,8.2,0.82,0.49,4.51,,,,,,61.0,,,,2411.0,,10.93,,,1022.0,,,,,,,,,,,,2.0,,,
+,Grilled Fish Tacos with Vera Cruz Salsa,jalapeno,Vegan,"Lunch/Dinner
+",,"chilly, chipotle, chile, jalapeno pepper, chili pepper, chili, chilli","30
+",6.0,,,,,107.0,26.0,4.2,4.1,1.7,0.7,0.5,0.03,0.02,0.15,,,,0.99,0.0,36.0,,11.0,397.00,113.0,4.0,1.30,0.30,,6.0,0.0,,,0.01,0.03,0.63,,,,54.0,0.0,34.2,5618.0,,
+,Grilled Fish Tacos with Vera Cruz Salsa,caper,Vegan,"Lunch/Dinner
+",,,7.5,6.0,,,,,96.2,23.0,4.9,0.4,3.2,2.4,0.9,0.20,,0.70,,,,,,,,,2769.00,40.0,,,,,,,,,,,,,,,,,,,,
+,Grilled Fish Tacos with Vera Cruz Salsa,plum tomato,Vegan,"Lunch/Dinner
+",Not a priority allergen,,"171
+",6.0,,,,,75.3,18.0,3.9,2.6,1.2,0.9,0.2,0.00,0.00,0.10,0.00,,,,,,,,5.00,237.0,,,,,,,,,,,,,,,,,,,,
+,Grilled Fish Tacos with Vera Cruz Salsa,red wine vinegar,Vegan,"Lunch/Dinner
+",Not a priority allergen,,44.7,6.0,,,,,17.0,4.0,0.5,0.0,0.0,0.5,0.0,0.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2355611.0,,
+,Grilled Fish Tacos with Vera Cruz Salsa,cilantro,Vegan,"Lunch/Dinner
+",,,"8.455
+",6.0,,,,,97.0,23.0,1.2,0.9,2.8,2.1,0.5,0.00,,,,,0.00,0.12,0.0,67.0,,48.0,46.00,521.0,26.0,1.80,,,675.0,0.0,2.50,310.00,0.07,0.12,1.50,0.57,0.15,,62.0,0.0,27.0,63505.0,,
+,Grilled Fish Tacos with Vera Cruz Salsa,red onion,Vegan,"Lunch/Dinner
+",Not a priority allergen,"Spanish onion, purple onion","125
+",6.0,checked,,,,155.0,37.0,7.4,5.2,0.9,1.0,0.0,0.01,,0.01,,,0.00,0.00,0.0,22.5,12.5,28.5,8.00,140.0,6.5,0.28,0.50,3.00,2.0,0.0,0.17,0.15,0.09,0.00,0.07,,,,20.0,0.0,5.0,5495.0,,
+,Grilled Fish Tacos with Vera Cruz Salsa,canola oil,Vegan,"Lunch/Dinner
+",,"oleic acid, vegetable oil, canola, oil","4.48
+",6.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,64451.0,,
+116,Grilled Fish Tacos with Vera Cruz Salsa,"Olive oil
+",Vegan,"Lunch/Dinner
+",Notes,"volatile oil, hydnocarpus oil, rapeseed oil, lipoid, heating oil, camphor oil, tung oil, stand oil, hyssop oil, crude oil, lemongrass, chaulmoogra oil, flaxseed oil, lemon grass, babacu oil, mineral oil, cohune fat, Chinese wood oil, crude, fixed oil, lipid, rape oil, petroleum, linseed oil, rock oil, grease, sweet almond oil, lubricating oil, hedeoma oil, fossil oil, neroli oil, almond oil, expressed almond oil, croton oil, fusel oil, lipide, babassu oil, shale oil, essential oil, cohune",37.8,6.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,64451.0,Vegetable oil,
+117,Grilled Fish Tacos with Vera Cruz Salsa,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,6.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+118,Spaghetti Aglio e Olio,spaghetti,Vegan,"Lunch/Dinner
+","Cereals containing gluten,Eggs",pasta,453,4.0,,,,,607.0,143.0,29.0,1.0,1.7,4.9,0.6,0.09,0.07,0.25,0.01,0.23,0.00,0.00,0.0,27.0,55.0,66.0,3.00,41.0,21.0,0.63,8.00,0.00,0.0,0.0,0.11,0.05,0.08,0.01,1.70,,,,8.0,0.0,0.0,64554.0,"White, dried, boiled in unsalted water","{'recipe_id': 21279, 'title': 'Spaghetti Aglio e Olio', 'ingredients': ['Kosher salt', '1 pound dried spaghetti', '1/2 cup extra-virgin olive oil, plus more for finishing', '1 teaspoon crushed red pepper flakes', '4 cloves garlic, thinly sliced', '1/2 cup rough-chopped fresh parsley'], 'score': 0.9166666666666666}"
+119,Spaghetti Aglio e Olio,red pepper,Vegan,"Lunch/Dinner
+",Not a priority allergen,"Capsicum frutescens, tabasco, hot pepper, tabasco pepper, Tabasco sauce, Tabasco, tabasco plant",2,4.0,checked,,,,112.0,27.0,4.3,4.2,2.2,0.8,0.0,0.05,0.00,0.10,,,0.00,0.00,0.0,7.0,48.0,23.0,1.00,216.0,11.0,0.39,0.00,3.00,97.0,0.0,0.95,1.60,0.07,0.06,0.60,,,,75.0,0.0,126.0,64633.0,,
+120,Spaghetti Aglio e Olio,parsley,Vegan,"Lunch/Dinner
+",Not a priority allergen,herb,30,4.0,checked,,,,184.0,44.0,2.7,2.3,5.0,2.9,1.3,0.00,,,,,0.00,0.00,0.0,200.0,160.0,64.0,33.00,760.0,23.0,7.70,1.00,,673.0,0.0,1.70,548.00,0.23,0.06,1.50,,,,170.0,0.0,190.0,64528.0,Fresh,
+121,Spaghetti Aglio e Olio,extra virgin olive oil,Vegan,"Lunch/Dinner
+",,,112.5,4.0,,,,,3780.0,900.0,0.0,0.0,,0.0,100.0,13.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2356700.0,,
+122,Spaghetti Aglio e Olio,garlic clove,Vegan,"Lunch/Dinner
+",Not a priority allergen,,12,4.0,,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+123,Spaghetti Aglio e Olio,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,4.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+,Cherry Shells,cherry extract,Vegan,Breakfast/Dessert,Soya,,,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"11.2
+"
+124,Cherry Shells,cookie mix,Dairy-vegetarian,Breakfast/Dessert,"Cereals containing gluten,Eggs,Milk",,500,6.0,,,,,1896.0,452.0,65.0,28.0,3.7,5.2,18.0,7.00,,,,,,0.68,0.0,,412.0,,272.00,,,,,,,,,,,,,,,,,,,3079713.0,,"{'recipe_id': 16045, 'title': 'Cherry Shells', 'ingredients': ['1 (1 pound, 1.5 ounce) package dry sugar cookie mix (recommended: Betty Crocker)', '4 ounces cream cheese, softened and cut into pieces', '2 eggs', '2 teaspoons cherry extract', '12 red or green candied cherries, halved'], 'score': 1.0}"
+125,Cherry Shells,cream cheese,Dairy-vegetarian,Breakfast/Dessert,Milk,"cheese, mascarpone, double cream",113,6.0,,,,,634.0,153.0,3.3,3.3,0.0,9.6,11.0,7.40,2.80,0.34,,,0.48,0.68,0.0,99.0,460.0,129.0,270.00,120.0,10.0,,4.00,11.00,163.0,0.1,0.08,0.00,0.04,0.34,3.60,,,,30.0,0.4,,63294.0,"Medium fat
+",
+126,Grilled Steak Fries with Citrus-Thyme Aioli,smoked paprika,Vegan,"Lunch/Dinner
+",Not a priority allergen,,0.6,4.0,,,,,1308.0,316.0,18.0,10.0,35.0,14.0,13.0,2.10,1.70,7.80,,,0.00,0.17,0.0,229.0,103.0,314.0,67.00,2280.0,178.0,21.10,6.00,,4926.0,0.0,,0.00,0.33,1.20,,,,,49.0,0.0,1.0,64524.0,,"{'recipe_id': 12894, 'title': 'Grilled Steak Fries with Citrus-Thyme Aioli', 'ingredients': ['1 cup mayonnaise', '2 cloves garlic, smashed to a paste', '1 teaspoon finely grated orange zest', '1/2 teaspoon finely grated fresh lemon zest, Meyer lemons, preferred', '1 1/2 teaspoons finely chopped fresh thyme leaves', '1/4 teaspoon smoked paprika', '1 tablespoon honey', 'Kosher salt and freshly ground black pepper', '6 russet potatoes, scrubbed', '1/4 cup canola oil'], 'score': 0.85}"
+127,Grilled Steak Fries with Citrus-Thyme Aioli,russet potato,Vegan,"Lunch/Dinner
+",Not a priority allergen,,1038,4.0,,,,,343.0,81.0,18.0,0.8,1.6,1.8,0.0,0.03,0.00,0.00,0.00,0.00,0.00,0.00,0.0,6.0,74.0,,1.00,365.0,18.0,0.34,,,0.0,0.0,0.01,,,,,,,,18.0,0.0,9.0,64909.0,,
+128,Grilled Steak Fries with Citrus-Thyme Aioli,orange zest,Vegan,"Lunch/Dinner
+",,"orange rind, orange peel",2,4.0,,,,,394.0,94.0,14.0,,11.0,1.5,0.0,0.02,0.04,0.04,,,,0.00,0.0,161.0,,21.0,3.00,212.0,22.0,0.80,1.00,,21.0,,0.25,,0.12,0.09,0.90,,,,30.0,0.0,136.0,8627.0,,
+129,Grilled Steak Fries with Citrus-Thyme Aioli,thyme leaves,Vegan,"Lunch/Dinner
+",Not a priority allergen,,3,4.0,checked,,,,499.0,120.0,15.0,0.6,12.0,3.0,2.5,1.20,0.20,0.50,,,0.00,0.05,0.0,630.0,,67.0,18.00,270.0,73.0,,2.00,,125.0,0.0,,0.00,0.16,0.13,2.60,,,,91.0,0.0,17.0,65385.0,,
+130,Grilled Steak Fries with Citrus-Thyme Aioli,lemon zest,Vegan,"Lunch/Dinner
+",,"lemon peel, lemon rind",1,4.0,,,,,121.0,30.0,0.0,0.0,11.0,1.5,0.5,0.10,0.00,0.10,,,0.00,0.02,0.0,130.0,,12.0,6.00,160.0,15.0,0.80,,,5.0,0.0,0.25,0.00,0.06,0.08,0.60,,,,11.0,0.0,130.0,64189.0,,
+131,Grilled Steak Fries with Citrus-Thyme Aioli,mayonnaise,Ovo-vegetarian,"Lunch/Dinner
+","Eggs,Milk,Mustard","salad dressing, mayo, dressing, sauce verte, green mayonnaise",230,4.0,,,,,2825.0,687.0,2.3,2.3,0.0,1.1,75.0,5.70,46.00,19.90,5.80,14.10,0.04,0.33,0.0,2.0,330.0,5.0,131.00,4.0,0.0,0.16,0.00,7.00,78.0,0.0,22.10,0.00,0.00,0.10,0.10,,,,9.0,0.3,0.0,64282.0,,
+132,Grilled Steak Fries with Citrus-Thyme Aioli,honey,Vegan,"Lunch/Dinner
+",Not a priority allergen,"mead, sweetener, sweetening, oenomel",21,4.0,,,,,1305.0,307.0,76.0,76.0,0.0,0.5,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,5.0,18.0,17.0,11.00,,2.0,0.40,1.00,0.00,0.0,0.0,0.00,,0.00,0.05,0.20,,,,,0.0,0.0,3981.0,,
+133,Grilled Steak Fries with Citrus-Thyme Aioli,canola oil,Vegan,"Lunch/Dinner
+",Not a priority allergen,"oleic acid, vegetable oil, canola, oil",54,4.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,64451.0,,
+134,Grilled Steak Fries with Citrus-Thyme Aioli,garlic clove,Vegan,"Lunch/Dinner
+",Not a priority allergen,,6,4.0,,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+135,Grilled Steak Fries with Citrus-Thyme Aioli,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,4.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+,Adobo Buffalo Wings,chipotle peppers,Vegan,"Lunch/Dinner
+",,,"90
+",2.5,,,,,83.7,20.0,3.0,2.0,1.0,0.0,1.0,,,,,,,,,,,,200.00,,,,,,90.0,,,,,,,,,,,,3.6,,,
+,Adobo Buffalo Wings,chicken wing,Meat,"Lunch/Dinner
+",Not a priority allergen,"wing, volaille, poulet, chicken","510
+",2.5,,,,,944.0,226.0,0.0,0.0,0.0,25.0,14.0,3.90,6.40,2.70,,,0.20,0.25,0.0,11.0,75.0,200.0,100.00,260.0,24.0,0.60,15.00,7.00,13.0,0.4,0.27,0.00,0.06,0.17,14.90,,,,6.0,0.0,0.0,63390.0,,
+136,Adobo Buffalo Wings,sugar cane vinegar,Vegan,"Lunch/Dinner
+",Not a priority allergen,,120,2.5,,,,"x
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{'recipe_id': 912, 'title': 'Adobo Buffalo Wings', 'ingredients': ['3/4 cup soy sauce', '1/2 cup sugar cane vinegar', '4 cloves minced garlic', '1 bay leaf', '1 teaspoon ground peppercorns', 'Salt', '5 pieces chicken wing or drumettes', '1 teaspoon olive oil', '4 cloves garlic', '2 bay leaves', '1 teaspoon peppercorns', '1 cup soy sauce', '3/4 cup sugar cane vinegar', '1/2 cup brown sugar', '2 teaspoons ketchup', '2 teaspoons honey', '1 teaspoon cayenne', '1 teaspoon red chili flakes', '1 teaspoon Worcestershire', '3 chipotle peppers', 'Salt', '1/4 cup cornstarch', 'Vegetable oil, for frying'], 'score': 1}"
+,Adobo Buffalo Wings,red chilli,Vegan,"Lunch/Dinner
+",,,2.7,2.5,,,,,167.4,40.0,9.0,5.0,1.5,1.9,0.4,0.00,0.00,0.40,,,,,,,,,9.00,322.0,,,,,,,,,,,,,,,,,,,,
+,Adobo Buffalo Wings,cayenne,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, long pepper, red pepper, chilli pepper, flavourer, seasoner, chili pepper, flavoring, cayenne pepper, jalapeno, Capsicum annuum longum, seasoning",1.8,2.5,,,,,1383.0,331.0,32.0,0.0,0.0,12.0,17.0,2.60,1.90,9.40,,,,0.08,0.0,150.0,,290.0,30.00,2010.0,150.0,34.10,4.00,,6135.0,0.0,,0.00,0.33,0.92,11.30,,,,0.0,0.0,0.0,64636.0,,
+137,Adobo Buffalo Wings,cloves garlicminced ,Vegan,"Lunch/Dinner
+",,,12,2.5,,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+138,Adobo Buffalo Wings,peppercorns,Vegan,"Lunch/Dinner
+",Not a priority allergen,"flavouring, flavorer, pepper, common pepper, Piper nigrum, flavourer, seasoner, black pepper, white pepper, flavoring, seasoning, Madagascar pepper",2.3,2.5,,,,,1193.0,285.0,41.0,0.6,25.0,10.0,3.3,1.40,0.74,1.00,0.12,0.68,0.00,0.05,0.0,443.0,30.0,158.0,20.00,1329.0,171.0,9.70,5.00,,55.0,0.0,,164.00,0.11,0.18,,,,,17.0,0.0,0.0,64631.0,,
+,Adobo Buffalo Wings,cornstarch ,Vegan,"Lunch/Dinner
+",,,30,2.5,,,,,1594.1,381.0,91.0,0.0,0.9,0.3,0.1,0.00,,,,,,,,,,,9.00,3.0,,,,,,,,,,,,,,,,,,,,
+,Adobo Buffalo Wings,ketchup,Vegan,"Lunch/Dinner
+",,"condiment, catsup, cetchup, tomato ketchup",9.6,2.5,,,,,672.0,158.0,28.0,27.0,0.9,1.6,0.0,0.00,0.00,0.00,,,0.00,2.00,0.0,13.0,880.0,31.0,800.00,350.0,19.0,0.30,,,79.0,0.0,,0.00,1.00,0.09,2.30,,,,1.0,0.0,2.0,65398.0,,
+139,Adobo Buffalo Wings,bay leaf,Vegan,"Lunch/Dinner
+",Not a priority allergen,"bay, herb, true laurel, bay tree, Laurus nobilis, bay laurel",1.4,2.5,,,,,1267.0,301.0,49.0,0.0,0.0,7.6,8.4,2.30,1.60,2.30,,,,0.06,0.0,830.0,,110.0,23.00,530.0,120.0,43.00,,,620.0,0.0,,0.00,0.01,0.42,3.90,,,,0.0,0.0,0.0,62780.0,,
+,Adobo Buffalo Wings,honey,Vegan,"Lunch/Dinner
+",Not a priority allergen,"mead, sweetener, sweetening, oenomel",14.16,2.5,,,,,1305.0,307.0,76.0,76.0,0.0,0.5,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,5.0,18.0,17.0,11.00,,2.0,0.40,1.00,0.00,0.0,0.0,0.00,,0.00,0.05,0.20,,,,,0.0,0.0,3981.0,,
+,Adobo Buffalo Wings,vegetable oil,Vegan,"Lunch/Dinner
+",Not a priority allergen,"cooking oil, marge, sweet oil, peanut oil, copra oil, olive oil, madia oil, cottonseed oil, groundnut oil, oil, margarin, coconut oil, sesame oil, corn oil, soybean oil, oleomargarine, soyabean oil, drying oil, margarine, sunflower oil, salad oil, walnut oil, canola oil, sunflower","4.54
+",2.5,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,64451.0,,
+,Adobo Buffalo Wings,oil,Vegan,"Lunch/Dinner
+",Not a priority allergen,"volatile oil, hydnocarpus oil, rapeseed oil, lipoid, heating oil, camphor oil, tung oil, stand oil, hyssop oil, crude oil, lemongrass, chaulmoogra oil, flaxseed oil, lemon grass, babacu oil, mineral oil, cohune fat, Chinese wood oil, crude, fixed oil, lipid, rape oil, petroleum, linseed oil, rock oil, grease, sweet almond oil, lubricating oil, hedeoma oil, fossil oil, neroli oil, almond oil, expressed almond oil, croton oil, fusel oil, lipide, babassu oil, shale oil, essential oil, cohune",4.54,2.5,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,64451.0,Vegetable oil,
+140,Adobo Buffalo Wings,soy sauce,Vegan,"Lunch/Dinner
+",Soya,"soya, condiment, soybean, soya bean, soy",255,2.5,,,,,345.0,81.0,17.0,16.0,0.0,3.0,0.0,0.00,0.00,0.00,,,0.00,13.80,0.0,17.0,8200.0,47.0,5500.00,180.0,37.0,2.40,,,0.0,0.0,,0.00,0.05,0.13,4.80,,,,11.0,0.0,0.0,65260.0,"Light and dark
+",
+,Adobo Buffalo Wings,brown sugar,Vegan,"Lunch/Dinner
+",Not a priority allergen,"demerara sugar, sugar, demerara, refined sugar",100,2.5,,,,,1646.0,387.0,97.0,96.0,0.0,0.0,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,56.0,,4.0,31.00,140.0,17.0,1.70,0.00,0.00,0.0,0.0,0.00,0.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,65310.0,,
+,Adobo Buffalo Wings,garlic clove,Vegan,"Lunch/Dinner
+",Not a priority allergen,,22,2.5,,,,,,149.0,33.0,1.0,2.1,6.4,0.5,0.10,0.00,0.30,,,,,,,,,17.00,401.0,,,,,,,,,,,,,,,,,,,,
+141,Thai Lettuce Wraps,rice noodles,Vegan,"Lunch/Dinner
+",,,176,8.0,,,,,381.0,90.0,19.0,0.0,1.1,2.1,0.0,0.05,0.03,0.08,0.00,0.08,0.00,0.00,0.0,22.0,65.0,19.0,4.00,3.0,3.0,0.10,1.00,3.00,0.0,0.0,0.09,,0.00,0.00,0.90,,,,3.0,0.0,0.0,64415.0,Boiled in unsalted water,"{'recipe_id': 951, 'title': 'Thai Lettuce Wraps', 'ingredients': ['1/3 cup hoisin sauce', '1/3 cup soy sauce', '2 tablespoons grated ginger', '1 tablespoon Sriracha', '1 tablespoon rice wine vinegar', '3 cloves garlic, grated', '2 boneless, skinless chicken breasts, cut into strips', '2 tablespoons chopped peanuts', '2 tablespoons chopped fresh cilantro', '8 butter lettuce leaves', '1 cup bean sprouts', '1 cup thinly sliced red cabbage', '1 cup julienned carrots', '1 cup cucumber slices', '1 cup cooked thin rice noodles', '1/3 cup sweet chili sauce', '1/3 cup hoisin sauce'], 'score': 0.9411764705882353}"
+142,Thai Lettuce Wraps,thinly sliced red cabbage,Vegan,"Lunch/Dinner
+",,,89,8.0,checked,,,,117.0,28.0,3.9,3.3,2.9,1.1,0.5,0.00,0.00,0.20,,,,0.02,0.0,60.0,45.0,37.0,8.00,250.0,9.0,0.40,2.00,2.00,3.0,0.0,0.20,0.00,0.02,0.01,0.60,0.32,0.09,0.1,39.0,0.0,55.0,63156.0,,
+143,Thai Lettuce Wraps,lettuce leaves,Vegan,"Lunch/Dinner
+",Not a priority allergen,,50,8.0,checked,,,,60.0,14.0,1.4,1.4,1.5,1.2,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.02,0.0,24.0,78.0,22.0,9.00,222.0,9.0,0.13,0.00,1.00,10.0,0.0,0.64,129.00,0.14,0.05,0.70,0.19,0.02,0.7,60.0,0.0,1.0,64213.0,,
+144,Thai Lettuce Wraps,chilli sauce,Vegan,"Lunch/Dinner
+",,,110,8.0,,,,,194.0,46.0,7.3,6.9,2.2,1.3,0.8,0.00,0.00,0.00,,,0.00,0.00,0.0,17.0,1770.0,28.0,1250.00,140.0,15.0,2.80,0.00,2.00,95.0,0.0,2.00,0.00,0.01,0.09,0.90,,,,10.0,0.0,8.0,63400.0,,
+145,Thai Lettuce Wraps,bean sprouts,Vegan,"Lunch/Dinner
+",,,100,8.0,checked,,,,145.0,34.0,3.8,2.2,1.5,2.9,0.5,0.10,0.10,0.20,,,0.00,0.01,0.0,20.0,15.0,48.0,5.00,74.0,18.0,1.70,1.00,2.60,7.0,0.0,0.12,0.00,0.11,0.04,1.00,0.38,0.10,2.6,61.0,0.0,7.0,62828.0,,
+146,Thai Lettuce Wraps,sriracha,Vegan,"Lunch/Dinner
+",Not a priority allergen,,15,8.0,,,,,406.0,96.0,23.0,21.0,0.0,1.0,0.0,0.01,0.00,0.08,0.00,0.00,0.00,1.30,0.0,12.9,744.0,21.0,537.00,159.0,9.3,0.58,0.48,0.64,166.0,0.0,0.00,0.00,0.04,0.04,0.77,,,,13.4,0.0,60.0,6265.0,,
+147,Thai Lettuce Wraps,hoisin sauce,Vegan,"Lunch/Dinner
+",Soya,"condiment, duck sauce",181,8.0,,,,,906.0,215.0,41.0,27.0,2.8,3.3,3.4,0.57,0.96,1.70,,,,4.00,,32.0,,38.0,1615.00,119.0,24.0,1.00,1.80,,0.0,0.0,0.28,0.50,0.00,0.22,1.20,,,,23.0,0.0,0.4,13259.0,,
+148,Thai Lettuce Wraps,peanut,Vegan,"Lunch/Dinner
+",Peanuts,,17,8.0,,,,,2460.0,593.0,12.0,5.9,7.3,30.0,46.0,8.70,22.00,13.10,0.35,12.80,0.00,0.00,0.0,60.0,7.0,430.0,2.00,670.0,210.0,2.50,3.00,20.00,0.0,0.0,10.10,,1.10,0.10,19.30,2.70,0.59,72.0,110.0,0.0,0.0,64597.0,,
+149,Thai Lettuce Wraps,rice wine vinegar,Vegan,"Lunch/Dinner
+",,,15,8.0,,,,,18.0,5.0,0.9,0.5,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,1.00,0.0,3.0,9610.0,10.0,400.00,34.0,4.0,0.10,1.00,,0.0,0.0,0.00,,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,139242.0,,
+150,Thai Lettuce Wraps,cucumber,Vegan,"Lunch/Dinner
+",Not a priority allergen,"cuke, Cucumis sativus, melon vine, melon, genus Cucumis, Cucumis, cucumber vine",119,8.0,checked,,,,66.0,16.0,1.3,1.2,0.7,1.0,0.6,0.00,,,,,0.00,0.00,0.0,21.0,67.0,23.0,4.00,156.0,10.0,0.30,0.00,3.00,12.0,0.0,0.04,20.90,0.03,0.02,0.30,,,,14.0,0.0,2.0,63565.0,Flesh and skin,
+151,Thai Lettuce Wraps,chicken breast,Meat,"Lunch/Dinner
+",Not a priority allergen,"misshapenness, deformity, malformation, pigeon breast",300,8.0,,,,,613.0,145.0,0.0,0.0,0.0,32.0,1.9,0.60,1.00,0.40,0.11,0.41,0.03,0.14,0.0,6.0,86.0,310.0,56.00,460.0,36.0,0.40,16.00,7.00,0.0,0.3,0.17,0.00,0.14,0.13,22.00,,,,6.0,0.0,0.0,63336.0,Grilled without skin,
+152,Thai Lettuce Wraps,soy sauce,Vegan,"Lunch/Dinner
+",Soya,"soya, condiment, soybean, soya bean, soy",85,8.0,,,,,345.0,81.0,17.0,16.0,0.0,3.0,0.0,0.00,0.00,0.00,,,0.00,13.80,0.0,17.0,8200.0,47.0,5500.00,180.0,37.0,2.40,,,0.0,0.0,,0.00,0.05,0.13,4.80,,,,11.0,0.0,0.0,65260.0,"Light and dark
+",
+153,Thai Lettuce Wraps,cilantro,Vegan,"Lunch/Dinner
+",Not a priority allergen,"corriander, coriander",10,8.0,checked,,,,97.0,23.0,1.2,0.9,2.8,2.1,0.5,0.00,,,,,0.00,0.12,0.0,67.0,,48.0,46.00,521.0,26.0,1.80,,,675.0,0.0,2.50,310.00,0.07,0.12,1.50,0.57,0.15,,62.0,0.0,27.0,63505.0,,
+154,Thai Lettuce Wraps,ginger,Vegan,"Lunch/Dinner
+",Not a priority allergen,"herb, Alpinia officinarum, Alpinia speciosa, Zingiber officinale, Canton ginger, Languas speciosa, Zingiber, shellflower, red ginger, galangal, stem ginger, common ginger, herbaceous plant, Alpinia officinalis, Alpinia Zerumbet, genus Zingiber, gingerol, shell ginger, shall",12,8.0,checked,,,,223.0,53.0,8.0,2.0,2.0,2.0,0.8,0.20,0.15,0.15,,,0.00,0.03,0.0,16.0,,34.0,13.00,415.0,43.0,0.60,,,0.0,0.0,0.26,0.10,0.02,0.03,1.00,0.20,0.16,,11.0,0.0,5.0,63877.0,,
+155,Thai Lettuce Wraps,garlic clove,Vegan,"Lunch/Dinner
+",Not a priority allergen,,9,8.0,checked,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+156,Soft Cheese Board,wedge saga blue,Dairy-vegetarian,Snack/Dessert,Milk,,227,10.0,,,,,1411.0,341.0,0.0,0.0,0.0,20.0,29.0,19.10,7.50,0.95,,,1.10,3.10,0.0,488.0,1950.0,344.0,1220.00,88.0,20.0,0.00,7.00,12.00,291.0,0.2,0.71,4.10,0.03,0.41,6.10,0.53,0.10,2.7,55.0,1.3,0.0,63266.0,,"{'recipe_id': 15813, 'title': 'Soft Cheese Board', 'ingredients': ['2 (10-ounce) tins smoked almonds', '1/2 pound wedge Brie with herbs', '1/2 pound wedge Saga blue', '1 (6-ounce) log goat cheese, any variety', '1 baguette, sliced at bakery counter', '1 pound grapes (black, red, or green), separated into small bunches'], 'score': 0.8333333333333334}"
+157,Soft Cheese Board,brie wedge,Dairy-vegetarian,Snack/Dessert,Milk,,227,10.0,,,,,1415.0,341.0,0.0,0.0,0.0,20.0,29.0,18.20,6.70,0.60,,,1.30,1.40,0.0,256.0,900.0,232.0,556.00,91.0,15.0,0.00,5.00,16.00,329.0,0.2,0.81,2.40,0.03,0.33,5.10,0.50,0.14,3.6,55.0,0.6,0.0,63258.0,,
+158,Soft Cheese Board,grape,Vegan,Snack/Dessert,Milk,,453,10.0,checked,,,,315.0,74.0,16.0,16.0,1.3,0.6,0.0,0.06,0.01,0.06,,,0.00,0.00,0.0,10.0,54.0,19.0,1.00,215.0,7.0,0.23,0.00,1.00,1.0,0.0,0.19,8.60,0.07,0.01,0.30,0.13,0.04,0.2,6.0,0.0,2.0,63900.0,,
+159,Soft Cheese Board,goat cheese,Dairy-vegetarian,Snack/Dessert,Milk,,170,10.0,,,,,1322.0,319.0,1.0,1.0,0.0,21.0,26.0,17.90,6.10,1.00,,,0.97,1.50,0.0,133.0,1060.0,229.0,601.00,132.0,14.0,0.00,6.00,51.00,333.0,0.5,0.63,,0.03,0.39,6.70,0.40,0.10,5.1,22.0,0.5,0.0,63273.0,,
+160,Soft Cheese Board,baguette,Vegan,Snack/Dessert,Cereals containing gluten,"baguet, French bread",324,10.0,,,,,1135.0,268.0,51.0,2.7,3.3,10.0,1.9,0.30,0.28,0.68,,,0.01,1.00,0.0,121.0,630.0,100.0,400.00,152.0,22.0,1.40,5.00,10.00,0.0,0.0,,0.00,0.21,0.06,3.90,,,,29.0,0.0,0.0,63067.0,,
+161,Soft Cheese Board,almonds,Vegan,Snack/Dessert,Tree nuts,"almond tree, sweet almond, Prunus dulcis, Amygdalus communis, jordan almond, Prunus amygdalus",566,10.0,,,,,2545.0,616.0,7.0,3.3,16.0,21.0,53.0,4.20,35.30,10.20,0.21,10.00,0.00,0.00,0.0,268.0,16.0,553.0,0.74,834.0,270.0,3.40,1.60,2.00,,,26.50,,0.23,1.10,6.30,,,,49.0,0.0,0.0,13505.0,,
+162,Curried Rice With Smoked Trout,trout,Seafood,"Lunch/Dinner
+",Fish,"salmon trout, fish, rainbow trout, sea trout",113,4.0,,,,,631.0,150.0,0.0,0.0,0.0,24.0,6.1,1.40,1.60,2.20,1.70,0.44,0.01,0.23,0.0,19.0,160.0,254.0,93.00,434.0,29.0,0.40,23.00,8.00,44.0,8.2,0.89,,0.13,0.13,11.70,1.10,0.19,3.8,11.0,3.1,0.0,65433.0,,"{'recipe_id': 20063, 'title': 'Curried Rice With Smoked Trout', 'ingredients': ['4 large eggs', '1 1/2 tablespoons extra-virgin olive oil', '1 small onion, chopped', '2 teaspoons curry powder', '3 plum tomatoes, chopped', '1 1/2 cups basmati rice', 'Kosher salt and freshly ground pepper', '1/4 cup chopped fresh cilantro', '4 cups mixed greens or baby spinach', 'Juice of 1/2 lemon', '4 ounces smoked trout, flaked'], 'score': 0.9090909090909091}"
+163,Curried Rice With Smoked Trout,curry powder,Vegan,"Lunch/Dinner
+",Not a priority allergen,"flavouring, flavorer, flavourer, seasoner, flavoring, seasoning",4,4.0,,,,,1189.0,286.0,26.0,0.0,23.0,9.5,11.0,,,,,,0.00,1.10,0.0,640.0,470.0,270.0,450.00,1830.0,280.0,58.00,,,17.0,0.0,,0.00,0.25,0.28,,,,,56.0,0.0,1.0,63574.0,,
+164,Curried Rice With Smoked Trout,basmati rice,Vegan,"Lunch/Dinner
+",Not a priority allergen,,293,4.0,,,,,1466.0,345.0,76.0,0.0,1.1,8.5,0.5,0.14,0.14,0.16,0.00,0.15,0.00,0.00,0.0,10.0,65.0,101.0,1.00,77.0,21.0,1.70,16.00,0.00,0.0,0.0,0.07,,0.13,0.00,3.30,,,,12.0,0.0,0.0,65033.0,"White, boiled",
+165,Curried Rice With Smoked Trout,plum tomato,Vegan,"Lunch/Dinner
+",Not a priority allergen,,120,4.0,checked,,,,88.0,21.0,3.0,3.0,1.0,0.5,0.0,0.03,0.03,0.05,0.00,0.00,0.00,0.00,0.0,8.0,84.0,22.0,2.00,223.0,8.0,0.24,0.00,2.00,58.0,0.0,0.52,6.00,0.04,0.01,0.70,0.29,0.06,1.4,23.0,0.0,22.0,139234.0,,
+166,Curried Rice With Smoked Trout,cilantro,Vegan,"Lunch/Dinner
+",Not a priority allergen,"corriander, coriander",4,4.0,checked,,,,97.0,23.0,1.2,0.9,2.8,2.1,0.5,0.00,0.00,0.00,0.00,0.00,0.00,0.12,0.0,67.0,,48.0,46.00,521.0,26.0,1.80,,,675.0,0.0,2.50,310.00,0.07,0.12,1.50,0.57,0.15,,62.0,0.0,27.0,63505.0,,
+167,Curried Rice With Smoked Trout,lemon,Vegan,"Lunch/Dinner
+",Not a priority allergen,"lemon tree, citrus, Citrus limon, lemon rind, lemon peel, citrous fruit, citrus fruit",40,4.0,checked,,,,91.0,21.0,1.6,1.6,0.0,0.5,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,7.0,3.0,8.0,1.00,130.0,7.0,0.10,1.00,,2.0,0.0,,,0.03,0.01,0.10,,,,13.0,0.0,36.0,64187.0,Lemon juice,
+168,Curried Rice With Smoked Trout,onion,Vegan,"Lunch/Dinner
+",Not a priority allergen,"bulb, Allium cepa, onion plant",60,4.0,checked,,,,173.0,41.0,7.9,6.1,2.2,1.0,0.0,0.00,,0.07,,,0.00,0.00,0.0,30.0,54.0,23.0,3.00,138.0,8.0,0.30,,2.00,2.0,0.0,0.29,0.00,0.11,0.02,0.60,,,,11.0,0.0,3.0,64477.0,"White onion, raw
+",
+169,Curried Rice With Smoked Trout,egg,Ovo-vegetarian,"Lunch/Dinner
+",Eggs,"chalaza, vitellus, egg cell, nit, ovum, roe, spawn, silkworm seed, yolk",228,4.0,,,,,555.0,133.0,1.2,0.0,0.0,13.0,8.7,2.90,,,,,,0.36,0.0,,218.0,,144.00,,,,,,,3.2,,,,,,,,,0.0,,,63754.0,"Chicken egg, whole, raw",
+170,Curried Rice With Smoked Trout,extra virgin olive oil,Vegan,"Lunch/Dinner
+",,,20,4.0,,,,,3780.0,900.0,0.0,0.0,,0.0,100.0,13.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2356700.0,,
+171,Curried Rice With Smoked Trout,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,4.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+172,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,"jumbo shrimp
+",Seafood,"Lunch/Dinner
+",,,,4.0,,,,,,119.0,1.5,0.0,0.0,23.0,1.7,0.50,0.40,0.60,,,0.00,,,,,,947.00,170.0,,,,,,,,,,,,,,,,,,,,"{'recipe_id': 4014, 'title': 'Tequila Laced Gazpacho Cocktails with Grilled Shrimp', 'ingredients': ['4 large tomatoes, chopped', '4 cucumbers, peeled and chopped', '1 red onion, peeled and chopped', '4 cloves garlic', '2 cups tomato juice', '2 tablespoons sherry vinegar', '1 fennel bulb, chopped', '1 cup picked Italian parsley', 'Salt and pepper', '1 tablespoon extra virgin oil', '4 jumbo (U-10) shrimp, cleaned, de-veined', '1 tablespoon zatar', '1 tablespoon olive oil', '1 shot of the finest tequila available', 'Lime slices, for garnish'], 'score': 0.8666666666666667}"
+173,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,zatar,Vegan,"Lunch/Dinner
+",,,8,4.0,,,,,1757.0,425.0,14.0,1.8,,14.0,28.0,2.80,,,,,,0.53,0.0,,321.0,,212.00,,,,,,,,,,,,,,,,0.0,,,3041787.0,,
+174,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,tomato juice,Vegan,"Lunch/Dinner
+",Not a priority allergen,juice,486,4.0,checked,,,,87.0,20.0,3.0,3.0,0.6,0.8,0.0,0.00,0.00,0.00,,,0.00,0.58,0.0,10.0,400.0,19.0,230.00,230.0,10.0,0.40,0.00,2.00,33.0,0.0,1.00,,0.02,0.02,0.80,,,,10.0,0.0,8.0,65397.0,,
+175,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,italian parsley,Vegan,"Lunch/Dinner
+",,,25,4.0,checked,,,,184.0,44.0,2.7,2.3,5.0,2.9,1.3,0.00,,,,,0.00,0.08,0.0,200.0,160.0,64.0,33.00,760.0,23.0,7.70,1.00,,673.0,0.0,1.70,548.00,0.23,0.06,1.50,0.30,0.09,0.4,170.0,0.0,190.0,64528.0,,
+176,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,tomato,Vegan,"Lunch/Dinner
+",,"cherry tomato, beefsteak tomato, solanaceous vegetable, Lycopersicon esculentum, tomato plant, love apple",520,4.0,checked,,,,88.0,21.0,3.0,3.0,1.0,0.5,0.0,0.03,0.03,0.05,,,0.00,0.00,0.0,8.0,84.0,22.0,2.00,223.0,8.0,0.24,0.00,2.00,58.0,0.0,0.52,6.00,0.04,0.01,0.70,,,,23.0,0.0,22.0,65406.0,,
+177,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,tequila,Vegan,"Lunch/Dinner
+",Not a priority allergen,"spirits, booze, John Barleycorn, strong drink, hard liquor, liquor, hard drink, Agave tequilana",30,4.0,,,,,967.0,231.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,33.4,0.0,,4.0,1.00,2.0,0.0,0.04,0.00,,0.0,0.0,0.00,0.00,0.01,0.00,0.01,,,,0.0,,0.0,,,
+178,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,fennel bulb,Vegan,"Lunch/Dinner
+",Not a priority allergen,,234,4.0,checked,,,,82.0,20.0,1.8,1.7,3.5,0.9,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.03,0.0,24.0,27.0,26.0,11.00,440.0,8.0,0.30,,,23.0,0.0,,,0.06,0.01,,,0.06,,42.0,0.0,5.0,63780.0,,
+179,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,sherry vinegar,Vegan,"Lunch/Dinner
+",Sulphur,,18.8,4.0,,,,,150.0,35.0,3.0,3.0,,0.5,0.0,0.00,0.00,0.00,,,0.00,0.00,0.0,3.0,47.0,10.0,5.00,34.0,4.0,0.10,1.00,,,0.0,0.00,,0.00,0.00,,,,,0.0,0.0,0.0,12180.0,,
+180,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,cucumber,Vegan,"Lunch/Dinner
+",Not a priority allergen,"cuke, Cucumis sativus, melon vine, melon, genus Cucumis, Cucumis, cucumber vine",800,4.0,checked,,,,66.0,16.0,1.3,1.2,0.7,1.0,0.6,0.00,,,,,0.00,0.00,0.0,21.0,67.0,23.0,4.00,156.0,10.0,0.30,0.00,3.00,12.0,0.0,0.04,20.90,0.03,0.02,0.30,,,,14.0,0.0,2.0,63565.0,Flesh and skin,
+181,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,red onion,Vegan,"Lunch/Dinner
+",Not a priority allergen,"Spanish onion, purple onion",170,4.0,checked,,,,155.0,37.0,7.4,5.2,0.9,1.0,0.0,0.01,,0.01,,,0.00,0.00,0.0,22.5,12.5,28.5,8.00,140.0,6.5,0.28,0.50,3.00,2.0,0.0,0.17,0.15,0.09,0.00,0.07,,,,20.0,0.0,5.0,5495.0,,
+182,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,oil,Vegan,"Lunch/Dinner
+",Notes,"volatile oil, hydnocarpus oil, rapeseed oil, lipoid, heating oil, camphor oil, tung oil, stand oil, hyssop oil, crude oil, lemongrass, chaulmoogra oil, flaxseed oil, lemon grass, babacu oil, mineral oil, cohune fat, Chinese wood oil, crude, fixed oil, lipid, rape oil, petroleum, linseed oil, rock oil, grease, sweet almond oil, lubricating oil, hedeoma oil, fossil oil, neroli oil, almond oil, expressed almond oil, croton oil, fusel oil, lipide, babassu oil, shale oil, essential oil, cohune",13.3,4.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,,,,0.0,0.0,0.0,64451.0,Vegetable oil,
+183,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,extra virgin olive oil,Vegan,"Lunch/Dinner
+",,,13.3,4.0,,,,,3780.0,900.0,0.0,0.0,,0.0,100.0,13.00,,,,,,,0.0,,0.0,,0.00,,,,,,,,,,,,,,,,,,,2356700.0,,
+184,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,garlic clove,Vegan,"Lunch/Dinner
+",Not a priority allergen,,12,4.0,checked,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+185,Tequila Laced Gazpacho Cocktails with Grilled Shrimp,salt,Vegan,"Lunch/Dinner
+",,"flavouring, flavorer, flavourer, seasoner, flavoring, common salt, table salt, seasoning",,4.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,98.30,0.0,10.0,59900.0,1.0,39300.00,89.0,76.0,0.30,,44.00,0.0,0.0,0.00,,0.00,0.00,0.00,,,,0.0,0.0,0.0,65115.0,,
+186,overnight oats,"ground cinnamon
+",Vegan,Breakfast,,,"0.65
+",1.0,,,,,1092.0,261.0,79.9,2.2,54.3,3.9,3.2,0.65,0.48,0.53,,,0.00,,,1228.0,,,26.00,500.0,,38.07,,,14.0,,,,,,,,,,,,28.5,,,
+187,overnight oats,"rolled porridge oats
+",Vegan,Breakfast,,,"50
+",1.0,,,,,1627.6,389.0,66.3,,10.6,16.9,6.9,1.22,2.18,2.54,0.17,3.78,0.00,,,54.0,,,2.00,429.0,,4.72,,,,,,,,,,,,,,,,,,
+188,overnight oats,"natural yogurt
+",Dairy-vegetarian,Breakfast,Milk,,"35.6
+",1.0,,,,,255.2,61.0,4.7,4.7,0.0,3.5,3.3,2.10,0.90,0.10,,,,,,,,,46.00,155.0,,,,,,,,,,,,,,,,,,,,
+189,overnight oats,"Blueberries
+",Vegan,Breakfast,,,50,1.0,checked,,,,238.5,57.0,14.0,10.0,2.4,0.7,0.3,0.00,0.10,0.10,,,,,,,,,1.00,77.0,,,,,,,,,,,,,,,,,,,,
+190,overnight oats,honey,Vegan,Breakfast,,,4,1.0,,,,,1271.9,304.0,82.0,82.0,0.2,0.3,0.0,,,,,,,,0.0,,,,,4.0,52.0,,,,,,,,,,,,,,,,,,,
+191,overnight oats,almond butter,Vegan,Breakfast,Tree nuts,,"2.5
+",1.0,,,,,2569.0,614.0,19.0,4.4,10.0,21.0,56.0,4.20,0.00,14.00,0.10,13.90,,,,,,,7.00,748.0,,,,,,,,,,,,,,,,,,,,
+192,French toast,Thick slices bread,Vegetarian,Breakfast ,Cereals containing gluten,,252,3.0,,,,,1019.0,241.0,44.0,2.9,2.9,9.6,2.1,0.00,,,0.04,0.62,0.02,1.00,0.0,155.0,635.0,96.0,400.00,134.0,22.0,1.50,7.00,,0.0,0.0,0.08,0.00,0.22,0.07,3.60,,0.07,,29.0,0.0,0.0,63063.0,,https://www.allrecipes.com/recipe/7016/french-toast-i/
+193,French toast,eggs,Vegetarian,Breakfast ,Eggs,,114,3.0,,,,,555.0,133.0,1.2,0.0,0.0,13.0,8.7,2.90,,,,,,0.36,0.0,,218.0,,144.00,,,,,,,3.2,,,,,,,,,0.0,,,63754.0,,
+194,French toast,milk,Vegetarian,Breakfast ,Milk,,160,3.0,,,,,197.0,47.0,4.5,4.5,0.0,3.4,1.7,1.10,0.40,0.00,0.01,0.05,0.07,0.11,0.0,120.0,87.0,94.0,43.00,156.0,11.0,0.02,1.00,30.00,20.0,0.0,0.04,,0.03,0.24,0.70,0.68,0.06,3.0,9.0,0.9,2.0,64326.0,,
+195,French toast,ground cinnamon,Vegetarian,Breakfast ,,,0.6,3.0,,,,,984.0,238.0,26.0,14.0,53.0,4.0,1.2,0.40,0.30,0.10,,,,0.03,0.0,1000.0,,64.0,10.00,431.0,60.0,8.30,3.00,,15.0,0.0,2.30,31.20,0.02,0.04,,0.36,0.16,,6.0,0.0,4.0,63434.0,,
+196,French toast,ground nutmeg,Vegetarian,Breakfast ,,,0.6,3.0,,,,,2060.0,498.0,26.0,3.0,21.0,6.9,36.0,25.90,3.20,0.30,,0.35,0.00,0.04,0.0,180.0,,210.0,16.00,350.0,180.0,3.00,2.00,,10.0,0.0,,0.00,0.35,0.06,,,0.16,,76.0,0.0,3.0,64431.0,,
+197,French toast,vanilla extract,Vegetarian,Breakfast ,,,5,3.0,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,6.0,,4.0,2.00,2.0,1.0,0.03,0.50,,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,5675.0,,
+198,Tofu scramble on toast,Red onion,Vegan,Breakfast ,,,60,2.0,checked,,,,155.0,37.0,7.4,5.2,0.9,1.0,0.0,0.01,,0.10,,,0.00,0.02,0.0,22.5,12.5,28.5,8.00,140.0,6.5,0.28,0.50,3.00,2.0,0.0,0.17,0.15,0.09,0.00,0.07,0.10,0.20,0.9,20.0,0.0,5.0,5495.0,,https://www.bosh.tv/recipes/tofu-scramble-on-toast
+199,Tofu scramble on toast,Garlic clove,Vegan,Breakfast ,,,3,2.0,checked,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+200,Tofu scramble on toast,Baby leaf spinach,Vegan,Breakfast ,,,50,2.0,checked,,,,87.0,19.0,0.0,0.0,1.0,2.6,0.6,0.08,0.08,0.38,,,0.00,0.08,0.0,119.0,49.0,44.0,31.00,682.0,80.0,1.90,5.00,4.00,260.0,0.0,0.48,295.00,0.09,0.18,1.70,0.28,0.12,0.1,161.0,0.0,29.0,65265.0,,
+201,Tofu scramble on toast,olive oil,Vegan,Breakfast ,,,25.2,2.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,14.30,73.00,8.20,0.70,7.50,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.40,0.00,0.00,,0.0,5.10,58.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,64443.0,,
+202,Tofu scramble on toast,Extra-firm tofu,Vegan,Breakfast ,Soya,,280,2.0,,,,,643.0,154.0,2.0,,2.3,16.0,8.7,1.30,1.90,4.90,,,,0.04,0.0,683.0,,190.0,14.00,237.0,58.0,2.70,17.40,,,0.0,,,0.16,0.10,0.38,0.13,0.09,,29.0,0.0,0.2,6186.0,,
+203,Tofu scramble on toast,Dairy-free butter,Vegan,Breakfast ,,,10,2.0,,,,,2589.0,619.0,0.5,0.5,,0.5,70.0,17.00,,,,,,0.90,0.0,,545.0,,360.00,,,,,,120.0,,,,,,,,,,0.0,,,2622142.0,,
+204,Tofu scramble on toast,Nutritional yeast,Vegan,Breakfast ,,,11,2.0,,,,,1443.0,343.0,15.0,12.0,22.0,51.0,4.0,0.70,2.70,0.80,0.00,,0.00,0.18,0.0,95.0,175.0,1463.0,70.00,1388.0,206.0,5.00,0.00,0.00,0.0,0.0,0.00,0.00,30.00,12.00,180.00,225.00,1.80,250.0,4000.0,12.5,0.2,9905.0,,
+205,Tofu scramble on toast,Ground turmeric,Vegan,Breakfast ,,,2.2,2.0,,,,,1698.0,404.0,67.0,3.3,23.0,6.7,7.0,2.90,0.60,2.90,0.53,1.90,,0.08,0.0,170.0,58.0,290.0,31.00,2910.0,190.0,39.50,5.00,,3.0,0.0,3.30,15.00,0.09,0.11,5.00,,1.70,,0.0,0.0,0.0,65470.0,,
+206,Tofu scramble on toast,Chilli flakes,Vegan,Breakfast ,,,1.1,2.0,,,,,2024.0,484.0,32.0,11.0,27.0,12.0,17.0,3.30,1.60,0.00,1.20,9.60,0.00,2.50,0.0,280.0,1515.0,300.0,985.00,1920.0,170.0,14.30,0.00,0.00,3500.0,0.0,0.00,0.00,0.35,0.79,10.50,0.00,0.00,0.0,0.0,0.0,0.0,30551.0,,
+207,Tofu scramble on toast,Fresh bread,Vegan,Breakfast ,Cereals containing gluten,,100,2.0,,,,,1064.0,251.0,48.0,2.7,2.8,10.0,1.6,0.39,0.34,0.50,,,0.04,1.00,0.0,172.0,550.0,89.0,400.00,135.0,19.0,1.30,7.00,4.00,0.0,0.0,0.22,0.00,0.21,0.06,3.60,0.38,0.06,2.8,24.0,0.0,0.0,63064.0,,
+210,Tofu scramble on toast,Salt and black pepper,Vegan,Breakfast ,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+211,Two-minute breakfast smoothie,Banana,Vegetarian,Breakfast ,,,100,1.0,checked,,,,381.0,90.0,20.0,18.0,1.4,1.1,0.0,0.04,0.00,0.04,0.05,0.04,0.00,0.00,0.0,6.0,109.0,23.0,0.00,330.0,27.0,0.27,0.00,3.00,4.0,0.0,0.16,0.06,0.15,0.04,0.90,0.35,0.31,2.5,14.0,0.0,9.0,62762.0,,https://www.bbcgoodfood.com/recipes/two-minute-breakfast-smoothie
+212,Two-minute breakfast smoothie,Porridge oats,Vegetarian,Breakfast ,Cereals containing gluten,oats,10,1.0,,,,,1654.0,392.0,64.0,0.5,7.8,12.0,8.1,1.30,3.10,3.20,0.09,3.00,0.01,0.00,0.0,50.0,87.0,387.0,1.00,372.0,114.0,3.60,3.00,0.00,0.0,0.0,0.59,0.00,1.10,0.05,3.50,0.75,0.34,19.0,32.0,0.0,0.0,64857.0,,
+213,Two-minute breakfast smoothie,Strawberries,Vegetarian,Breakfast ,,,80,1.0,checked,,,,178.0,42.0,6.2,6.1,3.8,0.6,0.5,0.04,0.07,0.29,,,0.00,0.00,0.0,17.0,62.0,26.0,1.00,170.0,12.0,0.25,0.00,1.00,0.0,0.0,0.39,3.00,0.02,0.02,0.70,0.37,0.03,1.2,61.0,0.0,57.0,65302.0,,
+214,Two-minute breakfast smoothie,Milk,Vegetarian,Breakfast ,Milk,,155,1.0,,,,,197.0,47.0,4.5,4.5,0.0,3.4,1.7,1.10,0.40,0.00,0.01,0.05,0.07,0.11,0.0,120.0,87.0,94.0,43.00,156.0,11.0,0.02,1.00,30.00,20.0,0.0,0.04,,0.03,0.24,0.70,0.68,0.06,3.0,9.0,0.9,2.0,64326.0,,
+215,Two-minute breakfast smoothie,Honey,Vegetarian,Breakfast ,,,7,1.0,,,,,1368.0,322.0,80.0,80.0,,0.5,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.08,0.0,5.0,80.0,17.0,32.00,127.0,3.7,1.40,1.70,0.00,,0.0,0.00,,0.00,0.05,,0.00,0.00,0.0,0.0,0.0,0.0,8275.0,,
+216,Two-minute breakfast smoothie,vanilla extract,Vegetarian,Breakfast ,,,5,1.0,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,6.0,,4.0,2.00,2.0,1.0,0.03,0.50,,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,5675.0,,
+217,"Haloumi, oat and zucchini fritters with crispy chorizo",oats,Meat,Breakfast/ lunch,Cereals containing gluten,,65,4.0,,,,,1654.0,392.0,64.0,0.5,7.8,12.0,8.1,1.30,3.10,3.20,0.09,3.00,0.01,0.00,0.0,50.0,87.0,387.0,1.00,372.0,114.0,3.60,3.00,0.00,0.0,0.0,0.59,0.00,1.10,0.05,3.50,0.75,0.34,19.0,32.0,0.0,0.0,64857.0,,https://www.delicious.com.au/recipes/haloumi-oat-zucchini-fritters-crispy-chorizo/fbbe3ec1-927d-4d74-81f4-ab3a2a6fbfa9?r=recipes/collections/9dpna2ca
+218,"Haloumi, oat and zucchini fritters with crispy chorizo",zucchinis,Meat,Breakfast/ lunch,,courgette,840,4.0,checked,,,,92.0,22.0,1.8,1.7,2.0,1.8,0.5,0.10,0.00,0.20,,,0.00,0.00,0.0,25.0,45.0,45.0,1.00,360.0,22.0,0.80,1.00,,100.0,0.0,,3.30,0.12,0.02,0.60,0.08,0.15,,52.0,0.0,21.0,63523.0,,
+219,"Haloumi, oat and zucchini fritters with crispy chorizo",eggs,Meat,Breakfast/ lunch,Eggs,,114,4.0,,,,,555.0,133.0,1.2,0.0,0.0,13.0,8.7,2.90,,,,,,0.36,0.0,,218.0,,144.00,,,,,,,3.2,,,,,,,,,0.0,,,63754.0,,
+220,"Haloumi, oat and zucchini fritters with crispy chorizo",haloumi,Meat,Breakfast/ lunch,Milk,,250,4.0,,,,,1295.0,312.0,1.6,1.6,0.0,23.0,24.0,16.60,5.70,1.10,0.15,0.83,0.78,3.00,0.0,794.0,1730.0,517.0,1200.00,88.0,40.0,0.00,12.00,60.00,322.0,0.2,0.60,,0.03,0.39,6.20,0.40,0.10,5.1,40.0,0.5,0.0,63276.0,,
+221,"Haloumi, oat and zucchini fritters with crispy chorizo",Dill,Meat,Breakfast/ lunch,,,7.6,4.0,checked,,,,128.0,31.0,0.9,0.8,2.5,3.7,0.8,0.00,,,,,,0.07,0.0,340.0,,85.0,26.00,750.0,44.0,3.20,2.00,,1015.0,0.0,1.70,0.00,0.18,0.58,,,,,36.0,0.0,86.0,63699.0,,
+222,"Haloumi, oat and zucchini fritters with crispy chorizo",mint,Meat,Breakfast/ lunch,,,5,4.0,checked,,,,172.0,41.0,4.8,0.0,0.0,3.8,0.7,0.00,,,,,,0.04,0.0,210.0,34.0,75.0,15.00,260.0,,9.50,,,123.0,0.0,5.00,,0.12,0.33,,,,,110.0,0.0,31.0,64352.0,,
+223,"Haloumi, oat and zucchini fritters with crispy chorizo",cayenne pepper,Meat,Breakfast/ lunch,,,1.8,4.0,,,,,1383.0,331.0,32.0,0.0,0.0,12.0,17.0,2.60,1.90,9.40,,,,0.08,0.0,150.0,,290.0,30.00,2010.0,150.0,34.10,4.00,,6135.0,0.0,,0.00,0.33,0.92,11.30,,,,0.0,0.0,0.0,64636.0,,
+224,"Haloumi, oat and zucchini fritters with crispy chorizo",extra virgin olive oil,Meat,Breakfast/ lunch,,,116,4.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,14.30,73.00,8.20,0.70,7.50,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.40,0.00,0.00,,0.0,5.10,58.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,64443.0,,
+225,"Haloumi, oat and zucchini fritters with crispy chorizo",chorizo,Meat,Breakfast/ lunch,,,280,4.0,,checked,,,1645.0,397.0,2.2,1.1,1.0,24.0,32.0,12.00,14.50,4.90,,,,3.50,0.0,,,,1400.00,240.0,,,,,,0.0,,0.00,,,,,,,3.0,,,63421.0,,
+226,"Haloumi, oat and zucchini fritters with crispy chorizo",green tomato,Meat,Breakfast/ lunch,,,200,4.0,checked,,,,88.0,21.0,3.0,3.0,1.0,0.5,0.0,0.03,0.03,0.05,0.00,0.00,0.00,0.00,0.0,88.0,84.0,22.0,2.00,223.0,8.0,0.24,0.00,2.00,58.0,0.0,0.52,6.00,0.04,0.01,0.70,0.29,0.06,1.4,23.0,0.0,22.0,65406.0,,
+227,Bircher muesli,apple,Vegetarian,Breakfast ,,,174,2.0,checked,,,,253.0,60.0,13.0,11.0,1.2,0.6,0.5,0.12,0.04,0.20,,,0.00,0.00,0.0,5.0,44.0,8.0,1.00,100.0,4.0,0.09,0.00,4.00,2.0,0.0,0.09,5.60,0.04,0.04,0.10,0.10,0.07,1.1,0.0,0.0,6.0,62694.0,,https://www.bbcgoodfood.com/recipes/bircher-muesli-apple-banana
+228,Bircher muesli,Porridge oats,Vegetarian,Breakfast ,Cereals containing gluten,,50,2.0,,,,,1654.0,392.0,64.0,0.5,7.8,12.0,8.1,1.30,3.10,3.20,0.09,3.00,0.01,0.00,0.0,50.0,87.0,387.0,1.00,372.0,114.0,3.60,3.00,0.00,0.0,0.0,0.59,0.00,1.10,0.05,3.50,0.75,0.34,19.0,32.0,0.0,0.0,64857.0,,
+229,Bircher muesli,mixed seeds,Vegetarian,Breakfast ,,,25,2.0,,,,,2297.0,554.0,15.0,1.7,0.7,21.0,45.0,6.90,11.90,21.10,0.71,22.80,0.00,0.04,0.0,425.0,44.0,752.0,17.70,738.0,292.0,8.90,17.10,2.90,17.8,0.0,15.00,0.00,0.98,0.23,7.50,0.49,0.16,8.3,12.7,0.0,0.0,7285.0,,
+230,Bircher muesli,mixed nuts,Vegetarian,Breakfast ,Treenuts,,25,2.0,,,,,2671.0,647.0,8.0,3.6,8.1,17.0,59.0,6.50,31.50,18.20,2.00,16.20,0.00,0.03,0.0,127.0,19.3,448.0,10.50,668.0,215.0,3.80,9.00,9.80,0.3,0.0,13.40,0.00,0.43,0.30,5.30,1.20,0.48,43.0,63.0,0.0,0.0,8376.0,,
+231,Bircher muesli,ground cinnamon,Vegetarian,Breakfast ,,,0.6,2.0,,,,,984.0,238.0,26.0,14.0,53.0,4.0,1.2,0.40,0.30,0.10,,,,0.03,0.0,1000.0,,64.0,10.00,431.0,60.0,8.30,3.00,,15.0,0.0,2.30,31.20,0.02,0.04,,0.36,0.16,,6.0,0.0,4.0,63434.0,,
+232,Bircher muesli,full fat natural bio-yoghurt,Vegetarian,Breakfast ,Milk,,100,2.0,,,,,335.0,80.0,7.6,7.6,0.0,5.6,3.0,1.90,0.79,0.10,0.02,0.05,0.11,0.20,0.0,200.0,121.0,170.0,80.00,280.0,19.0,0.10,2.00,63.00,32.0,0.0,0.05,,0.06,0.27,1.50,0.50,0.10,2.6,18.0,0.2,1.0,65561.0,,
+233,Bircher muesli,banana,Vegetarian,Breakfast ,,,100,2.0,checked,,,,381.0,90.0,20.0,18.0,1.4,1.1,0.0,0.04,0.00,0.04,0.05,0.04,0.00,0.00,0.0,6.0,109.0,23.0,0.00,330.0,27.0,0.27,0.00,3.00,4.0,0.0,0.16,0.06,0.15,0.04,0.90,0.35,0.31,2.5,14.0,0.0,9.0,62762.0,,
+234,Bircher muesli,sultanas,Vegetarian,Breakfast ,,,25,2.0,checked,,,,1256.0,296.0,69.0,69.0,2.0,2.7,0.5,0.00,,,,,0.00,0.05,0.0,64.0,16.0,86.0,19.00,1060.0,31.0,2.20,26.00,37.00,2.0,0.0,0.70,,0.09,0.05,1.00,0.09,0.25,4.8,27.0,0.0,0.0,65314.0,,
+235,Easy banana muffins,self-raising flour,Vegetarian,Snack/ Dessert,Cereals containing gluten,,250,12.0,,,,,1483.0,350.0,72.0,0.6,4.0,9.7,1.5,0.39,0.21,0.43,0.01,0.43,0.00,0.86,0.0,280.0,108.0,463.0,342.00,190.0,25.0,1.70,3.00,0.00,0.0,0.0,0.63,0.00,0.28,0.05,3.70,0.44,0.18,1.8,18.0,0.0,0.0,63833.0,,https://www.bbcgoodfood.com/recipes/banana-muffins
+236,Easy banana muffins,baking powder,Vegetarian,Snack/ Dessert,,,4,12.0,,,,,425.0,100.0,25.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,36.90,0.0,,22687.0,23250.0,14750.00,50.0,,,,,,,,,,,,,,,,,,15246.0,,
+237,Easy banana muffins,bicarbonate of soda,Vegetarian,Snack/ Dessert,Cereals containing gluten,,2,12.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,68.50,0.0,0.0,0.0,0.0,27380.00,0.0,0.0,0.00,0.00,0.00,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,62982.0,,
+238,Easy banana muffins,caster sugar,Vegetarian,Snack/ Dessert,,,110,12.0,,,,,1700.0,400.0,100.0,100.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.01,0.0,10.0,7.6,1.0,5.00,5.0,2.0,0.20,0.00,0.00,0.0,0.0,0.00,,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,3676.0,,
+239,Easy banana muffins,butter,Vegetarian,Snack/ Dessert,Milk,,75,12.0,,,,,3062.0,745.0,0.6,0.6,0.0,0.6,82.0,52.00,20.90,2.80,0.68,1.40,2.90,0.02,0.0,18.0,18.0,23.0,8.00,27.0,2.0,0.00,0.00,38.00,1060.0,0.9,1.90,7.40,0.00,0.07,0.10,0.05,0.00,0.2,0.0,0.3,0.0,63146.0,,
+240,Easy banana muffins,vanilla extract,Vegetarian,Snack/ Dessert,,,5,12.0,,,,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,6.0,,4.0,2.00,2.0,1.0,0.03,0.50,,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,5675.0,,
+241,Easy banana muffins,eggs,Vegetarian,Snack/ Dessert,Eggs,,114,12.0,,,,,555.0,133.0,1.2,0.0,0.0,13.0,8.7,2.90,,,,,,0.36,0.0,,218.0,,144.00,,,,,,,3.2,,,,,,,,,0.0,,,63754.0,,
+242,Easy banana muffins,ripe bananas,Vegetarian,Snack/ Dessert,,,240,12.0,,,,,381.0,90.0,20.0,18.0,1.4,1.1,0.0,0.04,0.00,0.04,0.05,0.04,0.00,0.00,0.0,6.0,109.0,23.0,0.00,330.0,27.0,0.27,0.00,3.00,4.0,0.0,0.16,0.06,0.15,0.04,0.90,0.35,0.31,2.5,14.0,0.0,9.0,62762.0,,
+243,Easy banana muffins,buttermilk,Vegetarian,Snack/ Dessert,Milk,,125,12.0,,,,,156.0,37.0,4.8,4.8,0.0,3.3,0.5,0.30,0.10,0.00,0.00,0.00,0.00,0.14,0.0,120.0,110.0,95.0,56.00,150.0,13.0,0.02,1.00,,8.0,0.0,0.01,0.00,0.04,0.18,0.90,0.32,0.05,2.1,9.0,0.1,1.0,65627.0,,
+244,Easy banana muffins,pecans,Vegetarian,Snack/ Dessert,Tree nuts,,50,12.0,,,,,2935.0,712.0,5.5,4.1,7.9,11.0,70.0,5.70,43.00,18.70,0.84,17.90,0.00,0.00,0.0,61.0,15.0,310.0,1.00,520.0,130.0,2.20,12.00,,8.0,0.0,4.30,,0.71,0.15,5.50,1.70,0.19,,39.0,0.0,0.0,64628.0,,
+245,Homemade hummus with pitta chips,pitta breads,Vegan,Snack ,Cereal containing gluten,,201,7.0,,,,,1092.0,258.0,50.0,2.9,2.3,10.0,1.3,0.20,0.10,0.50,,,0.00,1.00,0.0,138.0,640.0,99.0,400.00,178.0,22.0,1.90,2.00,,0.0,0.0,,0.00,0.34,0.08,4.40,,,,20.0,0.0,0.0,63059.0,,https://www.bbcgoodfood.com/recipes/homemade-hummus-pitta-chips
+246,Homemade hummus with pitta chips,olive oil,Vegan,Snack ,,,63,7.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,14.30,73.00,8.20,0.70,7.50,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.40,0.00,0.00,,0.0,5.10,58.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,64443.0,,
+247,Homemade hummus with pitta chips,chickpeas,Vegan,Snack ,,,230,7.0,,,,,518.0,123.0,15.0,0.5,4.8,7.2,2.9,0.30,0.70,1.30,,,0.00,0.00,0.0,43.0,,81.0,0.00,110.0,24.0,1.50,1.00,,3.0,0.0,1.60,0.00,0.05,0.03,1.20,,0.04,,11.0,0.0,0.0,62797.0,,
+248,Homemade hummus with pitta chips,ground cumin,Vegan,Snack ,,,1,7.0,,,,,1691.0,406.0,28.0,5.6,11.0,18.0,22.0,1.50,14.00,3.30,,,0.00,0.42,0.0,931.0,,499.0,168.00,1790.0,366.0,66.00,5.20,,127.0,0.0,3.30,5.40,0.63,0.33,4.60,,0.44,,10.0,0.0,8.0,63566.0,,
+249,Homemade hummus with pitta chips,garlic clove,Vegan,Snack ,,,3,7.0,checked,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+250,Homemade hummus with pitta chips,lemon juice,Vegan,Snack ,,,40,7.0,checked,,,,91.0,21.0,1.6,1.6,0.0,0.5,0.0,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0,7.0,3.0,8.0,1.00,130.0,7.0,0.10,1.00,,2.0,0.0,,,0.03,0.01,0.10,0.10,0.05,0.3,13.0,0.0,36.0,64187.0,,
+251,Healthier flapjacks,Stoned dates,Vegan,Snack/ Dessert,,,150,12.0,checked,,,,1252.0,295.0,68.0,68.0,4.0,3.3,0.0,0.10,0.10,0.00,,,0.00,0.03,0.0,45.0,370.0,60.0,10.00,700.0,41.0,1.30,3.00,,7.0,0.0,,0.00,0.07,0.09,3.30,0.78,0.19,,13.0,0.0,0.0,63691.0,,https://www.bbcgoodfood.com/recipes/healthier-flapjacks
+252,Healthier flapjacks,Low-fat spread,Vegan,Snack/ Dessert,,,100,12.0,,,,,1450.0,353.0,0.5,0.5,0.0,0.0,39.0,8.90,21.70,6.40,1.40,4.90,0.14,1.20,0.0,9.0,690.0,6.0,488.00,48.0,1.0,0.04,0.00,,892.0,4.5,13.00,,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,63770.0,,
+253,Healthier flapjacks,Agave syrup,Vegan,Snack/ Dessert,,,,12.0,,,,,1305.0,307.0,76.0,68.0,0.0,0.0,0.5,,,,,,,0.00,0.0,1.0,,1.0,4.00,4.0,1.0,0.09,,,,,,,,,,,,,,0.0,,6289.0,,
+254,Healthier flapjacks,Stroned dried apricots,Vegan,Snack/ Dessert,,,50,12.0,checked,,,,1068.0,254.0,49.0,43.0,22.0,4.8,0.7,0.00,,,,,,0.14,0.0,92.0,35.0,120.0,56.00,1880.0,65.0,4.10,7.00,,105.0,0.0,,0.00,0.00,0.20,3.60,0.70,0.17,,14.0,0.0,0.0,62696.0,,
+256,Healthier flapjacks,Toasted hazelnuts,Vegan,Snack/ Dessert,Tree nuts,,50,12.0,,,,,2774.0,672.0,7.9,4.7,9.4,15.0,62.0,4.50,47.00,8.50,,,,,0.0,123.0,,310.0,,755.0,173.0,4.40,4.10,,3.0,,,,0.34,0.12,2.10,0.92,0.62,,88.0,,3.8,61349.0,,
+257,Healthier flapjacks,Mixed seeds,Vegan,Snack/ Dessert,,,,12.0,,,,,2297.0,554.0,15.0,1.7,0.7,21.0,45.0,6.90,11.90,21.10,0.71,22.80,0.00,0.04,0.0,425.0,44.0,752.0,17.70,738.0,292.0,8.90,17.10,2.90,17.8,0.0,15.00,0.00,0.98,0.23,7.50,0.49,0.16,8.3,12.7,0.0,0.0,7285.0,,
+258,Healthier flapjacks,Raisins,Vegan,Snack/ Dessert,,,50,12.0,checked,,,,1278.0,302.0,69.0,69.0,6.1,2.1,0.5,0.00,,,,,,0.15,0.0,46.0,9.0,76.0,60.00,1020.0,35.0,3.80,8.00,,2.0,0.0,,3.70,0.12,0.05,0.80,0.15,0.25,2.0,10.0,0.0,1.0,64981.0,,
+259,Healthier flapjacks,Porridge oats,Vegan,Snack/ Dessert,Cereals containing gluten,,150,12.0,,,,,1654.0,392.0,64.0,0.5,7.8,12.0,8.1,1.30,3.10,3.20,0.09,3.00,0.01,0.00,0.0,50.0,87.0,387.0,1.00,372.0,114.0,3.60,3.00,0.00,0.0,0.0,0.59,0.00,1.10,0.05,3.50,0.75,0.34,19.0,32.0,0.0,0.0,64857.0,,
+260,Crispy roasted chickpeas,Chickpeas,Vegan,Snack ,,,240,1.0,,,,,518.0,123.0,15.0,0.5,4.8,7.2,2.9,0.30,0.70,1.30,,,0.00,0.00,0.0,43.0,,81.0,0.00,110.0,24.0,1.50,1.00,,3.0,0.0,1.60,0.00,0.05,0.03,1.20,,0.04,,11.0,0.0,0.0,62797.0,,https://www.loveandlemons.com/roasted-chickpeas/
+261,Crispy roasted chickpeas,extra virgin olive oil,Vegan,Snack ,,,,1.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,14.30,73.00,8.20,0.70,7.50,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.40,0.00,0.00,,0.0,5.10,58.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,64443.0,,
+262,Crispy roasted chickpeas,Sea Salt,Vegan,Snack ,,,,1.0,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.00,0.00,0.00,0.00,0.00,0.00,94.80,0.0,135.0,58370.0,,37900.00,100.0,60.0,0.50,,53.00,0.0,0.0,0.00,,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,7341.0,,
+263,Crispy roasted chickpeas,Paprika,Vegan,Snack ,,,,1.0,,,,,1308.0,316.0,18.0,10.0,35.0,14.0,13.0,2.10,1.70,7.80,,,0.00,0.17,0.0,229.0,103.0,314.0,67.00,2280.0,178.0,21.10,6.00,,4926.0,0.0,,0.00,0.33,1.20,,2.50,2.10,,49.0,0.0,1.0,64524.0,,
+264,Bengali scotch eggs,Eggs,Meat,Snack ,Eggs,,228,4.0,,,,,555.0,133.0,1.2,0.0,0.0,13.0,8.7,2.90,,,,,,0.36,0.0,,218.0,,144.00,,,,,,,3.2,,,,,,,,,0.0,,,63754.0,,https://www.bbcgoodfood.com/recipes/bengali-scotch-eggs
+265,Bengali scotch eggs,Lamb mince,Meat,Snack ,,,400,4.0,,checked,,,817.0,196.0,0.0,0.0,0.0,19.0,13.0,6.20,5.30,0.60,,,1.10,0.17,0.0,17.0,68.0,190.0,69.00,310.0,21.0,1.60,2.00,6.00,5.0,0.8,0.18,,0.12,0.18,8.50,0.90,0.20,2.0,2.0,2.0,0.0,64123.0,,
+266,Bengali scotch eggs,Garlic cloves,Meat,Snack ,,,21,4.0,checked,,,,135.0,32.0,,,,7.9,,,0.00,0.30,,,0.00,0.00,0.0,19.0,0.0,170.0,4.00,620.0,25.0,1.90,2.00,3.00,0.0,0.0,0.01,,0.13,0.03,2.20,,0.38,,5.0,0.0,17.0,63866.0,,
+267,Bengali scotch eggs,Bird's eye chillies,Meat,Snack ,,,4,4.0,checked,,,,129.0,31.0,4.2,4.2,1.9,1.8,0.5,0.00,0.00,0.20,,,,0.03,0.0,16.0,,39.0,12.00,440.0,21.0,1.00,,,685.0,0.0,,0.00,0.12,0.15,2.50,0.06,0.28,,23.0,0.0,225.0,64641.0,,
+268,Bengali scotch eggs,Coriander,Meat,Snack ,,,10,4.0,checked,,,,97.0,23.0,1.2,0.9,2.8,2.1,0.5,,,,,,0.00,0.12,0.0,67.0,,48.0,46.00,521.0,26.0,1.80,,,675.0,0.0,2.50,310.00,0.07,0.12,1.50,0.57,0.15,,62.0,0.0,27.0,63505.0,,
+269,Bengali scotch eggs,ground cumin,Meat,Snack ,,,2,4.0,,,,,1691.0,406.0,28.0,5.6,11.0,18.0,22.0,1.50,14.00,3.30,,,0.00,0.42,0.0,931.0,,499.0,168.00,1790.0,366.0,66.00,5.20,,127.0,0.0,3.30,5.40,0.63,0.33,4.60,,0.44,,10.0,0.0,8.0,63566.0,,
+270,Bengali scotch eggs,Chilli flakes,Meat,Snack ,,,2,4.0,,,,,2024.0,484.0,32.0,11.0,27.0,12.0,17.0,3.30,1.60,0.00,1.20,9.60,0.00,2.50,0.0,280.0,1515.0,300.0,985.00,1920.0,170.0,14.30,0.00,0.00,3500.0,0.0,0.00,0.00,0.35,0.79,10.50,0.00,0.00,0.0,0.0,0.0,0.0,30551.0,,
+271,Bengali scotch eggs,Garam masala,Meat,Snack ,,,2,4.0,,,,,1523.0,363.0,41.0,0.0,0.0,16.0,15.0,,,,,,0.00,0.24,0.0,760.0,,390.0,97.00,1450.0,330.0,32.60,,,57.0,0.0,,,0.35,0.33,2.50,,,,0.0,0.0,0.0,63863.0,,
+272,Bengali scotch eggs,Ground coriander,Meat,Snack ,,,2,4.0,,,,,1481.0,359.0,16.0,2.3,42.0,12.0,18.0,0.99,13.60,1.80,,,0.00,0.09,0.0,709.0,,409.0,35.00,1270.0,330.0,16.30,26.00,,0.0,0.0,,0.00,0.24,0.29,,,,,0.0,0.0,21.0,63506.0,,
+273,Bengali scotch eggs,Vegetable oil,Meat,Snack ,,,50,4.0,,,,,3696.0,899.0,0.0,0.0,0.0,0.0,100.0,6.60,59.00,29.30,9.60,19.70,0.00,0.00,0.0,0.0,0.0,0.0,0.00,0.0,0.0,0.10,0.00,0.00,0.0,0.0,22.20,113.00,0.00,0.00,0.00,0.00,0.00,0.0,0.0,0.0,0.0,64451.0,,
+274,Bengali scotch eggs,Potato,Meat,Snack ,,,135,4.0,,,,,344.0,81.0,18.0,0.8,1.6,1.8,0.0,0.03,,,,,,0.00,0.0,6.0,74.0,,1.00,365.0,18.0,0.34,,,0.0,0.0,0.01,,,,,,,,18.0,0.0,9.0,64909.0,,
+275,Bengali scotch eggs,Plain flour,Meat,Snack ,Cereals containing gluten,,100,4.0,,,,,1505.0,355.0,74.0,0.6,4.0,10.0,1.4,0.40,0.23,0.24,0.00,0.23,0.00,0.00,0.0,96.0,0.0,114.0,0.00,175.0,23.0,1.90,3.00,0.00,0.0,0.0,0.59,0.76,0.28,0.05,3.70,0.44,0.18,1.8,16.0,0.0,0.0,63832.0,,
+276,Bengali scotch eggs,Eggs,Meat,Snack ,Eggs,,114,4.0,,,,,555.0,133.0,1.2,0.0,0.0,13.0,8.7,2.90,,,,,,0.36,0.0,,218.0,,144.00,,,,,,,3.2,,,,,,,,,0.0,,,63754.0,,
+277,Bengali scotch eggs,Panko breakdcrumbs,Meat,Snack ,Cereals containing gluten,,100,4.0,,,,,1121.0,266.0,47.0,0.6,1.3,7.5,5.5,2.20,,,,,,0.53,0.0,,321.0,,212.00,,,,,,,,,,,,,,,,,,,2650961.0,,

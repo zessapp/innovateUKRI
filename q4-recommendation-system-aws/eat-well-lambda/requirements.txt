@@ -1,0 +1,7 @@
+boto3 == 1.18.42
+numpy
+pandas
+python-math
+pickle-mixin
+networkx
+typedb-client

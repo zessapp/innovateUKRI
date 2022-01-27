@@ -1,0 +1,16 @@
+type AnnotationTaskIssueType @model {
+    id: ID!
+    type: String!
+}
+
+type AnnotationTaskIssueReason @model {
+    id: ID!
+    reason: String!
+}
+
+type AnnotationTaskIssue @model {
+    id: ID!
+    type: AnnotationTaskIssueType! @connection
+    reason: AnnotationTaskIssueReason  @connection
+    notes: String!
+}

@@ -1,0 +1,3 @@
+transaction cosmos schema write
+  source cosmos.gql
+  commit

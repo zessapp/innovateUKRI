@@ -1,0 +1,83 @@
+enum DataSourceType {
+    Journal,
+    Book,
+    Url
+}
+
+
+# Create a join model and disable queries as you don't need them
+# and can query through Post.editors and User.posts
+type ProjectDataSource
+    @model(queries: null)
+    @key(name: "byProject", fields: ["project_id", "data_source_id"])
+    @key(name: "byDataSource", fields: ["data_source_id", "project_id"])
+    @auth(
+        rules: [
+            { allow: private, operations: [read] },
+            { allow: groups, groups: ["admin"] },
+        ]
+    )  {
+  id: ID!
+  project_id: ID!
+  data_source_id: ID!
+  project: AnnotationProject! @connection(fields: ["project_id"])
+  data_source: DataSource! @connection(fields: ["data_source_id"])
+}
+
+type DataSource @model
+    @auth(
+        rules: [
+            { allow: private, operations: [read] },
+            { allow: groups, groups: ["admin"] },
+        ]
+    )  {
+    id: ID!
+    name: String!
+    description: String
+    url: AWSURL 
+    type: DataSourceType!
+    publisher: String
+    volume_no: String
+    issue_no: String
+    edition: String
+    year: String
+    projects: [ProjectDataSource] @connection(keyName: "byDataSource", fields: ["id"])
+}
+
+
+interface IEvidence {
+    id: ID!
+    title: String!
+    url: AWSURL
+    year: String
+    citation_snippet: String
+    doi: String
+    author: String
+    notes: String
+    last_updated: AWSDateTime!
+    annotator_id: ID!
+    data_source: DataSource!
+}
+
+type Evidence implements IEvidence @model @key(name: "byAnnotation", fields: ["annotation_id", "last_updated"])
+    @auth(
+        rules: [
+            { allow: owner, ownerField: "annotator_id", operations: [read, update] },
+            { allow: groups, groups: ["admin"] },
+        ]
+    )  {
+    id: ID!
+    annotation_id: ID!
+    citation_snippet: String!
+    last_updated: AWSDateTime!
+    annotator_id: ID!
+    data_source: DataSource! @connection
+    title: String!
+    url: AWSURL
+    year: String
+    doi: String
+    author: String
+    notes: String
+    pages_used: String
+}
+
